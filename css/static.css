@@ -1,0 +1,82 @@
+a {
+	color: #000000;
+	text-decoration: none;
+}
+.resume-primary {
+	background-color: #ffffff;
+	padding-top: 60px;
+}
+
+.list-resume {
+	font-weight: light;
+	text-align:left;
+}
+
+.co-time {
+	font-size: 12px;
+	line-height: 100%;
+}
+.heading {
+	font-size: 50px;
+}
+.section-title {
+	padding-top: 10px;
+	color: #00a0a6;
+	font-size: 20px !important;
+	font-weight: bold;
+}
+.blurb {
+	font-size: 20px;
+}
+.resume-intro {
+	padding-top: 60px;
+	padding-bottom: 40px;
+}
+.navbar-subpages {
+	background-color: #ffffff;
+	margin-bottom: 0px !important;
+	padding-bottom: 0px !important;
+    font-weight: bolder;
+    text-align:center;
+}
+.navbar-fixed-top {
+	margin-bottom: 0px;
+}
+
+.light {
+	margin-top: 0px;
+}
+
+.hr-dot {
+	border-color: #00a0a6;
+	border-width: 3px;
+    max-width: 30px;
+}
+.hero {
+	margin-top: 30px;
+	padding-top: 50px;
+	display:block;
+	position: relative;
+	width: auto;
+    text-align: center;
+    margin: auto;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center center;
+    height: 400px;
+}
+#background {
+	margin-top: 50px;
+	height: auto;
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: -999;
+}
+
+
+
