@@ -126,7 +126,7 @@ aside {
     text-transform: uppercase;
     font-weight: 700;
     font-size: 13px;
-    color: #ffffff
+    color: #000000;
 }
 
 .navbar-default .nav>li>a:focus:hover,
@@ -151,19 +151,19 @@ aside {
         border-color: rgba(255, 255, 255, .3)
     }
     .navbar-default .navbar-header .navbar-brand {
-    /*    color: rgba(255, 255, 255, .7)*/
+        color: #00a0a6;
     }
     .navbar-default .navbar-header .navbar-brand:focus,
     .navbar-default .navbar-header .navbar-brand:hover {
-        color: #fff
+        color: #eb3812;
     }
     .navbar-default .nav>li>a,
     .navbar-default .nav>li>a:focus {
-        /*color: rgba(256, 255, 255, .7)*/
+        color: rgba(256, 255, 255, .7)
     }
     .navbar-default .nav>li>a:focus:hover,
     .navbar-default .nav>li>a:hover {
-        color: #fff
+        color: #00a0a6;
     }
     .navbar-default.affix {
         background-color: #fff;
@@ -175,7 +175,7 @@ aside {
     }
     .navbar-default.affix .navbar-header .navbar-brand:focus,
     .navbar-default.affix .navbar-header .navbar-brand:hover {
-        color: #eb3812
+        color: #eb3812;
     }
     .navbar-default.affix .nav>li>a,
     .navbar-default.affix .nav>li>a:focus {
@@ -364,7 +364,7 @@ header .header-content .header-content-inner p {
 .btn-default:focus,
 .btn-default:hover,
 .open>.dropdown-toggle.btn-default {
-    color: #222;
+    color: #e83812;
     background-color: #f2f2f2;
     border-color: #ededed
 }
@@ -476,15 +476,13 @@ img::-moz-selection {
     background: 0 0
 }
 
-#sdhk {
-    background-image: url("img/footprint-thumbnails/sdhk.gif");
-    background-repeat: no-repeat;
-    
-    background-size: cover;
+
+#portfolio {
+    margin-bottom: 50px;
+    padding: 20px;
 }
-.sdhk {
-    background-image: url("img/footprint-thumbnails/sdhk.gif");
-    background-repeat: no-repeat;
-    
-    background-size: cover;
+
+.resp-hardcode {
+    padding-bottom: 20px;
 }
+
