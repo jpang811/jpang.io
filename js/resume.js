@@ -1,28 +1,43 @@
-$(document).ready(function($){
-	var timelineBlocks = $('.cd-timeline-block'),
-		offset = 0.8;
 
-	//hide timeline blocks which are outside the viewport
-	hideBlocks(timelineBlocks, offset);
+(function() {
 
-	//on scolling, show/animate timeline blocks when enter the viewport
-	$(window).on('scroll', function(){
-		(!window.requestAnimationFrame) 
-			? setTimeout(function(){ showBlocks(timelineBlocks, offset); }, 100)
-			: window.requestAnimationFrame(function(){ showBlocks(timelineBlocks, offset); });
-	});
+  'use strict';
 
-	function hideBlocks(blocks, offset) {
-		blocks.each(function(){
-			( $(this).offset().top > $(window).scrollTop()+$(window).height()*offset ) 
-			&& $(this).find('.cd-timeline-img, .cd-timeline-content').addClass('is-hidden');
-		});
+  // define variables
+  var items = document.querySelectorAll(".cd-timeline-block");
+
+  // check if an element is in viewport
+  // http://stackoverflow.com/questions/123999/how-to-tell-if-a-dom-element-is-visible-in-the-current-viewport
+  function isElementInViewport (el) {
+
+    //special bonus for those using jQuery
+    if (typeof jQuery === "function" && el instanceof jQuery) {
+        el = el[0];
+    }
+
+    var rect = el.getBoundingClientRect();
+
+    return (
+        rect.top >= 0 &&
+        rect.left >= 0 &&
+        rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) && /*or $(window).height() */
+        rect.right <= (window.innerWidth || document.documentElement.clientWidth) /*or $(window).width() */
+    	);
 	}
 
-	function showBlocks(blocks, offset) {
-		blocks.each(function(){
-			( $(this).offset().top <= $(window).scrollTop()+$(window).height()*offset 
-				&& $(this).find('.cd-timeline-img').hasClass('is-hidden') ) && $(this).find('.cd-timeline-img, .cd-timeline-content').removeClass('is-hidden').addClass('bounce-in');
-		});
-	}
-});
+  function callbackFunc() {
+    for (var i = 0; i < items.length; i++) {
+      if (isElementInViewport(items[i])) {
+        items[i].classList.add("in-view");
+        $(".cd-timeline-img").addClass("animated zoomIn");
+      }
+    }
+  }
+
+  // listen for events
+  window.addEventListener("load", callbackFunc);
+  window.addEventListener("resize", callbackFunc);
+  window.addEventListener("scroll", callbackFunc);
+
+  console.log("in-view")
+})();
