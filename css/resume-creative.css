@@ -171,14 +171,12 @@
   }
   
   
-  /*Animation after scrolling*/
+  /*Animation after scrolling
   .cd-timeline-block::after {
     background: #fff;
     transition: background .5s ease-in-out;
   }
-  .cd-timeline-block.in-view::after {
-    background: #F45B69;
-  }
+
   .cd-timeline-content {
     visibility: hidden;
     opacity: 0;
@@ -201,13 +199,9 @@
     transform: none;
     visibility: visible;
     opacity: 1;
+    display: block;
   }
-
-  .cd-timeline-block.in-view div {
-    transform: none;
-    visibility: visible;
-    opacity: 1;
-  }
+*?
 
 
   @-webkit-keyframes zoomIn {
