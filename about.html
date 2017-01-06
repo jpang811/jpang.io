@@ -35,6 +35,8 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    
+    
 
 </head>
 
@@ -74,7 +76,7 @@
     </nav>
 
 <!--In a Nutshell-->
-    <section class="bg-white" id="about">
+    <section class="bg-white">
        <div class="hero-about">
         <div class="container nutshell">
             <div class="row">
@@ -161,7 +163,7 @@
                 <h4><b>Market Associate</h4></b>
             </div>
             <div class="col-xs-5" style="padding-right: 20px; padding-left: 0px;">
-                <img src="img/about/exp.png" style="max-width: 100px; float: right; display: inline-block; padding-bottom: 10px;">
+                <img src="img/about/exp.png" style="max-width: 100px; float: right; display: inline-block; padding-bottom: 20px;">
             </div>
             <p class="remarks-i" style="color: #000000; margin: 0px;">Put heads to beds via Expedia brands.</p>
             <p class="blurb">Expedia is enabling everyday travelers with the best choices and flexibilty of DIY-ing your trips.  </p>
@@ -202,14 +204,15 @@
         </div>   
         <!-- cd-timeline-content -->
         <div class="cd-timeline-content wow fadeInRight">
-            <div class="col-xs-7" style="padding: 0px;">
-                <h4><b>User Experience Design</h4></b>
+            <div class="col-xs-8" style="padding: 0px;">
+                <h4><b>Hospitality & Business Major</h4></b>
             </div>
-            <div class="col-xs-5" style="padding-right: 20px; padding-left: 0px;">
-                <img src="img/about/ga.png" style="max-width: 100px; float: right; display: inline-block; padding-bottom: 10px;">
+            <div class="col-xs-4" style="padding-right: 20px; padding-left: 0px;">
+                <img src="img/about/bu.png" style="max-width: 100px; float: right; display: inline-block; padding-bottom: 20px;">
             </div>
-            
-            <p class="blurb">Apprentice of design thinking methologies alike and the craft of seamless user experiences.</p>
+            <p class="remarks-i" style="color: #000000;">Dual Bachelors Degree in Hospitality and Business Administration</p>
+            <p class="blurb">Applying the best of both worlds to everyday user touch points, special moments and luxury experiences. </p>
+           
             
             
         </div>
@@ -223,26 +226,20 @@
         </div>   
         <!-- cd-timeline-content -->
         <div class="cd-timeline-content wow fadeInLeft">
-            <div class="col-xs-8" style="padding: 0px;">
-                <h4><b>Hospitality & Business Major</h4></b>
+             <div class="col-xs-7" style="padding: 0px;">
+                <h4><b>User Experience Design</h4></b>
             </div>
-            <div class="col-xs-4" style="padding-right: 20px; padding-left: 0px;">
-                <img src="img/about/bu.png" style="max-width: 100px; float: right; display: inline-block; padding-bottom: 20px;">
+            <div class="col-xs-5" style="padding-right: 20px; padding-left: 0px;">
+                <img src="img/about/ga.png" style="max-width: 100px; float: right; display: inline-block; padding-bottom: 20px;">
             </div>
-            <p class="remarks-i" style="color: #000000;">Dual Bachelors Degree in Hospitality and Business Administration</p>
-            <p class="blurb">Applying the best of both worlds to everyday user touch points, special moments and luxury experiences. </p>
+            
+            <p class="blurb">Apprentice of design thinking methologies alike and the craft of seamless user experiences.</p>
             
         </div>
     </div> 
 </section>
 <!-- cd-timeline -->
 </div>
-
-
-   
-    
-
-    
 
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.min.js"></script>
@@ -262,7 +259,22 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
     <script src="js/wow.js"></script>
     <script>
-      new WOW().init();
+        var wow = new WOW(
+            {
+                boxClass:     'wow',      // animated element css class (default is wow)
+                animateClass: 'animated', // animation css class (default is animated)
+                offset:       0,          // distance to the element when triggering the animation (default is 0)
+                mobile:       false,       // trigger animations on mobile devices (default is true)
+                live:         true,       // act on asynchronously loaded content (default is true)
+                callback:     function(box) {
+                  // the callback is fired every time an animation is started
+                  // the argument that is passed in is the DOM node being animated
+                },
+                scrollContainer: null // optional scroll container selector, otherwise use window
+            }
+        );
+        
+        wow.init();
     </script>
 
 

@@ -1,11 +1,7 @@
 $(document).ready(function(){
 	$('.caption-img').on('click', function(){
 		$(this).siblings('.caption-circle')
-		.addClass('show')
-		.animate({
-			"width": "100%",
-			"height": "100%",
-		}, 500);
+		.addClass('animated zoomIn')
 	});
 	
 });
