@@ -35,15 +35,35 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-    
-    
+    <style>
+    @media only screen and (max-width : 480px) {
+        .timeline-img {
+            display: block;
+            float: none !important;
+        }
+
+        .cd-timeline-content {
+            max-width: 260px;
+            width: auto;
+        }
+        .cd-timeline-content .col-sm-5 {
+            padding: 0px;
+            text-align: left !important;
+        }
+         .cd-timeline-content .col-sm-4 {
+            padding: 0px;
+            text-align: left !important;
+        }
+
+    }
+    </style>
 
 </head>
 
 <body>
 
     <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
-        <div class="container-fluid">
+        <div class="container-fluid ">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -81,7 +101,7 @@
         <div class="container nutshell">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h1 class="hero-heading-white">jpang in a Nutshell</span></h1>
+                    <h1 class="hero-heading-white"><span class="darkbg">jpang in a Nutshell</span></h1>
                     <hr>
                     
                     <br>
@@ -93,25 +113,26 @@
                 <div class="col-lg-4 text-center">
                     <div class="service-box">
                         <i class="fa fa-4x fa-paper-plane icon sr-icons"></i>
-                        <h3 class="hero-heading-white">World Trekker</h3>
+                        <h3 class="hero-heading-white"><span class="darkbg">World Trekker</span></h3>
                         <br>
-                        <p><b>Marked the Northern hemisphere and South East Asian territories.</b></p>
+                        <p><span class="darkbg">Marked the Northern hemisphere and South East Asian territories.</span></p>
                     </div>
                 </div>
+
                 <div class="col-lg-4 text-center">
                     <div class="service-box">
                         <i class="fa fa-4x fa-cutlery icon sr-icons"></i>
-                        <h3 class="hero-heading-white"><b><span class="">Food Fanatic</span></b></h3>
+                        <h3 class="hero-heading-white"><b><span class="darkbg">Food Fanatic</span></b></h3>
                         <br>
-                        <p><b>Hands down wine-infused lasagna. Otherwise juicy meats, breakfast foods and breads.</b></p>
+                        <p><span class="darkbg">Hands down wine-infused lasagna. Otherwise juicy meats, breakfast foods and breads.</span></p>
                     </div>
                 </div>
                 <div class="col-lg-4 text-center">
                     <div class="service-box">
                         <i class="fa fa-4x fa-heart icon sr-icons"></i>
-                        <h3 class="hero-heading-white">User Experience</h3>
+                        <h3 class="hero-heading-white"><span class="darkbg">User Experience</span></h3>
                         <br>
-                        <p><b>UX changes everything, because embarking this field changed my life.</b></p>
+                        <p><span class="darkbg">UX changes everything, because embarking this field changed my life.</span></p>
                     </div>
                 </div>
             </div>
@@ -135,15 +156,14 @@
         <!-- cd-timeline-content -->
         <div class="cd-timeline-content wow fadeInLeft">
             
-            <div class="col-xs-7" style="padding: 0px;">
+            <div class="col-sm-7" style="padding: 0px;">
                 <h4><b>Data-Driven Designer</h4></b>
             </div>
-            <div class="col-xs-5" style="padding-right: 20px; padding-left: 0px;">
-                <img src="img/about/am.png" style="max-width: 100px; float: right; display: inline-block; padding-bottom: 20px;">
+            <div class="col-sm-5" style="padding-right: 20px; padding-left: 0px; text-align: right">
+                <img src="img/about/am.png" class="timeline-img" style="max-width: 100px; display: inline-block; padding-bottom: 20px;">
             </div>
-
-            <p class="remarks-i" style="color: #000000; margin: 0px;">Craft innovative user experiences for a loyalty program.</p>
-
+            
+            <p class="remarks-i" style="color: #000000; display: block;">Craft innovative user experiences for a loyalty program.</p>
             <p class="blurb">Asia Miles is about empowering customers to derive value from their everyday spendings and turning them into lifestyle and travel rewards. </p>
             <p class="blurb">My challenge is to communicate that value by enhancing customer journey and successfully leading all data-driven UX efforts in <a href="personalization.html" class="blurb-link">personalization</a>, <a href="engagement.html" class="blurb-link">user engagement</a> and gamification modules.</p>
             
@@ -159,11 +179,11 @@
         </div>   
         <!-- cd-timeline-content -->
         <div class="cd-timeline-content wow fadeInRight">
-            <div class="col-xs-7" style="padding: 0px;">
+            <div class="col-sm-7" style="padding: 0px;">
                 <h4><b>Market Associate</h4></b>
             </div>
-            <div class="col-xs-5" style="padding-right: 20px; padding-left: 0px;">
-                <img src="img/about/exp.png" style="max-width: 100px; float: right; display: inline-block; padding-bottom: 20px;">
+            <div class="col-sm-5" style="padding-right: 20px; padding-left: 0px; text-align: right">
+                <img src="img/about/exp.png" style="max-width: 100px; display: inline-block; padding-bottom: 20px;">
             </div>
             <p class="remarks-i" style="color: #000000; margin: 0px;">Put heads to beds via Expedia brands.</p>
             <p class="blurb">Expedia is enabling everyday travelers with the best choices and flexibilty of DIY-ing your trips.  </p>
@@ -182,11 +202,11 @@
         <!-- cd-timeline-content -->
         <div class="cd-timeline-content wow fadeInLeft">
             
-            <div class="col-xs-7" style="padding: 0px;">
+            <div class="col-sm-7" style="padding: 0px;">
                 <h4><b>Marketing Assistant</h4></b>
             </div>
-            <div class="col-xs-5" style="padding-right: 20px; padding-left: 0px;">
-                <img src="img/about/mac.png" style="max-width: 100px; float: right; display: inline-block; padding-bottom: 20px;">
+            <div class="col-sm-5" style="padding-right: 20px; padding-left: 0px; text-align: right">
+                <img src="img/about/mac.png" style="max-width: 100px; display: inline-block; padding-bottom: 20px;">
             </div>
             <p class="remarks-i" style="color: #000000;">Engage <a href="">"All Sexes, All Races and Ages"</a> in the art of looking good and feeling confident.</p>
             <p class="blurb">My experiences with product marketing included 40+ annual product launches, business analyses and joint promotions with major HK retailers such as Lane Crawford.</p>
@@ -204,11 +224,11 @@
         </div>   
         <!-- cd-timeline-content -->
         <div class="cd-timeline-content wow fadeInRight">
-            <div class="col-xs-8" style="padding: 0px;">
+            <div class="col-sm-8" style="padding: 0px;">
                 <h4><b>Hospitality & Business Major</h4></b>
             </div>
-            <div class="col-xs-4" style="padding-right: 20px; padding-left: 0px;">
-                <img src="img/about/bu.png" style="max-width: 100px; float: right; display: inline-block; padding-bottom: 20px;">
+            <div class="col-sm-4" style="padding-right: 20px; padding-left: 0px; text-align: right">
+                <img src="img/about/bu.png" style="max-width: 100px; display: inline-block; padding-bottom: 20px;">
             </div>
             <p class="remarks-i" style="color: #000000;">Dual Bachelors Degree in Hospitality and Business Administration</p>
             <p class="blurb">Applying the best of both worlds to everyday user touch points, special moments and luxury experiences. </p>
@@ -226,11 +246,11 @@
         </div>   
         <!-- cd-timeline-content -->
         <div class="cd-timeline-content wow fadeInLeft">
-             <div class="col-xs-7" style="padding: 0px;">
+             <div class="col-sm-7" style="padding: 0px;">
                 <h4><b>User Experience Design</h4></b>
             </div>
-            <div class="col-xs-5" style="padding-right: 20px; padding-left: 0px;">
-                <img src="img/about/ga.png" style="max-width: 100px; float: right; display: inline-block; padding-bottom: 20px;">
+            <div class="col-sm-5" style="padding-right: 20px; padding-left: 0px; text-align: right">
+                <img src="img/about/ga.png" style="max-width: 100px; display: inline-block; padding-bottom: 20px;">
             </div>
             
             <p class="blurb">Apprentice of design thinking methologies alike and the craft of seamless user experiences.</p>
