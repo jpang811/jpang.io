@@ -33,12 +33,23 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    
+<style>
+    @media only screen and (max-width : 480px) {
+        .pfolio-img .col-sm-4 {
+            width: 50%;
+            text-align: left;
+            margin: 0 auto;
+            padding: 0px;
+        }
+    }
+</style>
 
 </head>
 
 <body id="page-top">
 
-    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-container">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -103,7 +114,7 @@
             <p>I think about the “Express Train” solution all the time.  But I realized that’s an infrastructure issue that I cannot possibly propose as a tech solution at the hackathon.</p>
             <p>So I thought about my personal experience, particularly my own emotions on the train. MTR achieves over 80% utilization rate during peak hours but the crowd density and congestion are still the main problem statements, whether it’s from a CX or Operations perspective.</p>
             <div class="pfolio-img">
-                <p>+Emotions mapped out</p>
+                
                 <img src="img/portfolio/hacktrain/journey-emotions.jpg" class="img-responsive">
             </div>
 
@@ -115,7 +126,7 @@
                     
             <h3 class="section-heading">Starting with the Morning Commute</h3>
             <p>Focusing on the morning commute peak hours, I wanted to improve the users' everyday emotions going in to work, like the hunger state for example.  I can't help users' discomfort when traveling on a packed train, but at the very least, I can help users control their journey and start their day right - <span class="keywords">ordering breakfast on-the-go.</span></p>
-            <p>I proposed this as my first pitch which is how and where we form our teams of 4. I called the idea Champs because "Breakfast are for champions".</p>
+            <p>I proposed this as my first pitch which is how and where we form our teams of 4. I tentatiely named the idea Champs because "Breakfast are for champions".</p>
 
             <p>It sold and aligned very well with my newfound team mates and we got to hacking right away that first night.<br>
             <span class="remarks-i">(Left to right: Me, Anthony the Developer, KK the Developer, Zoe the Entrepreneur).</span></p>
@@ -132,30 +143,30 @@
             <p style="text-align: center;"><i>(Click on each stakeholder to find out more!)</i></p>
             <div class="pfolio-img">
                 <div class="row">
-                    <div class="col-xs-4">
+                    <div class="col-sm-4">
                         <div class="caption-img">
                             <img src="img/portfolio/hacktrain/benefit-customer.jpg" class="img-responsive" >
                         </div>
-                        <div class="caption-circle">
+                        
                             <p>Improve customer journey one station at a time.</p>
-                        </div>
+                        
                     </div>
                     
-                    <div class="col-xs-4">
+                    <div class="col-sm-4">
                         <div class="caption-img">
                             <img src="img/portfolio/hacktrain/benefit-tenant.jpg" class="img-responsive">
                         </div>
-                        <div class="caption-circle">
+                        
                             <p>Maximize revenue and optimize work flow during peak hours.</p>
-                        </div>
+                        
                     </div>
-                    <div class="col-xs-4">
+                    <div class="col-sm-4">
                         <div class="caption-img">
                             <img src="img/portfolio/hacktrain/benefit-mtr.jpg" class="img-responsive">
                         </div>
-                        <div class="caption-circle">
+                        
                             <p>Increase revenue from MTR tenants and build customer loyalty.</p>
-                        </div>
+                        
                     </div>
             
                 </div>                
@@ -164,7 +175,7 @@
             <p>As we were hashing out our user flow, product features and business model, we realized that it relies on quite a number of dependencies - namely the tenant's operations, software and hardware integration, and also customer journey. We were challenged by various mentors all of which represent a different stakeholder point of view and priorities.</p>
             <p>We analyzed every stakeholder needs in detail and pivoted back and forth.  At one point, we suggested a centralized food pop-up store for users to pick up their breakfast and at another, we went off tangent to a sharing economy concept alike for tenants. Then we realized, we were no longer solving user needs anymore.</p>
             <p>We reverted to our original idea and focused on enriching it. Luckily, our developers were already building the foundation and structure of our app all the while we were pivoting.</p>
-            [placeholder]
+            
             <div class="row">
                 <div class="col-md-6">
                     <img src="img/portfolio/hacktrain/cowork1.jpg" class="img-responsive pfolio-img">
@@ -178,7 +189,7 @@
             <div class="hero">
                 <div class="hacktrain-app">
                     <div class="hero-title">
-                        <h1 style="margin-bottom: 0px;">Introducing</h1>
+                        
                         <div class="hacktrain-app-logo">
                             <img src="img/portfolio/hacktrain/app-logo.png" class="img-responsive">
                         </div>
@@ -188,7 +199,8 @@
             </div>
             
         <div class="container container-condensed" style="padding-top: 0px">
-            <p style="padding-top: 20px;">MTR To-Go is a mobile e-commerce platform to order your breakfast on the train and made ready for pick-up right when you exit the station. This translates to <span class="keywords">reduced wait time, reduced congestion and a happier customer</span>.  The idea is to keep the commuters informed to make better decisions and ultimately be in control of their journey.</p>
+            <h3 class="section-heading">Introducing MTR To-Go</h3>
+            <p>MTR To-Go is a mobile e-commerce platform to order your breakfast on the train and made ready for pick-up right when you exit the station. This translates to <span class="keywords">reduced wait time, reduced congestion and a happier customer</span>.  The idea is to keep the commuters informed to make better decisions and ultimately be in control of their journey.</p>
         
             <p>In my use case, that means catching my connecting bus because I didn’t have to wait in line for my breakfast.</p>
             <br>
@@ -199,7 +211,7 @@
             </div>
             <p><span class="remarks-i">Video courtesy of Diki Chan, photographer at HackTrain HK</p>
             <h3 class="section-heading">It's a Job Well Done</h3>
-            <p>48 hours of work and less than 10 hours of sleep later, our hard work paid off. Referred to as the "eBay equivalent mobile platform", we scored second place and earned ourselves a handy Samsung Tablet.</p>
+            <p>48 hours of work and less than 10 hours of sleep later, our hard work paid off. Referred to as the "eBay equivalent mobile platform", we won second place and earned ourselves a handy Samsung Tablet.</p>
 
             <p>I spent the next few days rejoicing my rewarding experience at this hackathon.</p>
             <blockquote>

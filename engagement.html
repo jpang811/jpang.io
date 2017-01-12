@@ -34,11 +34,29 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+    <style>
+        @media only screen and (min-width: 960px) {
+            .engagement-acqemail {
+                height: 500px;
+            }
+        }
+        @media only screen and (max-width: 768px) {
+            
+            .survey-img {
+                max-width: 100% !important;
+            }
+        }
+        @media only screen and (max-width: 768px) and (min-width: 480px) {
+            .engagement-acqemail {
+                height: auto;
+            }
+        }
+    </style>
 </head>
 
 <body id="page-top">
 
-    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-container">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -55,11 +73,12 @@
                         <a href="resume.html">About</a>
                     </li>
                     <li>
-                        <a href="snapped.html">Snapped</a>
-                    </li>
-                    <li>
                         <a class="navbar-focused" href="portfolio.html">Portfolio</a>
                     </li>
+                    <li>
+                        <a href="snapped.html">Snapped</a>
+                    </li>
+                    
                     <li>
                         <a href="contact.html">Contact</a>
                     </li>
@@ -70,14 +89,12 @@
         <!-- /.container-fluid -->
     </nav>
 
-    
-    
     <!--HERO-->
     <div class="hero">        
         <div class="engagement">
             <div class="hero-title">
-                <h1>The "What Star Wars Character Are You?" Equivalent</h1>
-                <h2><i class="fa fa-user" aria-hidden="true"></i> Customer Engagement</h2>
+                <h1><span class="darkbg"><i class="fa fa-user" aria-hidden="true"></i> Customer Engagement</span></span></h1>
+                <h2><span class="darkbg"></h2>
                 <br>
             </div>
         </div>
@@ -94,12 +111,12 @@
             <h3 class="section-heading">What's the Deal with Credit Cards?</h3>
             <p>We happened to be working on a credit card acquisition for one of our credit card partners. The challenge was part of a quarterly acquisition campaign which needed a revamp sorely.</p>
             <p>Objectively speaking, credit card campaigns get very old.  Typically, you receive either a Direct Mail or email with a cookie-cutter, standard message that says "Apply for our credit card and get offer XYZ by end of this month! Limited Time Offer!". Seriously, when is it not Limited Time Offer?</p>
-            [placeholder img]
-            <div>
-                <div class="pfolio-img">
-                    <img src="img/portfolio/engagement/ccoffer.jpg" class="img-responsive">
-                </div>
+        
+            
+            <div class="pfolio-img">
+                    <img src="img/portfolio/engagement/ccoffer.png" class="img-responsive">
             </div>
+
             <p>I wanted to take a step back and think about what the user wants, and just for a moment, strip away all commercial opportunities we could potentially leverage on.  To begin with, we have an understanding of our members, in fact vast amounts of data in the bank on their transactions - where they travel, what they spend on, when they convert miles, etc.  So on a macro level, we roughly know what members want and that the data is reliable enough for machine learning algorithms alike to predict their likelihood to transact one way or another.</p>
                 
             <p>But even so, it's a very shallow understanding. So I decided to introduce an Engagement piece, comprised of an Engagement email which lands on a Buzzfeed-inspired Engagement Survey.  The objective is very simple - you engage the member with something fun yet effortless.  By doing so, you introduce relevant, data points given by the member on a voluntary basis ie. completing the Engagement survey. </p>
@@ -137,21 +154,20 @@
             <p>In addition to engagement, I wanted to collect data which corresponds to the credit card offer.  I did a quick analysis to identify its competitive advantages, which is the complimentary lounge access and welcome offer.</p>
             <p>Given that the program's strongest value proposition is travel, I crafted a 5-question survey oriented towards members' travel and lifestyle preferences.  Each question is carefully designed to identify their persona and understand their travel patterns which the credit card offer can actually answer to. Give it a shot yourself.</p>
             
-            
-            <iframe src="engagement/index.html" style="width: 100%; border-left: #ededed solid; height: 600px; margin-bottom: 30px; margin-top: 20px;"></iframe>
-                
-            
-            <p>Depending on your answers of course, you get one of four personas.</p>
-            <div class="containter">
-                <div class="pfolio-img">
-                    <img src="img/portfolio/engagement/persona.jpg" class="img-responsive pfolio-img">
-                </div>
+            <div class="pfolio-img">
+                <img src="img/portfolio/engagement/survey.jpg" class="img-responsive pfolio-img survey-img">
             </div>
+
+            <p>Depending on your answers of course, you get one of four personas.</p>
+            <div class="pfolio-img">
+                <img src="img/portfolio/engagement/persona.jpg" class="img-responsive pfolio-img">
+            </div>
+
+
             <p>Most of us, it seems, are Adventure Seekers at heart. </p>
-            <div class="containter">
-                <div class="pfolio-img">
-                    <img src="img/portfolio/engagement/persona-example.jpg" style="float: center" class="img-responsive pfolio-img">
-                </div>
+            <div class="pfolio-img">
+                <img src="img/portfolio/engagement/persona-example.jpg" style="float: center" class="img-responsive pfolio-img">
+
             </div>
             <p>We reached a proud 10% survey completion rate out of the 100,000+ members contacted.</p>
             <p><span class="keywords">Great things build expectations.</span> So after kicking off with a successful engagement piece, our data scientists got cracking with our survey data and personas so we can follow-up with an official acquisition email a week later.</p>
@@ -161,12 +177,13 @@
             <p>This is where the magic happens.  Each persona was already pre-assigned to a set of offers and content which resonated the most to them. For example, spontaneity, value-seeking and connectivity are important values to Adventure Seekers. So all we had to do was map each persona to the corresponding email offer.</p>
             <p>So what about those had not filled out the engagement survey aka not engaged, which message to do they get?  Based on that person’s behaviour and demographics, we clustered them and assigned them to a persona.</p>
             <p>Going along with the example of the Adventure Seeker, this was the acquisition email.</p>
-            <div class="containter">
-                <div class="pfolio-img">
-                    <img src="img/portfolio/engagement/acq.jpg" class="img-responsive">
-                </div>
-            </div>
+        </div>
 
+        <div class="hero" style="padding-top: 0px;">        
+            <div class="engagement-acqemail"></div>
+        </div>
+
+        <div class="container container-condensed">
             <p>The result? A whopping 37% open and 4% click rates. </p>
 
             <h3 class="section-heading">What I Learned</h3>
@@ -174,7 +191,7 @@
             <p>That members are engaged with the program to the extent that they are willing to take a fun quiz given no immediate incentives or offer whatsoever. But it does require <span class="keywords">follow-up.</span></p>
             <div class="containter">
                 <div class="pfolio-img">
-                    <img src="img/portfolio/engagement/learning.jpg" class="img-responsive pfolio-img">
+                    <img src="img/portfolio/engagement/learning.jpg" class="img-responsive">
                 </div>
             </div>
             <p></p>
