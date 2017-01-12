@@ -1,0 +1,235 @@
+
+.icon {
+  color: #fff;
+  display: block;
+  padding: 20px 0px;
+}
+
+.text-faded span  {
+  background: #001213 ;
+  color: #fff;
+  padding: 5px 20px;
+}
+#timeline {
+  background-color:#002527;
+}
+.cd-container {
+  /* this class is used to give a max-width to the element it is applied to, and center it horizontally when it reaches that max-width */
+  margin: 0 auto;
+  max-width: 1170px;
+}
+.cd-container::after {
+  /* clearfix */
+  content: '';
+  display: table;
+  clear: both;
+}
+
+#cd-timeline {
+  position: relative;
+  padding-top: 4em;
+  padding-bottom: 4em;
+  
+  }
+
+/*the vertical line*/
+#cd-timeline:before{
+    content: '';
+    position: absolute;
+    top: 10;
+    bottom: 0;
+    left: 60px;
+    height: 100%;
+    width: 1px;
+    background: #d7e4ed;
+  }
+
+
+.cd-timeline-content {
+  display: inline-block;
+  position: relative;
+  margin-left: 100px;
+  background: #ededed;
+  border-radius: 0.5em;
+  padding: 2em;
+  padding-top: 1em;
+
+}
+#cd-timeline.hidden:before {
+  display: none;
+}
+/*DEFAULT - ODD BLOCK*/
+.cd-timeline-block {
+    position: relative;
+}
+.cd-timeline-block:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.cd-timeline-content {
+    float: left;
+    padding: 1.6em;
+    margin-bottom: 30px;
+    width: 75%;
+}
+/*DEFAULT ARROW*/
+.cd-timeline-content:before{
+  content: '';
+  left: -10px;
+  width: 0; 
+  height: 0; 
+  position: absolute;
+  border-bottom: 10px solid transparent;  /* left arrow slant */
+  border-top: 10px solid transparent; /* right arrow slant */
+  border-right: 10px solid #ededed; /* bottom, add background color here */
+  font-size: 0;
+  line-height: 0;
+}
+  
+.cd-timeline-img {
+    position: absolute;
+    top: 10px;
+    left: 42px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #00a0a6;
+}
+.cd-timeline-img i {
+    position: absolute;
+    display: block;
+    color: #fff;
+    width: 24px;
+    height: 24px;
+    left: 50%;
+    top: 50%;
+    margin-left: -12px;
+    margin-top: -12px;
+  }
+
+
+/*vertical line in the middle when on desktop*/
+@media only screen and (min-width: 960px) {
+  /*the vertical line*/
+  #cd-timeline::before {
+    left: 50%;
+    margin-left: -2px;
+  }
+
+  .cd-timeline-content {
+    position: relative;
+    margin-left: 40px;
+    width: 42%;
+  }
+
+  .cd-timeline-block {
+    display: relative;
+  }
+
+  .cd-timeline-img{
+    left: 50%;
+    margin-left: -20px;
+    top: 15px;
+     /* Force Hardware Acceleration in WebKit */
+    -webkit-transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+  }
+  
+  /*Odd arrow, changes direction when responsive*/
+  /*arrow odd*/
+ /*DEFAULT - ODD BLOCK*/
+
+  .cd-timeline-block:nth-child(odd) .cd-timeline-content{
+      position: absolute;
+      clear: both;
+      float: left;
+      padding: 1.6em;
+      margin-bottom: 30px;
+      position: relative;
+      clear: both;
+  }
+    .cd-timeline-block:nth-child(odd) .cd-timeline-content::before{
+      top: 24px;
+      left: 100%;
+      border-top: 10px solid transparent;
+      border-bottom: 10px solid transparent;
+      border-left: 10px solid #ededed;
+      border-right: none;
+  }
+  
+ 
+
+  /*EVEN LIST - change directions */
+  .cd-timeline-content:nth-child(even) {
+      float: right;
+      top: auto;
+      margin-right: 40px;
+      clear: both;
+      
+  }
+  
+  
+  /*Animation after scrolling
+  .cd-timeline-block::after {
+    background: #fff;
+    transition: background .5s ease-in-out;
+  }
+
+  .cd-timeline-content {
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+  }
+  .cd-timeline-img {
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .cd-timeline-block:nth-child(odd) div {
+    transform: translate(-400px,0);
+  }
+   
+  .cd-timeline-block:nth-child(even) div {
+    transform: translate(400px,0);
+  }
+  .cd-timeline-block.in-view div {
+    transform: none;
+    visibility: visible;
+    opacity: 1;
+    display: block;
+  }
+*?
+
+
+  @-webkit-keyframes zoomIn {
+    from {
+      opacity: 0;
+      -webkit-transform: scale3d(.3, .3, .3);
+      transform: scale3d(.3, .3, .3);
+    }
+
+    50% {
+      opacity: 1;
+    }
+  }
+
+  @keyframes zoomIn {
+    from {
+      opacity: 0;
+      -webkit-transform: scale3d(.3, .3, .3);
+      transform: scale3d(.3, .3, .3);
+    }
+
+    50% {
+      opacity: 1;
+    }
+  }
+
+  .zoomIn {
+    -webkit-animation-name: zoomIn;
+    animation-name: zoomIn;
+  }
+}
