@@ -27,8 +27,7 @@ a {
     padding-left: 10px;
 }
 .keywords {
-    color: #00a0a6;
-    font-weight: bold;
+    background-color: #FFFBCC;
 }
 .heading {
     font-size: 50px;
@@ -123,17 +122,26 @@ a {
     min-height: 450px;
    height: auto;
 }
+
+
+
+
 .personalization {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size:  cover;
     background-position: center;
-    background-image: url(../img/portfolio/personalization/hero.jpg);
+    background-image: url(../img/portfolio/personalization/header-hero.jpg);
     color: #fff;
-    width: 100%;
+    width: auto;
     height:  350px;
 }
+
+.personalization .hero-title {
+    padding-top: 120px;
+}
+
 .sdhk {
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -188,7 +196,6 @@ a {
 .hacktrain-hero-title {
     padding-top: 180px;
     color: #fff;
-
 }
 .blackbg-txt span{
     background-color: rgba(0, 18, 19, 0.6);
@@ -228,12 +235,14 @@ a {
 }
 
 .blurb-link {
-    color: #e83812;
+    color: #00a0a6;
     font-weight: bold;
+    text-decoration: underline;
 }
 
 .blurb-link:hover {
-    text-decoration: underline;
+    text-decoration: none;
+    color: #00a0a6;
 }
 .blurb-link-white {
     text-decoration: underline;
@@ -313,7 +322,6 @@ a {
 .hero-title {
     padding-top: 100px;
     color: #000;
-
 }
 
 .img-responsive {
