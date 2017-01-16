@@ -120,8 +120,8 @@ a {
     background-repeat: no-repeat;
     background-image: url(../img/portfolio/engagement/acq-email.jpg);
     width: 100%;
-    min-height: 200px;
-    max-height: 550px;
+    min-height: 450px;
+   height: auto;
 }
 .personalization {
     -webkit-background-size: cover;
@@ -228,13 +228,12 @@ a {
 }
 
 .blurb-link {
-    color: #00a0a6;
+    color: #e83812;
     font-weight: bold;
 }
 
 .blurb-link:hover {
     text-decoration: underline;
-    color: #e83812;
 }
 .blurb-link-white {
     text-decoration: underline;
@@ -313,7 +312,8 @@ a {
 
 .hero-title {
     padding-top: 100px;
-    color: #fff;
+    color: #000;
+
 }
 
 .img-responsive {
@@ -327,6 +327,12 @@ a {
     padding-top: 20px;
     margin: 0 auto;
     max-width: 70%;
+}
+
+@media only screen and (max-width: 768px) {
+    .pfolio-img {
+        max-width: 100% !important;
+    }
 }
 
 .blog-img {
