@@ -31,7 +31,7 @@ var locations = [
 
 var map = new google.maps.Map(document.getElementById('map'), {
       zoom: 3,
-      center: new google.maps.LatLng(32.523846, 16.134300),
+      center: new google.maps.LatLng(22.282357, 114.157807),
       mapTypeId: google.maps.MapTypeId.ROADMAP,
       styles: [
          {
@@ -49,7 +49,7 @@ var map = new google.maps.Map(document.getElementById('map'), {
               "elementType": "all",
               "stylers": [
                   {
-                      "color": "#f2f2f2"
+                      "color": "#ededed"
                   }
               ]
          },
@@ -125,7 +125,7 @@ var map = new google.maps.Map(document.getElementById('map'), {
               "elementType": "geometry.fill",
               "stylers": [
                   {
-                      "color": "#8fc9e8"
+                      "color": "#74c1c1"
                   }
               ]
           },

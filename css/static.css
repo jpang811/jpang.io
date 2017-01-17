@@ -348,10 +348,21 @@ a {
     margin: 0 auto;
 }
 
+.adjust {
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+.adjust2 {
+    max-width: 70%;
+    margin: 0 auto;
+}
+
 @media only screen and (max-width: 768px) {
     .pfolio-img {
         max-width: 100% !important;
     }
+    
 }
 
 .blog-img {
@@ -401,7 +412,8 @@ a {
 .sidebar {
     padding: 25px;
     margin-top: 25px;
-    height: 350px;
+    height: auto;
+    min-height: 350px;
     background-color: #ededed;
     text-overflow: ellipsis; 
     overflow: hidden;
