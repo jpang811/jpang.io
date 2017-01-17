@@ -1,21 +1,145 @@
 var locations = [
-      ['Boston', 42.349626, -71.099536],
-      ['Hong Kong is where home is.', 22.282357, 114.157807],
-      ['London', 51.507911, -0.087749],
-      ['Hanoi', 21.032089, 105.847452],
-      ['Bangkok', 13.744752, 100.535061],
-      ['Seoul', 37.554551, 126.970670],
-      ['Roppongi', 35.662743, 139.731206],
-      ['Cancun', 21.201767, -86.805240],
-      ['Kuala Lumpur', 3.158024, 101.711578],
-      ['Bali', -8.795669, 115.230785]
-      
+      ['#Boston is where the great minds develop', 42.349626, -71.099536],
+      ['#HongKong is home', 22.282357, 114.157807],
+      ['#London History, architecture, beauty', 51.507911, -0.087749],
+      ['#Hanoi Basked in the glory of street foods and beauty of Halong Bay ', 21.032089, 105.847452],
+      ['#Bangkok', 13.744752, 100.535061],
+      ['#Seoul', 37.554551, 126.970670],
+      ['#Tokyo Business trip by day and exploration by night at Roppongi and Shibuya', 35.662743, 139.731206],
+      ['#Cancun The classic college spring break', 21.201767, -86.805240],
+      ['#KualaLumpur Infinity pool of city views and the hipster Melaka', 3.158024, 101.711578],
+      ['#Bali Offsite meeting by the scenic coast', -8.795669, 115.230785],
+      ['#Toronto jpang was born here!', 43.739708, -79.413454],
+      ['#SiemReap Temple run at the infamous Angkor Wat', 13.412480, 103.867007],
+      ['#Kolkata Two-week hotel internship at ITC Sonar Hotel', 22.544288, 88.398072],
+      ['#Reykjavik Blue Lagoon Spa in the snow', 64.133663, -21.865861],
+      ['#SanFrancisco Pursuing innovation at the Valley', 37.422042, -122.084058],
+      ['#Singapore', 1.287815, 103.866587],
+      ['#LasVegas The untold tales', 36.117905, -115.172966],
+      ['#Arizona Drove through beautiful landscapes and Antelope Canyon', 36.862179, -111.374352],
+      ['#Florida Where dreams come true and fun rides go', 28.385242, -81.563842],
+      ['#LosAngeles The place to seek fame and glory', 34.052182, -118.251371],
+      ['#WashingtonDC Museums and White House', 38.903605, -77.038073],
+      ['#Taipei All-time favourite', 25.041866, 121.546514],
+      ['#Shanghai In its newfound Oriental city vibes', 31.216502, 121.475263],
+      ['#Okinawa Sun, beach and friendly locals', 26.352177, 127.808602],
+      ['#Oahu My favourite place in the world', 19.568144, -155.618030],
+      ['#Cairo Young and fascinated by the mummies and desert', -34.021378, 18.733411],
+      ['#IguazuFalls Bordering Brazil and Argentina', -25.690500, -54.440911],
+      ['#MachuPicchu Up in the mountains of Inca ruins and my first altitude sickness']
   ];
 
 var map = new google.maps.Map(document.getElementById('map'), {
       zoom: 3,
       center: new google.maps.LatLng(32.523846, 16.134300),
-      mapTypeId: google.maps.MapTypeId.ROADMAP
+      mapTypeId: google.maps.MapTypeId.ROADMAP,
+      styles: [
+         {
+           "featureType": "administrative",
+           "elementType": "labels.text.fill",
+           "stylers": [
+               {
+                   "color": "#444444"
+               }
+            ]
+         },
+
+         {
+              "featureType": "landscape",
+              "elementType": "all",
+              "stylers": [
+                  {
+                      "color": "#f2f2f2"
+                  }
+              ]
+         },
+
+         {
+              "featureType": "poi",
+              "elementType": "all",
+              "stylers": [
+                  {
+                      "visibility": "off"
+                  }
+              ]
+         },
+         
+         {
+              "featureType": "road",
+              "elementType": "all",
+              "stylers": [
+                  {
+                      "saturation": -100
+                  },
+                  {
+                      "lightness": 45
+                  }
+              ]
+          },
+
+         {
+              "featureType": "road.highway",
+              "elementType": "all",
+              "stylers": [
+                  {
+                      "visibility": "simplified"
+                  }
+              ]
+         },
+
+         {
+              "featureType": "road.arterial",
+              "elementType": "labels.icon",
+              "stylers": [
+                  {
+                      "visibility": "off"
+                  }
+              ]
+          },
+
+          {
+              "featureType": "transit",
+              "elementType": "all",
+              "stylers": [
+                  {
+                      "visibility": "off"
+                  }
+              ]
+          },
+
+          {
+              "featureType": "water",
+              "elementType": "all",
+              "stylers": [
+                  {
+                      "color": "#46bcec"
+                  },
+                  {
+                      "visibility": "on"
+                  }
+              ]
+          },
+
+          {
+              "featureType": "water",
+              "elementType": "geometry.fill",
+              "stylers": [
+                  {
+                      "color": "#8fc9e8"
+                  }
+              ]
+          },
+
+          {
+              "featureType": "water",
+              "elementType": "labels.text",
+              "stylers": [
+                  {
+                      "color": "#ffffff"
+                  }
+              ]
+          }
+      ]
 });
 
 var infowindow = new google.maps.InfoWindow();
@@ -36,32 +160,7 @@ for (i = 0; i < locations.length; i++) {
   })(marker, i));
 }
 
-// This function will iterate over markersData array
-// creating markers with createMarker function
-function displayMarkers(){
 
-   // this variable sets the map bounds according to markers position
-   var bounds = new google.maps.LatLngBounds();
-   
-   // for loop traverses markersData array calling createMarker function for each marker 
-   for (var i = 0; i < markersData.length; i++){
-
-      var latlng = new google.maps.LatLng(markersData[i].lat, markersData[i].lng);
-      var name = markersData[i].name;
-      var address1 = markersData[i].address1;
-      var address2 = markersData[i].address2;
-      var postalCode = markersData[i].postalCode;
-
-      createMarker(latlng, name, address1, address2, postalCode);
-
-      // marker position is added to bounds variable
-      bounds.extend(latlng);  
-   }
-
-   // Finally the bounds variable is used to set the map bounds
-   // with fitBounds() function
-   map.fitBounds(bounds);
-}
 
 // This function creates each marker and it sets their Info Window content
 function createMarker(latlng, name, address1, address2, postalCode){
