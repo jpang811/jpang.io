@@ -66,10 +66,10 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a class="navbar-focused" href="about.html">About</a>
+                        <a  href="about.html">About</a>
                     </li>
                     <li>
-                        <a href="portfolio.html">Portfolio</a>
+                        <a class="navbar-focused" href="portfolio.html">Portfolio</a>
                     </li>
                     <li>
                         <a href="snapped.html">Travel</a>
@@ -89,7 +89,7 @@
     <div class="hero">
         <div class="travelblog-hero">         
             <div class="hero-title">
-                <h1 style="font-size: 70px;"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Guest Blogger on Expedia</h1>
+                <h1 style="font-size: 70px;"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Guest Blogger<br> on Expedia</h1>
                 <br>
             </div>
         </div>
@@ -99,12 +99,12 @@
 <!--End Hero-->
 
 <div class="container container-travelblog">
-<!--TAIPEI POST-->
+   
     <div class="row">
         <!--BLOG-->
-        <div class="col-lg-9">
+        <div class="col-md-8">
             <!--TAIPEI-->
-            <div class="blog-format" id="tpe-blog">
+            <div class="blog-format">
                 <h2>Spring Attractions in Taiwan</h2>
                 <hr class="hr-blog">
                 <p class="remarks-i">Originally published on <a href="https://travelblog.expedia.com.hk/en/activities-en/3688/" class="blurb-link" target="blank">Expedia Travel Blog HK.</a></p>
@@ -217,8 +217,8 @@
             <!--END TAIPEI-->
 
             <!--SEOUL-->
-            <div class="blog-format" id="kr-blog">
-                <h2>HELLO (안녕하세요), SEOUL!</h2>
+            <div class="blog-format">
+                <h2>Hello (안녕하세요), Seoul!</h2>
                 <hr class="hr-blog">
                 <p class="remarks-i">Originally published on <a href="https://travelblog.expedia.com.hk/en/popular-travel-destiniations/asia-region/1934/" class="blurb-link" target="blank">Expedia Travel Blog HK.</a></p>
                 <p>Korea proved to be more than just a shopping paradise; my third time here and my souvenir back this time was a few extra pounds. Most flights from HK to Korea are red-eye flights which allow you to maximize your travel time but a nap is still highly recommended. It was a long wait before stores opened and hotel check-in at 2pm. My stay at Ramada Encore was pleasant and the hotel was conveniently located a few subway stops away from main districts like Dongdaemun coupled with very friendly staff and added services like currency exchange. The plan was to stuff my face and shop till I drop dead, which I achieved more so with the former than latter.</p>
@@ -321,7 +321,7 @@
             <!--END SEOUL-->
 
             <!--BANGKOK-->
-            <div class="blog-format" id="bkk-blog">
+            <div class="blog-format">
                 <h2>Bangkok Down in 3 Days 2 Nights</h2>
                 <hr class="hr-blog">
                 <p class="remarks-i">Originally published on <a href="https://travelblog.expedia.com.hk/en/popular-travel-destiniations/asia-region/5665/" class="blurb-link" target="blank">Expedia Travel Blog HK.</a></p>
@@ -379,37 +379,49 @@
                 <div class="pfolio-img">
                     <img src="img/portfolio/travelblog/bkk/mkt1.jpg" class="img-responsive">
                 </div>
-
-                <div class="row">
-                    <div class="col-sm-6">
-                        <img src="img/portfolio/travelblog/bkk/mkt2.jpg" class="img-responsive blog-img">
-                    </div>
-                    <div class="col-sm-6">
-                        <img src="img/portfolio/travelblog/bkk/mkt3.jpg" class="img-responsive blog-img">
-                    </div>
+                <div class="pfolio-img">
+                    <img src="img/portfolio/travelblog/bkk/mkt3.jpg" class="img-responsive">
                 </div>
                 <div class="pfolio-img">
-                    <img src="img/portfolio/travelblog/bkk/mkt4.jpg" class="img-responsive">
+                    <img src="img/portfolio/travelblog/bkk/mkt2.jpg" class="img-responsive">
                 </div>
+
+                
+                
             </div>
             <!--END BANGKOK-->
+        <hr class="primary">
         </div>
-
+        
         <!--RIGHT SIDEBAR-->
-        <div class="col-md-3">
-            links to other blog posts
-
+        <div class="col-md-4">
+            <div class="col-xs-12 sidebar">
+                <p class="blurb-link">Seoul, Winter Edition</p>
+                <p>Korea proved to be more than just a shopping paradise; my third time here and my souvenir back this time was a few extra pounds... </p>
+                <div class="img-responsive">
+                        <img src="img/portfolio/travelblog/kr/kr.jpg" class="img-responsive">
+                </div>
+            </div>
+            <div class="col-xs-12 sidebar">
+                <p class="blurb-link">Bangkok Down in 3 Days 2 Nights</p>
+                <p>Diversity, tropics and exotic are what come to mind when I think of Thailand. As with all my travels, location trumps all for accommodation... </p>
+                <div class="img-responsive">
+                        <img src="img/portfolio/travelblog/bkk/bkk.jpg" class="img-responsive">
+                </div>
+            </div>
         </div>
-
-
 
     </div>
-
-    
 </div>
+
+<footer>
+    <div class="next"><i class="fa fa-chevron-down" aria-hidden="true"></i> NEXT</div>
+    <div class="prev"><i class="fa fa-chevron-up" aria-hidden="true"></i> PREVIOUS</div>
+</footer>
 
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="js/travelblog.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>

@@ -91,7 +91,7 @@ a {
 .darkbg {
     background-color: #011919;
     color: #fff;
-    padding: 4px 0px;
+    padding: 2px 6px;
     display: inline;
     
 }
@@ -101,10 +101,11 @@ a {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size:  cover;
-    background-position: center;
+    background-position: left center;
     background-image: url(../img/portfolio/engagement/hero.jpg);
     width: 100%;
     height: 350px;
+
 }
 
 .hero .engagement {
@@ -123,9 +124,6 @@ a {
    height: auto;
 }
 
-
-
-
 .personalization {
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -138,9 +136,7 @@ a {
     height:  350px;
 }
 
-.personalization .hero-title {
-    padding-top: 120px;
-}
+
 
 .sdhk {
     -webkit-background-size: cover;
@@ -192,7 +188,7 @@ a {
     left: 0;
     bottom: 0;
     right: 0;
-    
+
 }
 
 .hacktrain-hero-title {
@@ -276,6 +272,7 @@ a {
     margin-top: 0px;
 }
 .blog-format {
+    padding-top: 40px;
     margin-bottom: 60px;
 }
 
@@ -332,6 +329,12 @@ a {
     padding-top: 100px;
     color: #000;
 }
+.hero-title-white {
+    padding-top: 120px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #fff;
+}
 
 .img-responsive {
     width: 100%;
@@ -343,7 +346,6 @@ a {
     padding-bottom: 30px;
     padding-top: 20px;
     margin: 0 auto;
-    max-width: 70%;
 }
 
 @media only screen and (max-width: 768px) {
@@ -390,12 +392,68 @@ a {
     background-size: cover;
     -o-background-size: cover;
     background-position: center;
-    background-image: url(../img/portfolio/travelblog/hero2.jpg);
+    background-image: url(../img/portfolio/travelblog/hero.jpg);
     background-attachment: fixed;
-    color: #fafafa;
-    
+    color: #fafafa;   
     height: 400px;
 }
+
+.sidebar {
+    padding: 25px;
+    margin-top: 25px;
+    height: 350px;
+    background-color: #ededed;
+    text-overflow: ellipsis; 
+    overflow: hidden;
+}
+
+.sidebar p {
+    font-size: 14px;
+}
+
+.sidebar img {
+    width: 100%;
+}
+
+
+.next {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    text-decoration: none;
+    color: white; 
+    background-color: rgb(0, 160, 166);
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px 20px; 
+    display: none;
+}
+
+.prev {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(0, 160, 166);
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 10px 20px;  
+    display: none;
+}
+
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+}
+
+.prev:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+}
+
 .container.nutshell {
     padding-top: 200px;
     margin: auto;
