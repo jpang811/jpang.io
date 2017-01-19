@@ -29,6 +29,11 @@ a {
 .keywords {
     background-color: #FFFBCC;
 }
+
+.jumbotron p {
+    font-size: 18px;
+    font-weight: normal;
+}
 .heading {
     font-size: 50px;
 }
@@ -136,6 +141,17 @@ a {
     height:  350px;
 }
 
+.gamification {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size:  cover;
+    background-position: center;
+    background-image: url(../img/portfolio/gamification/hero.jpeg);
+    color: #fff;
+    width: auto;
+    height:  350px;
+}
 
 
 .sdhk {
@@ -305,6 +321,19 @@ a {
     background-position: center center;
     height: auto;
 }
+
+.hero.travelguides {
+   padding-bottom: 30px;
+}
+.hero.travelguides .col-md-3 {
+    padding: 10px !important;
+}
+
+
+.hero.travelguides img {
+    box-shadow: 2px 2px 2px #ededed;
+}
+
 #background {
     margin-top: 50px;
     height: auto;
