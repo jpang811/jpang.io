@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Where jpang's been</title>
+    <title>About jpang</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -26,7 +26,8 @@
     <!-- Theme CSS -->
     <link href="css/creative.min.css" rel="stylesheet">
     <link href="css/static.css" rel="stylesheet">
-    <link href="css/resume-creative.css" rel="stylesheet">
+    <link href="css/about.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -34,13 +35,35 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <style>
+    @media only screen and (max-width : 480px) {
+        .timeline-img {
+            display: block;
+            float: none !important;
+        }
+
+        .cd-timeline-content {
+            max-width: 260px;
+            width: auto;
+        }
+        .cd-timeline-content .col-sm-5 {
+            padding: 0px;
+            text-align: left !important;
+        }
+         .cd-timeline-content .col-sm-4 {
+            padding: 0px;
+            text-align: left !important;
+        }
+
+    }
+    </style>
 
 </head>
 
 <body>
 
     <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
-        <div class="container-fluid">
+        <div class="container-fluid ">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -59,7 +82,7 @@
                         <a href="portfolio.html">Portfolio</a>
                     </li>
                     <li>
-                        <a href="snapped.html">Snapped</a>
+                        <a href="travel.html">Travel</a>
                     </li>
                     
                     <li>
@@ -72,13 +95,13 @@
         <!-- /.container-fluid -->
     </nav>
 
-<!--In a Nutshell-->
-    <section class="bg-white" id="about">
+<!--jpang In a Nutshell-->
+    <section class="bg-white">
        <div class="hero-about">
         <div class="container nutshell">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h1 class="hero-heading">jpang in a Nutshell</h1>
+                    <h1 class="hero-heading-white"><span class="darkbg">jpang in a Nutshell</span></h1>
                     <hr>
                     
                     <br>
@@ -87,28 +110,29 @@
         <div class="container">
             <div class="row">
                 
-                <div class="col-lg-4 col-md-6 text-center">
+                <div class="col-lg-4 text-center">
                     <div class="service-box">
                         <i class="fa fa-4x fa-paper-plane icon sr-icons"></i>
-                        <h3 class="hero-heading-white"><span>World Trekker</span></h3>
+                        <h3 class="hero-heading-white"><span class="darkbg">World Trekker</span></h3>
                         <br>
-                        <p class="text-faded"><span>Marked the Northern hemisphere and South East Asian territories.</span></p>
+                        <p><span class="darkbg">Marked the Northern hemisphere and South East Asian territories.</span></p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 text-center">
+
+                <div class="col-lg-4 text-center">
                     <div class="service-box">
                         <i class="fa fa-4x fa-cutlery icon sr-icons"></i>
-                        <h3 class="hero-heading-white"><span>Food Fanatic</span></h3>
+                        <h3 class="hero-heading-white"><b><span class="darkbg">Food Fanatic</span></b></h3>
                         <br>
-                        <p class="text-faded"><span>Hands down wine-infused lasagna. Otherwise juicy meats, breakfast foods and breads.</span></p>
+                        <p><span class="darkbg">Hands down wine-infused lasagna. Otherwise juicy meats, breakfast foods and breads.</span></p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 text-center">
+                <div class="col-lg-4 text-center">
                     <div class="service-box">
                         <i class="fa fa-4x fa-heart icon sr-icons"></i>
-                        <h3 class="hero-heading-white"><span>User Experience</span></h3>
+                        <h3 class="hero-heading-white"><span class="darkbg">User Experience</span></h3>
                         <br>
-                        <p class="text-faded"><span>UX changes everything, because embarking this field changed my life.</span></p>
+                        <p><span class="darkbg">UX changes everything, because embarking on this journey changed my life.</span></p>
                     </div>
                 </div>
             </div>
@@ -118,24 +142,31 @@
 
 <!--End in a Nutshell-->
 
+<div id="timeline">
 <!--Animated Timeline-->
 <section id="cd-timeline" class="cd-container">
 
 <!--AML-->
     <div class="cd-timeline-block">
         <!-- cd-timeline-img icon -->
-        <div class="cd-timeline-img">
+        <div class="cd-timeline-img wow zoomIn">
             <i class="fa fa-briefcase" aria-hidden="true" style="font-size: 22px; text-align: center;"></i>
         </div> 
         
         <!-- cd-timeline-content -->
-        <div class="cd-timeline-content">
-            <div class="cd-timeline-arrow">
-            <h4><b>Data-Driven Designer</h4></b>
-            <p class="remarks-i" style="color: #000000;">Crafting innovative user experiences at Asia Miles.</p>
-            <p class="blurb">Asia Miles is about empowering customers to derive value from their everyday spendings and turning them into lifestyle and travel rewards. </p>
-            <p class="blurb">My challenge is to communicate that value by enhancing customer journey and successfully leading all data-driven UX efforts in <a href="personalization.html" class="blurb-link">personalization</a>, <a href="engagement.html" class="blurb-link">user engagement</a> and gamification modules.</p>
+        <div class="cd-timeline-content wow fadeInLeft">
+            
+            <div class="col-sm-7" style="padding: 0px;">
+                <h4><b>Data-Driven UX Designer</h4></b>
             </div>
+            <div class="col-sm-5" style="padding-right: 20px; padding-left: 0px; text-align: right">
+                <img src="img/about/aml.png" class="timeline-img" style="max-width: 100px; display: inline-block; padding-bottom: 20px;">
+            </div>
+            
+            <p class="remarks-i" style="color: #000000; display: block;">Craft innovative user experiences for a loyalty program.</p>
+            <p class="blurb">Asia Miles empowers customers to derive value from their everyday spendings and turn them into lifestyle and travel rewards. </p>
+            <p class="blurb">My challenge is to communicate that value by enhancing customer journey and successfully leading all data-driven UX efforts in <a href="personalization.html" class="blurb-link">personalization</a>, <a href="engagement.html" class="blurb-link">user engagement</a> and gamification modules.</p>
+            
         </div> 
         
     </div>
@@ -143,35 +174,42 @@
 <!--EXPEDIA-->
     <div class="cd-timeline-block"> 
         <!-- cd-timeline-img icon -->
-        <div class="cd-timeline-img">
+        <div class="cd-timeline-img wow zoomIn">
             <i class="fa fa-briefcase" aria-hidden="true" style="font-size: 22px; text-align: center;"></i>
         </div>   
         <!-- cd-timeline-content -->
-        <div class="cd-timeline-content">
-            
-            <h4><b>Market Associate</h4></b>
-            <p class="remarks-i" style="color: #000000;">Putting heads to beds via Expedia brands.</p>
-            <p class="blurb">Expedia is enabling everyday travelers with the best choices and flexibilty of DIY-ing your trips.  </p>
-            <p class="blurb">My key contribution is in optimizing the customer search experience and grow hotel rooms revenue by securing competitive rates, inventory and merchandising deals for Hong Kong hotels.</p>
-            <p class="blurb">For the love of great content, I personally guest blogged on popular Asian destinations for the Expedia HK Travel Blog - Taipei</a>, Bangkok, <a href="https://goo.gl/VFZUCR" class="blurb-link">Seoul</a>.</p>
+        <div class="cd-timeline-content wow fadeInRight">
+            <div class="col-sm-7" style="padding: 0px;">
+                <h4><b>Market Associate</h4></b>
+            </div>
+            <div class="col-sm-5" style="padding-right: 20px; padding-left: 0px; text-align: right">
+                <img src="img/about/exp.png" style="max-width: 100px; display: inline-block; padding-bottom: 20px;">
+            </div>
+            <p class="remarks-i" style="color: #000000; margin: 0px;">Put heads to beds via Expedia brands.</p>
+            <p class="blurb">Expedia provides travelers with the best choices and the flexibilty of DIY-ing your trips.  </p>
+            <p class="blurb">My key contribution is in optimizing the customer search experience by securing competitive rates, inventory and great deals for the HK market. I also guest blogged on the Expedia HK Travel Blog for <a href="https://goo.gl/WMvmK9" class="blurb-link">Taipei</a>, <a href="https://goo.gl/MLkThJ" class="blurb-link">Bangkok</a>, <a href="https://goo.gl/VFZUCR" class="blurb-link">Seoul</a>.</p>
         </div>
     </div> 
 
 <!--MAC-->
      <div class="cd-timeline-block">
         <!-- cd-timeline-img icon -->
-        <div class="cd-timeline-img">
+        <div class="cd-timeline-img wow zoomIn">
             <i class="fa fa-briefcase" aria-hidden="true" style="font-size: 22px; text-align: center;"></i>
         </div> 
         
         <!-- cd-timeline-content -->
-        <div class="cd-timeline-content">
-            <div class="cd-timeline-arrow">
-            <h4><b>M.A.C Cosmetics</h4></b>
-            <p class="remarks-i" style="color: #000000;">Engaging <a href="">"All Sexes, All Races and Ages"</a> in the art of looking good and feeling confident.</p>
-            <p class="blurb">My experiences with product marketing included 40+ annual product launches, business analyses and joint promotions with major HK retailers such as Lane Crawford.</p>
-            <p class="blurb">To build great customer experiences, I assisted with trending product and color forecasts and introduced tailored make up experiences both in-store and at events for mass and niche segments such as university students.</p>
+        <div class="cd-timeline-content wow fadeInLeft">
+            
+            <div class="col-sm-7" style="padding: 0px;">
+                <h4><b>Marketing Assistant</h4></b>
             </div>
+            <div class="col-sm-5" style="padding-right: 20px; padding-left: 0px; text-align: right">
+                <img src="img/about/mac.png" style="max-width: 100px; display: inline-block; padding-bottom: 20px;">
+            </div>
+            <p class="remarks-i" style="color: #000000;">Engage customers in the makeup of feeling good and confident.</p>
+            <p class="blurb">My experiences in product marketing included 40+ annual product launches, business analyses, and introduced tailored make up experiences both in-store and at events to retain and acquire new segments.</p>
+            
         </div> 
     </div>
 
@@ -179,14 +217,21 @@
 <!--BU-->
     <div class="cd-timeline-block"> 
         <!-- cd-timeline-img icon -->
-        <div class="cd-timeline-img">
+        <div class="cd-timeline-img fa-light wow zoomIn">
             <i class="fa fa-graduation-cap" aria-hidden="true" style="font-size: 22px; text-align: center;"></i>
         </div>   
         <!-- cd-timeline-content -->
-        <div class="cd-timeline-content">
-            <h4><b>Boston University</h4></b>
-            <p class="remarks-i" style="color: #000000;">Dual Bachelors Degree in Business and Hospitality Administration</p>
+        <div class="cd-timeline-content wow fadeInRight">
+            <div class="col-sm-8" style="padding: 0px;">
+                <h4><b>Hospitality & Business Major</h4></b>
+            </div>
+            <div class="col-sm-4" style="padding-right: 20px; padding-left: 0px; text-align: right">
+                <img src="img/about/bu.png" style="max-width: 100px; display: inline-block; padding-bottom: 20px;">
+            </div>
+            <p class="remarks-i" style="color: #000000;">Dual Bachelors Degree in Hospitality and Business Administration</p>
             <p class="blurb">Applying the best of both worlds to everyday user touch points, special moments and luxury experiences. </p>
+           
+            
             
         </div>
     </div> 
@@ -194,25 +239,25 @@
 <!--GA-->
     <div class="cd-timeline-block"> 
         <!-- cd-timeline-img icon -->
-        <div class="cd-timeline-img">
+        <div class="cd-timeline-img fa-light wow zoomIn">
             <i class="fa fa-graduation-cap" aria-hidden="true" style="font-size: 22px; text-align: center;"></i>
         </div>   
         <!-- cd-timeline-content -->
-        <div class="cd-timeline-content">
-            <h4><b>General Assembly</h4></b>
-            <p class="remarks-i" style="color: #000000;">User Experience Design</p>
+        <div class="cd-timeline-content wow fadeInLeft">
+             <div class="col-sm-7" style="padding: 0px;">
+                <h4><b>User Experience Design</h4></b>
+            </div>
+            <div class="col-sm-5" style="padding-right: 20px; padding-left: 0px; text-align: right">
+                <img src="img/about/ga.png" style="max-width: 100px; display: inline-block; padding-bottom: 20px;">
+            </div>
+            
             <p class="blurb">Apprentice of design thinking methologies alike and the craft of seamless user experiences.</p>
             
         </div>
     </div> 
 </section>
 <!-- cd-timeline -->
-
-
-   
-    
-
-    
+</div>
 
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.min.js"></script>
@@ -226,9 +271,29 @@
     <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
 
     <!-- Theme JavaScript -->
-    <script src="js/creative.min.js"></script>
+    <script src="js/creative.js"></script>
     <script type="text/javascript" src="js/resume.js"></script>
+    <script type="text/javascript" src="js/modernizer.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="js/wow.js"></script>
+    <script>
+        var wow = new WOW(
+            {
+                boxClass:     'wow',      // animated element css class (default is wow)
+                animateClass: 'animated', // animation css class (default is animated)
+                offset:       0,          // distance to the element when triggering the animation (default is 0)
+                mobile:       false,       // trigger animations on mobile devices (default is true)
+                live:         true,       // act on asynchronously loaded content (default is true)
+                callback:     function(box) {
+                  // the callback is fired every time an animation is started
+                  // the argument that is passed in is the DOM node being animated
+                },
+                scrollContainer: null // optional scroll container selector, otherwise use window
+            }
+        );
+        
+        wow.init();
+    </script>
 
 
 </body>

@@ -1,157 +1,318 @@
 a {
-	color: #000000;
-	text-decoration: none;
+    color: #000000;
+    text-decoration: none;
 }
 .container-condensed {
-	max-width: 1000px;
-
+    max-width: 1000px;
+    
 }
 
 .container {
-	margin-top: 20px;
-	margin-bottom: 60px;
+    margin-top: 20px;
+    /* text-align:  left; */
 }
 .remarks-i{
-	font-family: 'Open Sans', Arial, sans-serif;
-	font-size: 15px;
-	color: #b3b3b3;
-	font-style: italic;
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 15px;
+    color: #b3b3b3;
+    font-style: italic;
+    display:  block;
 }
 .emphasis-i {
-	font-family: 'Open Sans', Arial, sans-serif;
-	font-size: 18px;
-	color: #535454;
-	line-height: 120%;
-	font-style: italic;
-	padding-left: 10px;
-
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 18px;
+    color: #535454;
+    line-height: 120%;
+    font-style: italic;
+    padding-left: 10px;
 }
 .keywords {
-	color: #00a0a6;
-	font-weight: bold;
+    background-color: #FFFBCC;
+}
+
+.jumbotron p {
+    font-size: 18px;
+    font-weight: normal;
 }
 .heading {
-	font-size: 50px;
+    font-size: 50px;
 }
 .section-heading {
     padding-top: 10px;
     padding-bottom: 10px;
     font-weight: bold;
 }
+
 .section-title {
-	padding-top: 10px;
-	color: #00a0a6;
-	font-size: 20px !important;
-	font-weight: bold;
+    padding-top: 10px;
+    color: #00a0a6;
+    font-size: 20px !important;
+    font-weight: bold;
+}
+.ddus-link:hover {
+    color: #000000 !important;
+}
+.caption-img {
+    position: relative;
+    cursor: pointer;
 }
 
+
+.caption-circle {
+    text-align: left;
+    margin: 0 auto;
+    font-size: 16px;
+    padding: 0px 20px;
+    color: #000;
+}
+.cd-timeline-img.fa-light{
+    background-color: #ffffff !important;
+    
+}
+
+.cd-timeline-img.fa-light i {
+    color: #00a0a6 !important;
+}
 
 .fa-linkedin-square {
-	color: #1883bb;
+    color: #1883bb;
+    font-size: 30px;
 }
+
 .hero-heading-turq{
-	color: #00a0a6;
+    color: #00a0a6;
 }
 
 .hero-heading-white{
-	color: #fff;
+    color: #fff;
+    font-weight: bold;
+    padding-top:  0px;
 }
 
-.hero-heading-white span  {
-	background: #001213	;
-	font-weight: bold;
-	padding: 5px 10px;
+.word-bg-turq {
+    background: #00a0a6 ;
+    font-weight: bold;
+    opacity: 0.9;
+    
+    padding: 5px 10px;
 }
-.h1-darkbg span{
-	background-color: #303030;
-	padding: 5px 10px;
+.darkbg {
+    background-color: #011919;
+    color: #fff;
+    padding: 2px 6px;
+    display: inline;
+    
 }
+
+.engagement {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size:  cover;
+    background-position: left center;
+    background-image: url(../img/portfolio/engagement/hero.jpg);
+    width: 100%;
+    height: 350px;
+
+}
+
+.hero .engagement {
+    padding-top: 0px;
+}
+.engagement-acqemail {
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    background-size: contain;
+    -o-background-size:  contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../img/portfolio/engagement/acq-email.jpg);
+    width: 100%;
+    min-height: 450px;
+   height: auto;
+}
+
+.personalization {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size:  cover;
+    background-position: center;
+    background-image: url(../img/portfolio/personalization/header-hero.jpg);
+    color: #fff;
+    width: auto;
+    height:  350px;
+}
+
+.gamification {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size:  cover;
+    background-position: center;
+    background-image: url(../img/portfolio/gamification/hero.jpeg);
+    color: #fff;
+    width: auto;
+    height:  350px;
+}
+
+
 .sdhk {
-	-webkit-background-size: cover;
+    -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size:  cover;
     background-position: center;
     background-image: url(../img/portfolio/sdhk/sdhk-hero.jpg);
-  	color: #fff;
-  	width: 100%;
-  	height: 350px;
+    color: #fff;
+    width: 100%;
+    height: 350px;
 
+}
+
+.container-travelblog {
+    padding-bottom: 60px;
+    max-width: 1000px;
+}
+
+.hacktrain {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size:  cover;
+    background-position: center;
+    background-image: url(../img/portfolio/hacktrain/header3.jpg);
+    color: #fff;
+    width: 100%;
+    height: 480px;
+}
+
+.hacktrain-app {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size:  cover;
+    background-position: center;
+    background-image: url(../img/portfolio/hacktrain/mtrapp.jpg);
+    position: relative;
+    color: #fff;
+    width: 100%;
+    height: 400px;
+}
+.hacktrain-app-logo {
+    position: absolute;
+    width: 300px;
+    height: auto;
+    margin: 0 auto;
+    left: 0;
+    bottom: 0;
+    right: 0;
+
+}
+
+.hacktrain-hero-title {
+    padding-top: 180px;
+    color: #fff;
 }
 .blackbg-txt span{
-	background-color: rgba(0, 18, 19, 0.6);
-	padding: 5px 10px;
-}
-.contact-box h3 {
-	margin-left: 90px;
-	padding-bottom: 5px;
+    background-color: rgba(0, 18, 19, 0.6);
+    padding: 5px 10px;
 }
 
+#map {
+    width: 100%;
+    height: 350px;
+    margin-top: 50px;
+    background-color: grey;
+}
+
+
 .contact {
-	margin-top: 50px;
+    margin-top: 50px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
     background-position: center;
-    background-image: url(../img/contact-bg.jpg);
+    background-image: url(../img/contact-resize.jpg);
     color: #fff;
-  	height: 100%;
-  	min-width: 960px;
+    position: relative;
+    height: 100%;
+    width: 100%;
 }
 
 .contact-box {
-	position: absolute;
-	left: 0;
-	right: 0;
-	top: 30%;
-	margin: 0 auto;
-	width: 900px;
-	color: #fff;
-	padding: 20px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 15%;
+    margin: 0 auto;
+    max-width: 900px;
+    color: #fff;
+    padding: 20px;  
 }
+
+
+
 .blurb {
-	font-size: 16px;
+    font-size: 16px;
 }
 
 .blurb-link {
-	text-decoration: underline;
-	color: #00a0a6;
+    color: #00a0a6;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.blurb-link:hover {
+    text-decoration: none;
+    color: #00a0a6;
 }
 .blurb-link-white {
-	text-decoration: underline;
-	color: #fff;
+    text-decoration: underline;
+    color: #fff;
 }
 .resume-intro {
-	padding-top: 60px;
-	padding-bottom: 40px;
+    padding-top: 60px;
+    padding-bottom: 40px;
 }
 .navbar-subpages {
-	background-color: #ffffff;
-	margin-bottom: 0px !important;
-	padding-bottom: 0px !important;
+    background-color: #ffffff;
+    margin-bottom: 0px !important;
+    padding-bottom: 0px !important;
     font-weight: bolder;
     text-align:center;
 }
 .navbar-fixed-top {
-	margin-bottom: 0px;
+    margin-bottom: 0px;
 }
 
 .light {
-	margin-top: 0px;
+    margin-top: 0px;
+}
+.blog-format {
+    padding-top: 40px;
+    margin-bottom: 60px;
 }
 
 .hr-dot {
-	border-color: #00a0a6;
-	border-width: 3px;
+    border-color: #00a0a6;
+    border-width: 3px;
     max-width: 30px;
 }
+.hr-blog{
+    max-width: 100% !important;
+    border-color: #a9a9a9 !important;
+    border-width: 3px !important;
+    border-radius: 4px !important;
+
+}
 .hero {
-	margin-top: 30px;
-	padding-top: 50px;
-	display:block;
-	position: relative;
-	width: auto;
+    margin-top: 30px;
+    padding-top: 50px;
+    display:block;
+    position: relative;
+    width: auto;
     text-align: center;
     margin: auto;
     background-attachment: scroll;
@@ -161,50 +322,193 @@ a {
     background-size: cover;
     -o-background-size: cover;
     background-position: center center;
-    height: 400px;
+    height: auto;
 }
+
+.hero.travelguides {
+   padding-bottom: 30px;
+}
+.hero.travelguides .col-md-3 {
+    padding: 10px !important;
+}
+
+
+.hero.travelguides img {
+    box-shadow: 2px 2px 2px #ededed;
+}
+
 #background {
-	margin-top: 50px;
-	height: auto;
+    margin-top: 50px;
+    height: auto;
     position: absolute;
     top:0;
     left:0;
+    bottom: 50%;
+    height: 100%;
+    width: 100%;
+    height: 480px;
     z-index: -999;
+    overflow: hidden;
+    padding-bottom: 20px;
 }
 
 .navbar-focused {
-	color: #009FA6 !important;
+    color: #009FA6 !important;
 }
+
 
 .hero-title {
-	padding-top: 80px;
+    padding-top: 100px;
+    color: #000;
+}
+.hero-title-white {
+    padding-top: 120px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #fff;
 }
 
-
-
+.img-responsive {
+    width: 100%;
+}
 .pfolio-row {
-	margin: 20px;
+    margin: 20px;
 }
 .pfolio-img{
-	padding-bottom: 30px;
-	padding-top: 20px;
-
+    padding-bottom: 30px;
+    padding-top: 20px;
+    margin: 0 auto;
 }
 
+.adjust {
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+.adjust2 {
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 768px) {
+    .pfolio-img {
+        max-width: 100% !important;
+    }
+    
+}
+
+.blog-img {
+    padding-bottom: 30px;
+}
+.pfolio-thumb {
+    position: relative;
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.pfolio-caption {
+    position: absolute;
+    width: 100%;
+    
+}
+
+.hero-about .col-lg-4 {
+   margin-bottom: 60px;
+}
 .hero-about {
-   	margin-top: 50px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: fixed;
+    background-image: url(../img/hero-about-resized.jpg);
+    color: #fafafa;
+    width: 100%;
+    min-height: 800px;
+}
+
+.travelblog-hero {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
     background-position: center;
-    background-image: url(../img/hero-about-original.jpg);
-    color: #fff;
-    min-height: 800px;
+    background-image: url(../img/portfolio/travelblog/hero.jpg);
+    background-attachment: fixed;
+    color: #fafafa;   
+    height: 400px;
+}
+
+.sidebar {
+    padding: 25px;
+    margin-top: 25px;
+    height: auto;
+    min-height: 350px;
+    background-color: #ededed;
+    text-overflow: ellipsis; 
+    overflow: hidden;
+}
+
+.sidebar p {
+    font-size: 14px;
+}
+
+.sidebar img {
+    width: 100%;
+}
+
+
+.next {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    text-decoration: none;
+    color: white; 
+    background-color: rgb(0, 160, 166);
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px 20px; 
+    display: none;
+}
+
+.prev {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(0, 160, 166);
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 10px 20px;  
+    display: none;
+}
+
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+}
+
+.prev:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
 }
 
 .container.nutshell {
-	padding-top: 200px;
-	margin: auto;
+    padding-top: 200px;
+    margin: auto;
+    padding-bottom: 20px;
 }
 
+@media (max-width:768px) {
+    .hero-title h1 {
+        font-size: 40px !important;
+        padding: 30px !important;
+    }
+
+    
+}

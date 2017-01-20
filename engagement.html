@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Where jpang's been</title>
+    <title>jpang on UX Engagement</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -34,11 +34,21 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+    <style>
+       
+        @media only screen and (max-width: 768px) {
+            
+            .survey-img {
+                max-width: 100% !important;
+            }
+        }
+        
+    </style>
 </head>
 
 <body id="page-top">
 
-    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-container">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -55,11 +65,12 @@
                         <a href="resume.html">About</a>
                     </li>
                     <li>
-                        <a href="snapped.html">Snapped</a>
-                    </li>
-                    <li>
                         <a class="navbar-focused" href="portfolio.html">Portfolio</a>
                     </li>
+                    <li>
+                        <a href="snapped.html">Travel</a>
+                    </li>
+                    
                     <li>
                         <a href="contact.html">Contact</a>
                     </li>
@@ -70,21 +81,14 @@
         <!-- /.container-fluid -->
     </nav>
 
-    
-    
     <!--HERO-->
-    <div class="hero">
-        <div class="container-fluid">
-            <div id="background">
-                
+    <div class="hero">        
+        <div class="engagement">
+            <div class="hero-title">
+                <h1><i class="fa fa-user" aria-hidden="true"></i> User Engagement is a Conversation</h1>
+
             </div>
-        </div>          
-        <div class="hero-title">
-            <h1>The "What Star Wars Character Are You?" Equivalent</h1>
-            <h2><i class="fa fa-user" aria-hidden="true"></i> Customer Engagement</h2>
-            <br>
         </div>
-        
     </div>
     <!--END HERO-->
 
@@ -92,29 +96,34 @@
         <div class="container container-condensed">
             <p class="remarks-i">Also published on Medium.com at </p>
             <h3 class="section-heading">There's more to Personalization</h3>
-            <p>Now that I've mastered personalization (link to another article on personalization), I asked myself how do we get people to do what we want or at the very least influence them?</p>
-            <p>Marketing has typically been more reactive and I wanted to change that.  Relying on your brand’s value proposition is not enough to keep your users engaged. The idea was to go from <i><u><b>re</b></u></i>active to <i><u><b>pro</b></u></i>active.</p>
-            <p>One of the classic challenges we face at my current workplace, a loyalty program, is credit card acquisition. It’s a competitive playing field where every bank is competing for better rewards and returns, and offering different ways for users to navigate the system of reward points and to optimize credit card spending, etc.  Ultimately, the more you spend, the better. But bear in mind these “gamers” is only one part of your overall audience, whereas the rest may be more interested in the path of least resistance or whatever they come upon by chance (ie. applying at credit card booths).</p>
+            <p>As with <a href="personalization.html" class="blurb-link">Part 1 of the Data-Driven UX Series on Personalization</a>, personalization is a great conversation starter but it's not enough. I wanted to <span class="keywords">engage users and influence their behavior.</span></p>
+            
+            <p>One of the problem statemenets I tackled was user acquisition, specifically credit cards for this case study. It always begins from understanding users. Some prefer facts and figures, pros and cons, whereas some are driven by emotions.  Striking that delicate balance between both groups can be challenging.</p>
             <h3 class="section-heading">What's the Deal with Credit Cards?</h3>
-            <p>We happened to be working on a credit card acquisition for one of our credit card partners. The challenge was part of a quarterly acquisition campaign which needed a revamp sorely.</p>
-            <p>Objectively speaking, credit card campaigns get very old.  Typically, you receive either a Direct Mail or email with a cookie-cutter, standard message that says "Apply for our credit card and get offer XYZ by end of this month! Limited Time Offer!". Seriously, when is it not Limited Time Offer?</p>
-            [placeholder img]
-            <div>
-                <div class="pfolio-img">
-                    <img src="img/portfolio/hacktrain/currentstate.jpg" class="img-responsive">
-                </div>
+            <p>Credit card campaigns can get very old nowadays.  Typically, you receive either a Direct Mail or email with a cookie-cutter message that says "Apply for our credit card and get offer XYZ. Limited Time Offer!". Let's be real, when is it <i>not</i> Limited Time Offer?</p>
+        
+            
+            <div class="pfolio-img">
+                    <img src="img/portfolio/engagement/ccoffer.png" class="img-responsive adjust2">
             </div>
-            <p>I wanted to take a step back and think about what the user wants, and just for a moment, strip away all commercial opportunities we could potentially leverage on.  To begin with, we have an understanding of our members, in fact vast amounts of data in the bank on their transactions - where they travel, what they spend on, when they convert miles, etc.  So on a macro level, we roughly know what members want and that the data is reliable enough for machine learning algorithms alike to predict their likelihood to transact one way or another.</p>
-                
-            <p>But even so, it's a very shallow understanding. So I decided to introduce an Engagement piece, comprised of an Engagement email which lands on a Buzzfeed-inspired Engagement Survey.  The objective is very simple - you engage the member with something fun yet effortless.  By doing so, you introduce relevant, data points given by the member on a voluntary basis ie. completing the Engagement survey. </p>
+
+            <p>The most logical approach is to use machine learning algorithms alike to predict users' likelihood to apply for a credit card. But this doesn't take into account users' emotions and motivations.</p>
+            <p>To understand members from both qualitative and quantitative aspects, I decided to introduce an two-part Engagement piece - an <span class="keywords">Engagement Email</span> which lands on a Buzzfeed-inspired <span class="keywords">Engagement Survey</span>. </p>
+           
+             
+            <div class="pfolio-img" style="max-width: 100%;">
+                <img src="img/portfolio/engagement/journey-sketch.jpg" class="img-responsive">
+                <p class="remarks-i">User Journey Flow from Engagement email to Engagement survey to the Acquisition email</p>
+            </div>
+            
 
             <h3 class="section-heading">Designing the Engagement</h3>
-            <p>There are two challenges to this piece. First, how do I reach targeted members with this Engagement survey via email?  Second, once they land on the survey, how do I get them to complete the survey?</p>
+            <p>There are two challenges to this piece. First, how do I get users to click on the Engagement Email?  Second, once they land on the Engagement Survey, how do I get them to complete it?</p>
             <p>The idea sparked when I was on Flipboard and came across this pop-up. </p>
             
             <div class="containter">
                 <div class="pfolio-img">
-                    <img src="img/portfolio/engagement/inspo.png" class="img-responsive">
+                    <img src="img/portfolio/engagement/inspo.jpg" class="img-responsive pfolio-img adjust">
                 </div>
             </div>
             
@@ -122,54 +131,94 @@
             <p>So this is what I did.</p>
             <div class="containter">
                 <div class="pfolio-img">
-                    <img src="img/portfolio/engagement/email.png" class="img-responsive">
+                    <img src="img/portfolio/engagement/email.png" class="img-responsive pfolio-img adjust">
                 </div>
             </div>
             
-            <p>It was a no brainer.  We A/B tested the subject title and travel quotes but the concept itself was already an innovation.  Open rates skyrocketed to over 40% and click rates over 10%.</p>
-            <p>Whether you agree or disagree, brace yourself for a just-for-fun engagement survey.</p>
+            <p>We A/B tested the subject title and travel quotes and the open rates skyrocketed to over 40% and over 10% for click rates.</p>
+            <p>Whether you agree or disagree, brace yourself for a just-for-fun Engagement Survey.</p>
            
 
             <h3 class="section-heading">So Tell Me, What's Your Travel Persona?</h3>
-            <p>The trick to designing this engagement survey is it isn't as simple as coming up with a trolling or viral meme.  Sure, exposure and impression are great but it's got to have a purpose in my opinion.</p>
-            <p>In addition to engagement, I wanted to collect data which corresponds to the credit card offer.  I did a quick analysis to identify its competitive advantages, which is the complimentary lounge access and welcome offer.</p>
-            <p>Given that the program's strongest value proposition is travel, I crafted a 5-question survey oriented towards members' travel and lifestyle preferences.  Each question is carefully designed to identify their persona and understand their travel patterns which the credit card offer can actually answer to. Give it a shot yourself.</p>
-            [placeholder]
-            <div class="containter">
-                <div class="pfolio-img">
-                    <img src="img/portfolio/engagement/email.png" class="img-responsive">
-                </div>
+            <p>The trick to designing the survey is it isn't just about fun, viral content.  It should serve a purpose.</p>
+            <p>In addition to engagement, I did a quick analysis on the offers' competitive advantages which I used them as anchor points to gauge users' interest towards the offer.</p>
+            <p>The survey was about users’ travel and lifestyle preferences and outputs with a travel persona. In fact, feel free to give it a shot yourself!</p>
+            
+            <div class="pfolio-img">
+                <img src="img/portfolio/engagement/survey.jpg" class="img-responsive adjust2">
             </div>
+
             <p>Depending on your answers of course, you get one of four personas.</p>
-            <div class="containter">
-                <div class="pfolio-img">
-                    <img src="img/portfolio/engagement/persona.jpg" class="img-responsive">
-                </div>
+            <div class="pfolio-img">
+                <img src="img/portfolio/engagement/persona.jpg" class="img-responsive pfolio-img adjust">
             </div>
+
+
             <p>Most of us, it seems, are Adventure Seekers at heart. </p>
-            <div class="containter">
-                <div class="pfolio-img">
-                    <img src="img/portfolio/engagement/persona-example.jpg" style="float: center" class="img-responsive">
-                </div>
+            <div class="pfolio-img" style="max-width: 100%;">
+                <img src="img/portfolio/engagement/persona-example.jpg" style="float: center" class="img-responsive pfolio-img adjust2">
+
             </div>
-            <p>We reached a proud 10% survey completion rate out of the 100,000+ members contacted.</p>
-            <p><span class="keywords">Great things build expectations.</span> So after kicking off with a successful engagement piece, our data scientists got cracking with our survey data and personas so we can follow-up with an official acquisition email a week later.</p>
-            <!--SECONDARY HERO-->
-            <div class="container-fluid">
-                <div class="hero-title">
-                    <h3 class="section-heading">Introducing MTR To-Go</h3>
-                    <br>
-                    <div id="secondary-herobg">
-                          
-                    </div>
-                </div>        
-            </div>
+            <p>We hit a good 10% completion rate which were quite impressive given there was no offer attached.</p>
+            <p>Of course, <span class="keywords">great things build expectations.</span> So after kicking off with a successful engagement piece, my fellow data scientists got cracking with the survey data and personas so we could follow-up with an acquisition email a week later.</p>
+            
             
             <h3 class="section-heading">Acquisition Email</h3>
-            <p>This is where the magic happens.  Each persona was already pre-assigned to a set of offers and content which resonated the most to them. For example, spontaneity, value-seeking and connectivity are important values to Adventure Seekers. So all we had to do was map each persona to the corresponding email offer.</p>
-            <p>One of the challenges was if that person had not filled out the engagement survey aka not engaged, which message to do they get?  Based on that person’s behaviour and demographics, we clustered them and assigned them to a persona.</p>
-            <p>Going along with the example of the Adventure Seeker, this was the acquisition email.</p>
+            <p>This is where the magic happens.  Each persona was pre-assigned to a set of personalized content which we can map to corresponding personas. <!--For example, spontaneity, value-seeking and connectivity are important values to Adventure Seekers.--></p>
+            <p>For those who had not completed out the survey, we assigned them to a travel persona based on characteristics such as demographics and transactional behavior.</p>
         </div>
+
+        <div class="hero" style="padding-top: 0px;">        
+            <div class="engagement-acqemail"></div>
+        </div>
+
+        <div class="container container-condensed">
+            <p>The result? A whopping 35%+ open and 4% click rates. </p>
+            
+            <h3 class="section-heading">Closing the Loop</h3>
+            <p>As a final wrap-up to this campaign, we launched a reminder email another week later based on users' email behavior. I personalized the message slightly for three states: Open Only, Click Only and Clicked and Applied. As you may have guessed, the Click Only registered more interest and conversion than Open Only.</p>
+
+            
+
+            <h3 class="section-heading">What I Learned</h3>
+            <p><span class="keywords">Engagement costs nothing.</span></p>
+            <p>Turns out that users are willing to engage even with no incentives. Another equally rewarding learning is the ability to influence user behavior - low propensity yet high engaged users. The only expectation, though, is that you <span class="keywords">follow-up.</span></p>
+            <div class="containter">
+                <div class="pfolio-img">
+                    <img src="img/portfolio/engagement/learning.jpg" class="img-responsive pfolio-img">
+                </div>
+            </div>
+            <p></p>
+            <p>The most rewarding part is the ability to influence members’ behaviour - the ability to convert low propensity yet highly engaged members.</p>
+            <p>This is the <span class="keywords">heart of data-driven design</span> and could not have been done without either the engagement nor the quantitative propensity model. In fact, this approach maximized our reach and acquisition numbers.</p>
+            <p><span class="keywords">engagement.</span></p>
+            <br>
+            <p>Up Next in Data-Driven UX Series:</p>
+            <div class="row">
+               <div class="col-sm-4">
+                    <a href="personalization.html" class="ddus-link">
+                        <div class="footprint-box">
+                            <div class="effect-apollo">
+                                <img src="img/thumbnail/engagement.jpg" class="img-responsive" alt="Engagement">                  
+                                <p><i class="fa fa-plane" aria-hidden="true"></i> User Engagement is a Conversation</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>  
+                <div class="col-sm-4">
+                    <a href="gamification.html" class="ddus-link">
+                        <div class="footprint-box">
+                            <div class="effect-apollo">
+                                <img src="img/thumbnail/travelgoals.jpg" class="img-responsive" alt="Engagement">                  
+                                <p><i class="fa fa-plane" aria-hidden="true"></i> Gamifying the Travel Game</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>  
+            </div>
+            <hr class="primary">
+        </div>
+
     
     <!--END CONTENT-->
    

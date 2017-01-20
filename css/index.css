@@ -145,6 +145,27 @@ aside {
     background-color: transparent
 }
 
+.img-responsive {
+    margin: 0 auto;
+    border: none;
+    
+}
+
+.bg-white .row {
+    margin: 10px;
+}
+#portfolio {
+    margin-bottom: 50px;
+    padding: 20px;
+}
+
+.resp-hardcode {
+    width: 300px;
+}
+
+
+
+
 @media (min-width:768px) {
     .navbar-default {
         background-color: transparent;
@@ -268,12 +289,7 @@ header .header-content .header-content-inner p {
     margin-bottom: 0
 }
 
-.portfolio-box {
-    position: relative;
-    display: block;
-    max-width: 650px;
-    margin: 0 auto
-}
+
 
 .portfolio-box .portfolio-box-caption {
     color: #fff;
@@ -287,6 +303,7 @@ header .header-content .header-content-inner p {
     height: 100%;
     transition: all .35s
 }
+
 
 .btn-default.active,
 .btn-default:active,
@@ -477,12 +494,4 @@ img::-moz-selection {
 }
 
 
-#portfolio {
-    margin-bottom: 50px;
-    padding: 20px;
-}
-
-.resp-hardcode {
-    padding-bottom: 20px;
-}
 
