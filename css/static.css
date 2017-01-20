@@ -48,6 +48,7 @@ a {
     color: #00a0a6;
     font-size: 20px !important;
     font-weight: bold;
+<<<<<<< HEAD
 }
 .ddus-link:hover {
     color: #000000 !important;
@@ -55,8 +56,31 @@ a {
 .caption-img {
     position: relative;
     cursor: pointer;
+=======
+>>>>>>> 2258d90f54cf156dfa15ff66e90df3132aab40c5
 }
 
+.caption-img {
+    position: relative;
+    cursor: pointer;
+}
+
+
+.caption-circle {
+    text-align: left;
+    margin: 0 auto;
+    font-size: 16px;
+    padding: 0px 20px;
+    color: #000;
+}
+.cd-timeline-img.fa-light{
+    background-color: #ffffff !important;
+    
+}
+
+.cd-timeline-img.fa-light i {
+    color: #00a0a6 !important;
+}
 
 .caption-circle {
     text-align: left;
