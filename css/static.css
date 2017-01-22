@@ -481,7 +481,7 @@ a {
     -o-background-size: cover;
     background-position: center;
     background-image: url(../img/portfolio/travelblog/hero-bg.jpg);
-    background-attachment: fixed;
+    
     color: #fafafa;   
     height: 400px;
 }
