@@ -3,6 +3,7 @@
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
+@import url ('https://fonts.googleapis.com/css?family=Lato|Montserrat');
 
  .navbar-default,
 a {
@@ -24,7 +25,7 @@ html {
 }
 
 body {
-    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-family: 'Lato', 'Helvetica Neue', Arial, sans-serif;
     webkit-tap-highlight-color: #222
 }
 
@@ -37,7 +38,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Helvetica Neue', Arial, sans-serif
+    font-family: 'Montserrat', 'Helvetica Neue', Arial, sans-serif
 }
 
 
@@ -309,7 +310,7 @@ header .header-content .header-content-inner p {
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
-    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    font-family: 'Montserrat', 'Helvetica Neue', Arial, sans-serif;
     padding: 0 15px
 }
 

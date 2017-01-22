@@ -278,6 +278,7 @@ a {
 
 
 
+
 .blurb {
     font-size: 16px;
 }
@@ -446,11 +447,31 @@ a {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    background-position: fixed;
+    background-position: center;
     background-image: url(../img/hero-about-resized.jpg);
     color: #fafafa;
+    position: relative;
     width: 100%;
-    min-height: 800px;
+    height: 620px;
+}
+.container.nutshell {
+    padding-top: 50px;
+    height: 620px;
+    width: 100%;
+    margin: auto;
+    position: absolute;
+    padding-bottom: 20px;
+    text-shadow: 2px 2px #000000;
+    font-size: 3em;
+    line-height: 140%;
+    width: 100%;
+    display: block;
+    top: 50%;
+    bottom: 0;
+    text-align: center;
+}
+.container.nutshell h1, h2, h3, h4, h5, h6, p {
+    padding-bottom: 20px;
 }
 
 .travelblog-hero {
@@ -508,7 +529,7 @@ a {
     text-transform: uppercase;
     font-size: 12px;
     font-weight: bold;
-    padding: 10px 20px;  
+    padding: 10px 20px; 
     display: none;
 }
 
@@ -522,11 +543,7 @@ a {
     color: white;
 }
 
-.container.nutshell {
-    padding-top: 200px;
-    margin: auto;
-    padding-bottom: 20px;
-}
+
 
 @media (max-width:768px) {
     .hero-title h1 {

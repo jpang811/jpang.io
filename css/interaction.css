@@ -1,3 +1,5 @@
+@import url ('https://fonts.googleapis.com/css?family=Lato|Montserrat');
+
 /*thumbnail animation*/
 
 /*for index.html*/
@@ -51,7 +53,7 @@
     padding: 2em; 
     color: #fff;
     text-transform: uppercase;
-    font-family: 'Roboto';
+    font-family: 'Lato';
     font-size: 1.25em;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
@@ -96,7 +98,7 @@
 }
 
 .footprint-caption p {
-    font-family: 'Roboto' !important;
+    font-family: 'Lato' !important;
     position: absolute;
     margin: 0 auto;
     max-width: 150px;
