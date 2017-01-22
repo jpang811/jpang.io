@@ -419,6 +419,13 @@ a {
     .pfolio-img {
         max-width: 100% !important;
     }
+    .adjust {
+        max-width: 100%;
+    }
+
+    .adjst2 {
+        max-width: 100%;
+    }
     
 }
 
