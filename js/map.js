@@ -1,5 +1,5 @@
 var locations = [
-      ['#Boston is where the great minds develop', 42.349626, -71.099536],
+      ['#Boston is where great minds develop', 42.349626, -71.099536],
       ['#HongKong is home', 22.282357, 114.157807],
       ['#London History, architecture, beauty', 51.507911, -0.087749],
       ['#Hanoi Basked in the glory of street foods and beauty of Halong Bay ', 21.032089, 105.847452],
@@ -24,14 +24,14 @@ var locations = [
       ['#Shanghai In its newfound Oriental city vibes', 31.216502, 121.475263],
       ['#Okinawa Sun, beach and friendly locals', 26.352177, 127.808602],
       ['#Oahu My favourite place in the world', 19.568144, -155.618030],
-      ['#Cairo Young and fascinated by the mummies and desert', -34.021378, 18.733411],
+      ['#Cairo Young and fascinated by the mummies and desert', 30.047003, 31.235461],
       ['#IguazuFalls Bordering Brazil and Argentina', -25.690500, -54.440911],
       ['#MachuPicchu Up in the mountains of Inca ruins and my first altitude sickness']
   ];
 
 var map = new google.maps.Map(document.getElementById('map'), {
       zoom: 3,
-      center: new google.maps.LatLng(22.282357, 114.157807),
+      center: new google.maps.LatLng(30.152604, 157.434575),
       mapTypeId: google.maps.MapTypeId.ROADMAP,
       styles: [
          {
