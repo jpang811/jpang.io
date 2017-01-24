@@ -149,6 +149,7 @@ a {
    height: auto;
 }
 
+
 .personalization {
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -262,7 +263,7 @@ a {
     position: absolute;
     left: 0;
     right: 0;
-    top: 15%;
+    top: 5%;
     margin: 0 auto;
     max-width: 900px;
     color: #fff;
@@ -405,6 +406,11 @@ a {
 
 .adjust2 {
     max-width: 70%;
+    margin: 0 auto;
+}
+
+.adjust-mini{
+    max-width: 35%;
     margin: 0 auto;
 }
 
