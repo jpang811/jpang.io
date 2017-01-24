@@ -48,18 +48,11 @@ a {
     color: #00a0a6;
     font-size: 20px !important;
     font-weight: bold;
-<<<<<<< HEAD
+
 }
 .ddus-link:hover {
     color: #000000 !important;
 }
-.caption-img {
-    position: relative;
-    cursor: pointer;
-=======
->>>>>>> 2258d90f54cf156dfa15ff66e90df3132aab40c5
-}
-
 .caption-img {
     position: relative;
     cursor: pointer;
