@@ -23,7 +23,7 @@ var locations = [
       ['#Taipei All-time favourite', 25.041866, 121.546514],
       ['#Shanghai In its newfound Oriental city vibes', 31.216502, 121.475263],
       ['#Okinawa Sun, beach and friendly locals', 26.352177, 127.808602],
-      ['#Oahu My favourite place in the world', 19.568144, -155.618030],
+      ['#Hawaii My favourite place in the world', 19.568144, -155.618030],
       ['#Cairo Young and fascinated by the mummies and desert', 30.047003, 31.235461],
       ['#IguazuFalls Bordering Brazil and Argentina', -25.690500, -54.440911],
       ['#MachuPicchu Up in the mountains of Inca ruins and my first altitude sickness']
