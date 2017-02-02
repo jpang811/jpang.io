@@ -11,6 +11,10 @@ a {
     background-color: #fafafa;
     padding: 60px 40px !important;
 }
+
+.jumbotron.sdhk-quote {
+    background-color: #1b1448;
+}
 .jpang {
     font-family: 'jpang', 'Lato', Arial, sans-serif !important;
     font-size: 28px !important;
@@ -220,7 +224,7 @@ a {
     background-image: url(../img/portfolio/sdhk/sdhk-hero.jpg);
     color: #fff;
     width: 100%;
-    height: 350px;
+    height: 380px;
 
 }
 
