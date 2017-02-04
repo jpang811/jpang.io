@@ -24,8 +24,32 @@ a {
 }
 .container-condensed {
     max-width: 1000px;
+}
+
+.travel-container {
+    background-color: #0f0f0e; 
+    padding: 60px 100px;
+    font-family: 'Lato';
+
+}
+
+.travel-img{
     
 }
+
+.travel-img-img {
+    position: relative;
+    overflow: hidden;
+}
+
+.travel-img-caption {
+    color: #959595;\
+    /*
+    background-color: rgba(0,0,0,0.8);
+    padding: 5px 10px;
+    */
+}
+
 
 .container {
     margin-top: 20px;
