@@ -1,10 +1,10 @@
 var locations = [
-      ['#Boston is where great minds develop', 42.349626, -71.099536],
+      ['#Boston is where great minds develop ;)', 42.349626, -71.099536],
       ['#HongKong is home', 22.282357, 114.157807],
       ['#London History, architecture, beauty', 51.507911, -0.087749],
       ['#Hanoi Basked in the glory of street foods and beauty of Halong Bay ', 21.032089, 105.847452],
-      ['#Bangkok', 13.744752, 100.535061],
-      ['#Seoul', 37.554551, 126.970670],
+      ['#Bangkok Tropics and spa indulgences', 13.744752, 100.535061],
+      ['#Seoul Fried chicken, beer and shopping sprees', 37.554551, 126.970670],
       ['#Tokyo Business trip by day and exploration by night at Roppongi and Shibuya', 35.662743, 139.731206],
       ['#Cancun The classic college spring break', 21.201767, -86.805240],
       ['#KualaLumpur Infinity pool of city views and the hipster Melaka', 3.158024, 101.711578],
@@ -12,9 +12,9 @@ var locations = [
       ['#Toronto jpang was born here!', 43.739708, -79.413454],
       ['#SiemReap Temple run at the infamous Angkor Wat', 13.412480, 103.867007],
       ['#Kolkata Two-week hotel internship at ITC Sonar Hotel', 22.544288, 88.398072],
-      ['#Reykjavik Blue Lagoon Spa in the snow', 64.133663, -21.865861],
+      ['#Reykjavik Hearty lamb soup, geysirs and outdoor geothermal spa in the snow', 64.133663, -21.865861],
       ['#SanFrancisco Pursuing innovation at the Valley', 37.422042, -122.084058],
-      ['#Singapore', 1.287815, 103.866587],
+      ['#Singapore Hong Kong\'s distant cousin', 1.287815, 103.866587],
       ['#LasVegas The untold tales', 36.117905, -115.172966],
       ['#Arizona Drove through beautiful landscapes and Antelope Canyon', 36.862179, -111.374352],
       ['#Florida Where dreams come true and fun rides go', 28.385242, -81.563842],
@@ -31,7 +31,7 @@ var locations = [
 
 var map = new google.maps.Map(document.getElementById('map'), {
       zoom: 3,
-      center: new google.maps.LatLng(30.152604, 157.434575),
+      center: new google.maps.LatLng(26.630547, 128.145678),
       mapTypeId: google.maps.MapTypeId.ROADMAP,
       styles: [
          {
