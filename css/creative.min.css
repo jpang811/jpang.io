@@ -81,6 +81,16 @@ p {
     background-color: #222;
     color: #fff
 }
+.bg-footer {
+    background-color: #222;
+    color: #fff;
+    height: 100px;
+    position: relative;
+}
+
+.copyright {
+    position: absolute;
+}
 
 .text-faded {
     color: rgba(255, 255, 255, .7)

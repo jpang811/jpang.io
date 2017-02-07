@@ -14,6 +14,7 @@
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
 
     <!-- Custom Fonts -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -113,35 +114,81 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     
     
     <!--CONTENT-->
-        <div class="container">
-            <h3 class="section-heading text-center">jpang's Travels - Coming Soon!</h3>
-            <br>
-            <div class="row pfolio-row">
-                <div class="col-md-4">
-                    
+        <div class="travel-container">
+            <h4 style="text-align: center; color: #ffffff;">More travel stories to come!</h4>
+            <div class="w3-content w3-display-container">
+                <a class="w3-btn-floating w3-hover-dark-grey w3-display-left" onclick="plusDivs(-1)">&#10094;</a>
+                <a class="w3-btn-floating w3-hover-dark-grey w3-display-right" onclick="plusDivs(1)">&#10095;</a>
+
+                <div class="w3-display-container mySlides">
+                  <img src="img/travel/iceland.jpg" class="img-responsive travel-img" style="width:100%">
+                  <div class="w3-display-bottomleft w3-large w3-container w3-padding-16">
+                      <span class="travel-img-caption">Geysir gazing #Reykjavik</span>
+                  </div>
                 </div>
-                <div class="col-md-4">
-                    
+                <div class="w3-display-container mySlides">
+                  <img src="img/travel/angkor.jpg" class="img-responsive travel-img" style="width:100%">
+                  <div class="w3-display-bottomleft w3-large w3-container w3-padding-16">
+                    <span class="travel-img-caption">Sunrise at Angkor Wat #SiemReap</span>
+                  </div>
                 </div>
-                <div class="col-md-4">
-                    
+
+            
+
+                 <div class="w3-display-container mySlides">
+                  <img src="img/travel/lacma.jpg" class="img-responsive travel-img" style="width:100%">
+                  <div class="w3-display-bottomleft w3-large w3-container w3-padding-16">
+                    <span class="travel-img-caption">Lacma Night Lights #LosAngeles</span>
+                  </div>
                 </div>
+
+
+                <div class="w3-display-container mySlides">
+                  <img src="img/travel/london.jpg" class="img-responsive travel-img" style="width:100%">
+                  <div class="w3-display-bottomleft w3-large w3-container w3-padding-16">
+                    <span class="travel-img-caption">The Wallace Collection #London</span>
+                  </div>
+                  
+
+                  
+                
+
+            </div>
+                </div>
+<!--
+            <div class="row">
+                <div class="col-md-6 travel-img-img">
+                   <img src="img/travel/iceland.jpg" class="img-responsive travel-img"> 
+                   <div class="travel-img-caption">
+                    <h5>Geysirs in Iceland, Reykvaik</h5>
+                   </div>
+                </div>
+                <div class="col-md-6 travel-img-img">
+                   <img src="img/travel/lacma.jpg" class="img-responsive travel-img" style="overflow: hidden; height: auto;"> 
+                   <div class="travel-img-caption">
+                    <h5>Lacma Night Lights, Los Angeles</h5>
+                   </div>
+                </div>                
             </div>
 
-             <div class="row pfolio-row">
-                <div class="col-md-4">
-                    
+            <div class="row">
+                <div class="col-md-5 travel-img-img">
+                   <img src="img/travel/london.jpg" class="img-responsive travel-img"> 
+                   <div class="travel-img-caption">
+                    <h5>The Wallace Collection, London</h5>
+                   </div>
                 </div>
-                <div class="col-md-4">
-                    
+                <div class="col-md-7 travel-img-img">
+                   <img src="img/travel/angkor.jpg" class="img-responsive travel-img" > 
+                   <div class="travel-img-caption">
+                    <h5>Angkor Wat, Siem Reap</h5>
+                   </div>
                 </div>
-            
-                <div class="col-md-4">
-                    
-                </div>
+                
             </div>
+        -->
         </div>
-    
+
     <!--END CONTENT-->
    
 
@@ -164,6 +211,26 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     <!-- Theme JavaScript -->
     <script src="js/creative.min.js"></script>
+
+    <script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
 
 </body>
 

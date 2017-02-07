@@ -518,6 +518,7 @@ a {
     
 }
 
+
 .hero-about .col-lg-4 {
    margin-bottom: 60px;
 }
@@ -535,7 +536,6 @@ a {
 }
 .container.nutshell {
     padding-top: 50px;
-    height: 620px;
     width: 100%;
     margin: auto;
     position: absolute;
@@ -545,7 +545,7 @@ a {
     line-height: 140%;
     width: 100%;
     display: block;
-    top: 50%;
+    top: 20%;
     bottom: 0;
     text-align: center;
 }

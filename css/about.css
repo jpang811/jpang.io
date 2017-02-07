@@ -10,9 +10,25 @@
   color: #fff;
   padding: 5px 20px;
 }
+
 #timeline {
   background-color:#002527;
 }
+
+.timeline-intro {
+  margin: 0 auto;
+  padding: 90px 20px;
+  width: 50%;
+  text-align: center;
+  color: #ebebeb;
+}
+
+.timeline-intro h4 {
+  font-family: 'Lato', Arial, sans-serif !important;
+  
+  line-height: 1.4em;
+}
+
 .cd-container {
   /* this class is used to give a max-width to the element it is applied to, and center it horizontally when it reaches that max-width */
   margin: 0 auto;
