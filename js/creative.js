@@ -35,15 +35,14 @@
         scale: 0.3,
         distance: '0px'
     }, 200);
-    sr.reveal('.sr-button', {
+    
+    sr.reveal('.sr-box', {
         duration: 1000,
-        delay: 200
-    });
-    sr.reveal('.sr-contact', {
-        duration: 600,
-        scale: 0.3,
-        distance: '0px'
-    }, 300);
+        scale: 0
+    }, 90);
+
+   
+ 
 
     // Initialize and Configure Magnific Popup Lightbox Plugin
     $('.popup-gallery').magnificPopup({
