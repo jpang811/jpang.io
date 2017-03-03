@@ -1,0 +1,22 @@
+.filtr-item {
+    padding: 1rem;
+}
+
+/* Filter controls */
+.multifilter li{
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 1rem 2rem;
+}
+.multifilter li {
+    background-color: #ededed;
+    margin: 0px 5px;
+    color: #000;
+    border-radius: 20px;
+}
+.multifilter li.active {
+    background-color: #00a0a6;
+    color: #fff;
+}
