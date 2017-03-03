@@ -3,6 +3,9 @@
 }
 
 /* Filter controls */
+.multifilter {
+    padding: 0px;
+}
 .multifilter li{
     color: white;
     cursor: pointer;
@@ -12,11 +15,17 @@
 }
 .multifilter li {
     background-color: #ededed;
-    margin: 0px 5px;
+    margin: 5px 2px;
     color: #000;
     border-radius: 20px;
 }
 .multifilter li.active {
     background-color: #00a0a6;
     color: #fff;
+}
+
+@media only screen and (max-width: 768px) {
+    .multifilter {
+        font-size: 11px;
+    }
 }
