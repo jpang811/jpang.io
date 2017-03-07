@@ -306,17 +306,18 @@ a {
 }
 
 .gsjam-hellobox {
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size:  cover;
+   /* The image used */
+    background-image: url("../img/portfolio/servicejam/helloboxx.jpg");
+
+    /* Set a specific height */
+    height: 400px; 
+
+    /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
-    background-image: url(../img/portfolio/servicejam/helloboxx.jpg);
     background-repeat: no-repeat;
-    color: #fff;
-    width: 100%;
-    height: 400px;
+    background-size: cover;
+}
 }
 .hacktrain {
     -webkit-background-size: cover;
