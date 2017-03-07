@@ -304,7 +304,10 @@ a {
     width: 100%;
     height: 400px;
 }
-
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+}
 .gsjam-hellobox {
    /* The image used */
     background-image: url("../img/portfolio/servicejam/helloboxx.jpg");
@@ -317,7 +320,6 @@ a {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
 }
 .hacktrain {
     -webkit-background-size: cover;
