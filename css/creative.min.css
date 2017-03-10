@@ -46,7 +46,8 @@ hr {
     border-color: #00ced6;
     border-width: 3px;
     border-radius: 2px;
-    max-width: 30px
+    max-width: 30px;
+    margin: 0 auto;
 }
 
 hr.light {

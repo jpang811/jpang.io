@@ -8,19 +8,41 @@ a {
     src: url(fonts/jpang-font.ttf) format("truetype");
 } 
 .jumbotron.jpang {
-    background-color: #fafafa;
+    color: #00a0a6;
+    background-color: #ffffff;
+    font-family: 'Times New Roman', serif;
     padding: 60px 40px !important;
 }
 
 .jumbotron.sdhk-quote {
     background-color: #1b1448;
 }
-.jpang {
-    font-family: 'jpang', 'Lato', Arial, sans-serif !important;
-    font-size: 28px !important;
-    padding: 0px 10px;
-    color: #00a0a6;
-    line-height: 100%;
+
+.benefit-box {
+    background-color: #fafafa;
+    border-radius: 10px 10px 0px 0px;
+    padding-bottom: 90px;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    
+}
+.benefit-box p {
+    padding: 0px 20px;
+}
+.benefit-orange {
+    background-color: #f68c1d;
+    border-radius: 10px 10px 0px 0px;
+    height: 50px;
+    margin: 0;
+    padding-top: 0px;
+    margin-bottom: 40px;
+    color: #fff;
+}
+
+.benefit-orange p {
+    font-size: 20px;
+    padding-top: 10px;
+
 }
 .container-condensed {
     max-width: 1000px;
@@ -33,9 +55,7 @@ a {
 
 }
 
-.travel-img{
-    
-}
+
 
 .travel-img-img {
     position: relative;
@@ -302,7 +322,7 @@ a {
     background-position: center;
     background-image: url(../img/portfolio/typography/hero.jpg);
     width: 100%;
-    height: 400px;
+    height: 380px;
 }
 .parallax-window {
     min-height: 400px;
