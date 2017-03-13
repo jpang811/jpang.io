@@ -40,7 +40,8 @@
     sr.reveal('.sr-box', {
         duration: 1000,
         scale: 0,
-        mobile: true
+        mobile: true,
+        useDelay: 'once',
     }, 100);
 
    
