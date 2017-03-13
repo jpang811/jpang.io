@@ -41,10 +41,8 @@
         duration: 1000,
         scale: 0,
         mobile: true,
-        useDelay: 'once',
         viewFactor: 0.5
-    }, 200);
-
+    }, 100);
 
     // Initialize and Configure Magnific Popup Lightbox Plugin
     $('.popup-gallery').magnificPopup({
