@@ -41,7 +41,6 @@
         duration: 1000,
         scale: 0,
         mobile: true,
-        viewFactor: 0.5
     }, 100);
 
     // Initialize and Configure Magnific Popup Lightbox Plugin
