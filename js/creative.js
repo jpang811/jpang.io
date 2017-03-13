@@ -33,13 +33,15 @@
     sr.reveal('.sr-icons', {
         duration: 600,
         scale: 0.3,
-        distance: '0px'
+        distance: '0px',
+        mobile: true
     }, 200);
     
     sr.reveal('.sr-box', {
         duration: 1000,
-        scale: 0
-    }, 90);
+        scale: 0,
+        mobile: true
+    }, 100);
 
    
  
