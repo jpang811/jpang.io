@@ -43,7 +43,7 @@
         mobile: true,
         useDelay: 'once',
         viewFactor: 0.5
-    }, 100);
+    }, 200);
 
 
     // Initialize and Configure Magnific Popup Lightbox Plugin
