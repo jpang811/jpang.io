@@ -14,7 +14,9 @@
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
 
+   
     <!-- Custom Fonts -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
@@ -44,10 +46,19 @@
     
     <!-- Plugin CSS -->
     <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+    <!--
+    <link href="vendor/livefilter/jquery-2.1.4.min.js" rel="stylesheet">
+    <link href="vendor/livefilter/livefilter.min.js" rel="stylesheet">
+    <link href="vendor/livefilter/filterlist.min.js" rel="stylesheet">
+    <link href="vendor/livefilter/tabcomplete.min.js" rel="stylesheet">
+    <link href="vendor/livefilter/bootstrap-select.min.js" rel="stylesheet">
+    <link href="vendor/livefilter/plugins.js" rel="stylesheet">
+    -->
 
     <!-- Theme CSS -->
     <link href="css/creative.min.css" rel="stylesheet">
     <link href="css/static.css" rel="stylesheet">
+    <link href="css/filter.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -57,13 +68,7 @@
     <![endif]-->
 
     
-    <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-56ZG4FN');</script>
-    <!-- End Google Tag Manager -->
+   
     
 </head>
 
@@ -106,42 +111,65 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <!-- /.container-fluid -->
     </nav>
 
+    <div class="hero">
+
+        <h2>Hello there</h2>
+        <div class="btn-group dropdown">
+            <button class="btn btn-default dropdown-toggle" type="button" id="travelmood-dd" data-toggle="dropdown">
+                What are you in the mood for?
+                <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="travelmood-dd" style="width: 100%;">
+                <li><a href="#">Just For Fun</a></li>
+                <li><a href="#">Nostalgic</a></li>
+                <li><a href="#">Quirky</a></li>
+                <li><a href="#">Artsy</a></li>
+            </ul>
+        </div>
+
     
+    </div>
     <!--TRAVEL MAP-->
     <div id="map"></div>
     <!--END TRAVEL MAP-->
     
     
     <!--CONTENT-->
-        <div class="container">
-            <h3 class="section-heading text-center">jpang's Travels - Coming Soon!</h3>
-            <br>
-            <div class="row pfolio-row">
-                <div class="col-md-4">
-                    
+        
+<!--
+            <div class="row">
+                <div class="col-md-6 travel-img-img">
+                   <img src="img/travel/iceland.jpg" class="img-responsive travel-img"> 
+                   <div class="travel-img-caption">
+                    <h5>Geysirs in Iceland, Reykvaik</h5>
+                   </div>
                 </div>
-                <div class="col-md-4">
-                    
-                </div>
-                <div class="col-md-4">
-                    
-                </div>
+                <div class="col-md-6 travel-img-img">
+                   <img src="img/travel/lacma.jpg" class="img-responsive travel-img" style="overflow: hidden; height: auto;"> 
+                   <div class="travel-img-caption">
+                    <h5>Lacma Night Lights, Los Angeles</h5>
+                   </div>
+                </div>                
             </div>
 
-             <div class="row pfolio-row">
-                <div class="col-md-4">
-                    
+            <div class="row">
+                <div class="col-md-5 travel-img-img">
+                   <img src="img/travel/london.jpg" class="img-responsive travel-img"> 
+                   <div class="travel-img-caption">
+                    <h5>The Wallace Collection, London</h5>
+                   </div>
                 </div>
-                <div class="col-md-4">
-                    
+                <div class="col-md-7 travel-img-img">
+                   <img src="img/travel/angkor.jpg" class="img-responsive travel-img" > 
+                   <div class="travel-img-caption">
+                    <h5>Angkor Wat, Siem Reap</h5>
+                   </div>
                 </div>
-            
-                <div class="col-md-4">
-                    
-                </div>
+                
             </div>
+        -->
         </div>
-    
+
     <!--END CONTENT-->
    
 
@@ -165,8 +193,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- Theme JavaScript -->
     <script src="js/creative.min.js"></script>
 
+    <script>
+
+</script>
+
 </body>
 
 </html>
-
-
