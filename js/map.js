@@ -29,7 +29,7 @@ var locations = [
       ['#MachuPicchu Up in the mountains of Inca ruins and my first altitude sickness']
   ];
 
-var map = new google.maps.Map(document.getElementById('map'), {
+var map = new google.maps.Map(document.getElementById('map-test'), {
       zoom: 3,
       center: new google.maps.LatLng(26.630547, 128.145678),
       mapTypeId: google.maps.MapTypeId.ROADMAP,

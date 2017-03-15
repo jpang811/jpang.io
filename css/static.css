@@ -399,6 +399,12 @@ a {
     background-color: grey;
 }
 
+#map-test {
+    width: 100%;
+    min-height: 500px;
+    margin-top: 50px;
+    background-color: grey;
+}
 
 .contact {
     margin-top: 50px;
