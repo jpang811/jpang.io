@@ -50,10 +50,18 @@ a {
 }
 
 .travel-container {
-    background-color: #0f0f0e; 
-    padding: 60px 0px;
+    background-color: #0F0F0E;
+    position: relative;
+    text-align: center;
+    padding: 60px 100px;
     font-family: 'Lato';
+}
 
+.travel-container.blurb {
+    position: absolute;
+    text-align: left;
+    font-size: 18px;
+    max-width: 600px;
 }
 
 
@@ -301,6 +309,19 @@ a {
     color: #fff;
     width: 100%;
     height: 380px;
+}
+
+.hackhorizon {
+     -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size:  cover;
+    background-position: center;
+    background-image: url(../img/portfolio/hackhorizon/bg.jpg);
+    color: #fff;
+    width: 100%;
+    height: 320px;
+
 }
 
 .gsjam {
