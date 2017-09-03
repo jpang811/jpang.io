@@ -91,6 +91,12 @@ a {
     font-style: italic;
     display:  block;
 }
+.remarks-i a {
+    color:#b3b3b3 !important;
+}
+.remarks-i a:hover {
+    color:#eb3812!important;
+}
 .emphasis-i {
     font-family: 'Open Sans', Arial, sans-serif;
     font-size: 18px;
@@ -420,6 +426,13 @@ a {
 .mtrapp-logo {
     width: 300px;
     height: auto; 
+    margin: 0 auto;
+}
+
+.kollabo-logo {
+    width: 500px;
+    padding-top: 50px;
+    height: 100%; 
     margin: 0 auto;
 }
 
