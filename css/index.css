@@ -54,12 +54,12 @@ hr.light {
 
 a {
     transition: all .35s;
-    color: #00a0a6
+    color: #fff;
 }
 
 a:focus,
 a:hover {
-    color: #eb3812
+    color: #00a0a6;
 }
 
 p {
@@ -69,6 +69,10 @@ p {
     margin-bottom: 20px
 }
 
+#contact {
+    background-color: #001919;
+    color: #fff;
+}
 .bg-primary {
     background-color: #00a0a6;
 }
