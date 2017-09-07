@@ -1,0 +1,834 @@
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: jpang;
+    src: url(fonts/jpang-font.ttf) format("truetype");
+} 
+.jumbotron.jpang {
+    color: #00a0a6;
+    background-color: #ffffff;
+    font-family: 'Times New Roman', serif;
+    padding: 60px 40px !important;
+}
+
+.jumbotron.sdhk-quote {
+    background-color: #1b1448;
+}
+
+.quote {
+    color: #666;
+    max-width: 600px;
+    font-family: Times, serif;
+    font-size: 25px;
+    margin: 0 auto;
+    border: none;
+    padding-bottom: 30px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.benefit-box {
+    background-color: #fafafa;
+    border-radius: 10px 10px 0px 0px;
+    padding-bottom: 90px;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    margin-bottom: 20px;
+    
+}
+.benefit-box p {
+    padding: 0px 20px;
+}
+.benefit-orange {
+    background-color: #f68c1d;
+    border-radius: 10px 10px 0px 0px;
+    height: 50px;
+    margin: 0;
+    padding-top: 0px;
+    margin-bottom: 40px;
+    color: #fff;
+}
+
+.benefit-orange p {
+    font-size: 20px;
+    padding-top: 10px;
+
+}
+.container-condensed {
+    max-width: 600px;
+}
+
+.travel-container {
+    background-color: #0F0F0E;
+    position: relative;
+    text-align: center;
+    padding: 60px 100px;
+    font-family: 'Lato';
+}
+
+.travel-container.blurb {
+    position: absolute;
+    text-align: left;
+    font-size: 18px;
+    max-width: 600px;
+}
+
+
+
+.travel-img-img {
+    position: relative;
+    overflow: hidden;
+}
+
+.travel-img-caption {
+    color: #959595;\
+    /*
+    background-color: rgba(0,0,0,0.8);
+    padding: 5px 10px;
+    */
+}
+
+
+.container {
+    margin-top: 20px;
+    /* text-align:  left; */
+}
+.remarks-i{
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 15px;
+    color: #b3b3b3;
+    font-style: italic;
+    display:  block;
+}
+.remarks-i a {
+    color:#b3b3b3 !important;
+}
+.remarks-i a:hover {
+    color:#eb3812!important;
+}
+.emphasis-i {
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 18px;
+    color: #535454;
+    line-height: 120%;
+    font-style: italic;
+    padding-left: 10px;
+}
+.keywords {
+    background-color: #FFFBCC;
+}
+
+.jumbotron p {
+    font-size: 18px;
+    font-weight: normal;
+}
+.heading {
+    font-size: 50px;
+}
+.section-heading {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+.section-title {
+    padding-top: 10px;
+    color: #00a0a6;
+    font-size: 20px !important;
+    font-weight: bold;
+
+}
+.howto {
+    background-color: #a60600;
+    border-radius: 4px;
+    padding: 2px 6px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.howto:hover {
+    color: #000000 !important;
+}
+
+.ddus-link:hover {
+    color: #000000 !important;
+}
+
+.ddus {
+    background-color: #00a0a6;
+    border-radius: 4px;
+    padding: 2px 6px;
+    color: #ffffff;
+    font-weight: bold;
+}
+.learn {
+    background-color: #FF8800;
+    border-radius: 4px;
+    padding: 2px 6px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.hackathon {
+    background-color: #f4c811;
+    border-radius: 4px;
+    padding: 2px 6px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.nostalgic {
+    background-color: #00a0a6;
+    border-radius: 4px;
+    padding: 2px 6px;
+    color: #ffffff;
+    font-family: 'Lato';
+}
+
+.soon {
+    background-color: #00a0a6;
+    border-radius: 4px;
+    padding: 2px 6px;
+    color: #ffffff;
+    font-weight: bold;
+}
+.caption-img {
+    position: relative;
+    
+}
+
+
+.caption-circle {
+    text-align: left;
+    margin: 0 auto;
+    font-size: 16px;
+    padding: 0px 20px;
+    color: #000;
+}
+.cd-timeline-img.fa-light{
+    background-color: #ffffff !important;
+    
+}
+
+.cd-timeline-img.fa-light i {
+    color: #00a0a6 !important;
+}
+
+.caption-circle {
+    text-align: left;
+    margin: 0 auto;
+    font-size: 16px;
+    padding: 0px 20px;
+    color: #000;
+}
+.cd-timeline-img.fa-light{
+    background-color: #ffffff !important;
+    
+}
+
+.cd-timeline-img.fa-light i {
+    color: #00a0a6 !important;
+}
+
+
+
+.hero-heading-turq{
+    color: #00a0a6;
+}
+
+.hero-heading-white{
+    color: #fff;
+    font-weight: bold;
+    padding-top:  0px;
+}
+
+.word-bg-turq {
+    background: #00a0a6 ;
+    font-weight: bold;
+    opacity: 0.9;
+    
+    padding: 5px 10px;
+}
+.darkbg {
+    background-color: #011919;
+    color: #fff;
+    padding: 2px 6px;
+    display: inline;
+    
+}
+
+.engagement {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size:  cover;
+    background-position: left center;
+    background-image: url(../img/portfolio/engagement/hero.jpg);
+    width: 100%;
+    height: 350px;
+
+}
+
+.hero .engagement {
+    padding-top: 0px;
+}
+.engagement-acqemail {
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    background-size: contain;
+    -o-background-size:  contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../img/portfolio/engagement/acq-email.jpg);
+    width: 100%;
+    min-height: 450px;
+   height: auto;
+}
+
+
+.personalization {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size:  cover;
+    background-position: center;
+    background-image: url(../img/portfolio/personalization/header-hero.jpg);
+    color: #fff;
+    width: auto;
+    height:  350px;
+}
+
+.gamification {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size:  cover;
+    background-position: center;
+    background-image: url(../img/portfolio/gamification/hero.jpeg);
+    color: #fff;
+    width: auto;
+    height:  350px;
+}
+
+
+.sdhk {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size:  cover;
+    background-position: center;
+    background-image: url(../img/portfolio/sdhk/sdhk-hero.jpg);
+    color: #fff;
+    width: 100%;
+    height: 380px;
+}
+.ciid {
+     -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size:  cover;
+    background-position: center;
+    background-image: url(../img/portfolio/ciid/bg.jpg);
+    color: #fff;
+    width: 100%;
+    height: 350px;
+
+}
+.hackhorizon {
+     -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size:  cover;
+    background-position: center;
+    background-image: url(../img/portfolio/hackhorizon/bg.jpg);
+    color: #fff;
+    width: 100%;
+    height: 320px;
+
+}
+
+
+.typography {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size:  cover;
+    background-position: center;
+    background-image: url(../img/portfolio/typography/hero.jpg);
+    width: 100%;
+    height: 380px;
+}
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+}
+.gsjam-hellobox {
+   /* The image used */
+    background-image: url("../img/portfolio/servicejam/helloboxx.jpg");
+
+    /* Set a specific height */
+    height: 400px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*Travel Moment Backgrounds*/
+.southernlights {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size:  cover;
+    background-position: center center;
+    background-image: url(../img/travel/southernlights.jpg);
+    color: #fff;
+    width: 100%;
+    height: 400px;
+}
+
+
+
+.hacktrain-hero-title {
+    padding-top: 180px;
+    color: #fff;
+}
+.blackbg-txt span{
+    background-color: rgba(0, 18, 19, 0.6);
+    padding: 5px 10px;
+}
+/*TRAVEL PAGE*/
+#map {
+    width: 100%;
+    height: 350px;
+    margin-top: 50px;
+    background-color: grey;
+}
+
+#map-test {
+    width: 100%;
+    height: 100%;
+    overflow: hidden !important;
+    margin-top: 50px;
+    position: relative;
+    
+}
+
+#map-se {
+    background-color: #ffffff;
+    width: 150px;
+    
+}
+#inspo {
+    color: #fff;
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    text-align: center;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0,160,166,0.7);
+    /*border: #4c4c4c 1px solid;*/
+    color: #fff;
+    border-radius: 4px;
+    width: 400px;
+    padding: 10px;
+}
+
+#milestone {
+    left: 0;
+    bottom: 0;
+    float: left;
+    z-index: 999;
+    text-align: left;
+    position: absolute;
+    background-color: rgba(0,0,0,0.7);
+    color: #fff;
+    width: 35%;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+/* Travel Dropdown Button */
+.dropbtn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: 'Montserrat', serif;
+    
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+    color: none;
+    background-color: none;
+    border-color: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropup {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    color: #fff;
+    background-color: rgba(0,0,0,0.4);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    width: 100%;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    color: #fff;
+    width: 100%;
+    border: none;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+    border: none;
+    color: #fff;
+}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {
+    display:block;
+}
+/*END TRAVEL STYLING*/
+
+#contact-pg {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    /*background-image: url(../img/contact-resize.jpg);*/
+    background-color: #001919;
+    color: #fff;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.contact a {
+    color: #fff;
+}
+
+.contact {
+    padding: 80px 30px;
+}
+
+
+.blurb {
+    font-size: 16px;
+}
+
+.blurb-link {
+    color: #00a0a6;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.blurb-link:hover {
+    text-decoration: none;
+    color: #00a0a6;
+}
+.blurb-link-white {
+    text-decoration: underline;
+    color: #fff;
+}
+.resume-intro {
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+.navbar-subpages {
+    background-color: #ffffff;
+    margin-bottom: 0px !important;
+    padding-bottom: 0px !important;
+    font-weight: bolder;
+    text-align:center;
+}
+.navbar-fixed-top {
+    margin-bottom: 0px;
+}
+
+.light {
+    margin-top: 0px;
+}
+.blog-format {
+    padding-top: 40px;
+    margin-bottom: 60px;
+}
+
+.hr-dot {
+    border-color: #00a0a6;
+    border-width: 3px;
+    max-width: 30px;
+}
+.hr-blog{
+    max-width: 100% !important;
+    border-color: #a9a9a9 !important;
+    border-width: 3px !important;
+    border-radius: 4px !important;
+
+}
+.hero {
+    margin-top: 30px;
+    padding-top: 50px;
+    display:block;
+    position: relative;
+    width: auto;
+    text-align: center;
+    margin: auto;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center center;
+    height: auto;
+}
+
+.hero.travelguides {
+   padding-bottom: 30px;
+}
+.hero.travelguides .col-md-3 {
+    padding: 10px !important;
+}
+
+
+.hero.travelguides img {
+    box-shadow: 2px 2px 2px #ededed;
+}
+
+#background {
+    margin-top: 50px;
+    height: auto;
+    position: absolute;
+    top:0;
+    left:0;
+    bottom: 50%;
+    height: 100%;
+    width: 100%;
+    height: 480px;
+    z-index: -999;
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+
+.navbar-focused {
+    color: #009FA6 !important;
+}
+
+
+.hero-title {
+    padding-top: 100px;
+    color: #000;
+}
+.hero-title-white {
+    padding-top: 200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #fff;
+}
+
+.img-responsive {
+    width: 100%;
+}
+.pfolio-row {
+    margin: 20px;
+}
+.pfolio-img{
+    padding-bottom: 30px;
+    padding-top: 20px;
+    margin: 0 auto;
+}
+
+.portfolioimg {
+    position: relative;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    max-height: 350px;
+    min-height: 350px;
+    padding: 10px;
+}
+
+.adjust {
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+.adjust2 {
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+.adjust-mini{
+    max-width: 35%;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 768px) {
+    .pfolio-img {
+        max-width: 100% !important;
+    }
+    .adjust {
+        max-width: 100%;
+    }
+
+    .adjst2 {
+        max-width: 100%;
+    }
+    
+}
+
+.blog-img {
+    padding-bottom: 30px;
+}
+.pfolio-thumb {
+    position: relative;
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.pfolio-caption {
+    position: absolute;
+    width: 100%;
+    
+}
+
+
+.hero-about .col-lg-4 {
+   margin-bottom: 60px;
+}
+.hero-about {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    background-image: url(../img/hero-about-resized.jpg);
+    color: #fafafa;
+    position: relative;
+    width: 100%;
+    height: 620px;
+}
+.container.nutshell {
+    padding-top: 50px;
+    width: 100%;
+    margin: auto;
+    position: absolute;
+    padding-bottom: 20px;
+    text-shadow: 2px 2px #000000;
+    font-size: 3em;
+    line-height: 140%;
+    width: 100%;
+    display: block;
+    top: 20%;
+    bottom: 0;
+    text-align: center;
+}
+.container.nutshell h1, h2, h3, h4, h5, h6, p {
+    padding-bottom: 20px;
+}
+
+.travelblog-hero {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    background-image: url(../img/portfolio/travelblog/hero-bg.jpg);
+    width: 100%;
+    color: #fafafa;   
+    height: 400px;
+}
+
+.sidebar {
+    padding: 25px;
+    margin-top: 25px;
+    height: auto;
+    min-height: 350px;
+    background-color: #ededed;
+    text-overflow: ellipsis; 
+    overflow: hidden;
+}
+
+.sidebar p {
+    font-size: 14px;
+}
+
+.sidebar img {
+    width: 100%;
+}
+
+
+.next {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    text-decoration: none;
+    color: white; 
+    background-color: rgb(0, 160, 166);
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px 20px; 
+    display: none;
+}
+
+.prev {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(0, 160, 166);
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 10px 20px; 
+    display: none;
+}
+
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+}
+
+.prev:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+}
+
+
+
+@media (max-width:768px) {
+    .hero-title h1 {
+        font-size: 40px !important;
+        padding: 30px !important;
+    }
+
+    
+}
