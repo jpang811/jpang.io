@@ -34,15 +34,17 @@
         duration: 600,
         scale: 0.3,
         distance: '0px',
-        mobile: true
+        mobile: true,
+        reset: false
     }, 200);
     
     sr.reveal('.sr-box', {
         duration: 1000,
         scale: 0,
         mobile: true,
+        reset: false
     }, 100);
-
+    
     // Initialize and Configure Magnific Popup Lightbox Plugin
     $('.popup-gallery').magnificPopup({
         delegate: 'a',
