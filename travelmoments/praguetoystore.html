@@ -63,9 +63,15 @@
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer','GTM-56ZG4FN');</script>
     <!-- End Google Tag Manager -->
-    <style>
     
-</style>
+    <style>
+    @media only screen and (max-width: 768px) {
+        .prague-vid {
+            padding: 0px 10px;
+        }
+    }
+    </style>
+    
 </head>
 
 <body id="page-top">
@@ -113,6 +119,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="header melbourne parallax-window" data-parallax="scroll" data-image-src="../img/travel/recent/prague.jpg" style="height: 100%; margin-top: -22px;">
     <div class="hero-title-white">
         <h1 style="font-weight: 100; color: #ededed"><i class="fa fa-camera-retro" aria-hidden="true"></i> Prague, Czech Republic</h1>
+        <br>
+    </div>
+    <div class="read-more">
+        <p>Scroll to explore</p><i class="fa fa-caret-down read-arrow" aria-hidden="true"></i>
     </div>
 </div>
         
@@ -162,9 +172,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </div>
    
     
-    <div class="container" style="padding: 0px 40px;">
-        <div class="embed-responsive embed-responsive-16by9" autoplay muted loop>
-            <video class="embed-responsive-item" width="640" height="480" src="../img/travel/recent/prague-3.mp4" autoplay loop></video>
+    <div class="container prague-vid">
+        <div class="embed-responsive embed-responsive-16by9" autoplay muted loop controls>
+            <video class="embed-responsive-item" width="640" height="480" src="../img/travel/recent/prague-3.mp4" autoplay muted loop controls></video>
         </div>
     </div>
 
@@ -173,7 +183,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="row" >
             <div class="col-sm-7 graffiti-div">
                 <div class="embed-responsive embed-responsive-16by9" autoplay muted loop>
-            <video class="embed-responsive-item" width="640" height="480" src="../img/travel/recent/prague-4.mp4" autoplay loop></video>
+            <video class="embed-responsive-item" width="640" height="480" src="../img/travel/recent/prague-4.mp4" autoplay muted loop controls></video>
         </div>
             </div>
 
@@ -215,28 +225,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <script src="../js/creative.js"></script>
 
    
-    <!--Carousel Plugin-->
-    <script>
-
-
-        var slideIndex = 1;
-        showDivs(slideIndex);
-
-        function plusDivs(n) {
-          showDivs(slideIndex += n);
-        }
-
-        function showDivs(n) {
-          var i;
-          var x = document.getElementsByClassName("mySlides");
-          if (n > x.length) {slideIndex = 1}    
-          if (n < 1) {slideIndex = x.length}
-          for (i = 0; i < x.length; i++) {
-             x[i].style.display = "none";  
-          }
-          x[slideIndex-1].style.display = "block";  
-        }
-    </script>
+   
 
 </body>
 

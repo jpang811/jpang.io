@@ -59,7 +59,14 @@ p {
     text-decoration: none;
 }
 
-
+.prague-vid {
+    padding: 0px 40px;
+}
+.read-arrow {
+    font-size: 50px;
+    padding: 0px;
+    margin: 0px;
+}
 
 
 .travel-container {
@@ -385,6 +392,20 @@ p {
    text-align: center;
 }
 
+.read-more {
+    bottom: 10%;
+    left: 0;
+    right: 0;
+    position: absolute;
+    color: #fafafa;
+    margin: 0 auto;
+   text-align: center;
+}
+.read-more p{
+    padding: 0px;
+    margin: 0px;
+    font-weight: 100;
+}
 .hero-title-white {
     top: 50%;
     width: 100%;
