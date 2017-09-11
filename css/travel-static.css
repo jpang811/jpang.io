@@ -1,9 +1,6 @@
 
 
-@font-face {
-    font-family: jpang;
-    src: url(fonts/jpang-font.ttf) format("truetype");
-} 
+ 
 
 body {
     background-color: #fafafa;
@@ -157,7 +154,60 @@ p {
     min-height: 400px;
     background: transparent;
 }
+/*Travel Master Page*/
+.travel-container {
+    background-color: #171717;
+    margin: 0 auto;
+    text-align: center;
+    padding: 60px 100px;
+    font-family: 'Lato';
+    color: #fff;
+}
+.travelgrid-container {
+    margin: 0px;
+    width: 90%;    
+    height: auto;
+    padding: 0px;
+    text-align: center;
+}
+.travelgrid-container div {
+    padding: 5px;
+    margin: 0px;
+}
 
+.travelgrid-container img {
+    padding: 0px;
+}
+.maptest3 {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size:  cover;
+    background-position: center center;
+    background-image: url(../img/travel/bg3.jpg);
+    color: #fff;
+    width: 100%;
+    height: 500px;
+    margin: 0 auto;
+    
+}
+.maptest3 h1 {
+    padding-top: 180px;
+    color: #000;
+    margin: 0 auto;
+    text-align: center;
+    float: center;
+    
+}
+
+.travel-content {
+    max-width: 600px;
+}
+
+.travel-content.col-xs-4.sr-icons {
+    font-size: 30px !important;
+    padding: 10px !important;
+}
 /*Travel Moment Backgrounds*/
 .southernlights {
     -webkit-background-size: cover;
@@ -172,20 +222,20 @@ p {
     position: relative;
 }
 
-/*
-.melbourne {
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size:  cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-image: url(../img/travel/recent/melbourne.jpg);
-    color: #fff;
-    min-height: 100%;
-    position: relative;
+
+
+.container img {
+    padding: 5px;
 }
-*/
+
+.container {
+    width: 100%;
+    padding: 20px;
+}
+
+.container-condensed {
+    max-width: 600px; 
+}
 
 .graffiti {
     margin: 0px;
@@ -199,16 +249,10 @@ p {
     margin: 0px;
 }
 
-.container img {
-    padding: 10px;
-}
-
-.container {
-    padding: 20px;
-}
-
-.container-condensed {
-    max-width: 600px; 
+.btn-primary {
+    color: #fff;
+    background-color: #00a0a6;
+    border-color: #00a0a6;
 }
 
 /*TRAVEL map*/
@@ -226,6 +270,12 @@ p {
     margin-top: 50px;
     position: relative;
     
+}
+
+#map-test3 {
+    width: 100%;
+    height: 350px;
+    overflow: hidden !important;
 }
 
 #map-se {
@@ -325,6 +375,16 @@ p {
     padding-top: 100px;
     color: #000;
 }
+
+.travelhero-title {
+    top: 20%;
+    width: 100%;
+    position: absolute;
+    color: #171717;
+    margin: 0 auto;
+   text-align: center;
+}
+
 .hero-title-white {
     top: 50%;
     width: 100%;
@@ -343,23 +403,13 @@ p {
 .img-responsive {
     width: 100%;
 }
-.pfolio-row {
-    margin: 20px;
-}
-.pfolio-img{
-    padding-bottom: 30px;
-    padding-top: 20px;
-    margin: 0 auto;
-}
 
-.portfolioimg {
-    position: relative;
-    object-fit: cover;
-    height: 100%;
-    width: 100%;
-    max-height: 350px;
-    min-height: 350px;
-    padding: 10px;
+.milestones {
+    list-style: none !important;
+    font-size: 20px;
+    display: block;
+    padding: 0px;
+    margin: 0 auto;
 }
 
 .adjust {
@@ -378,9 +428,7 @@ p {
 }
 
 @media only screen and (max-width: 768px) {
-    .pfolio-img {
-        max-width: 100% !important;
-    }
+    
     .adjust {
         max-width: 100%;
     }

@@ -13,8 +13,8 @@
 
     <!-- Custom Fonts -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
 
     <!--favicon-->
     <link rel="apple-touch-icon" sizes="57x57" href="img/favicons/apple-icon-57x57.png">
@@ -38,7 +38,8 @@
 
      <!-- Theme CSS -->
     <link href="css/creative.min.css" rel="stylesheet">
-    <link href="css/static-test.css" rel="stylesheet">
+    <link href="css/travel-static.css" rel="stylesheet">
+    <link href="css/interaction.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -46,9 +47,26 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <style>
-        .grid {
-            
+     <style>
+        @media screen and (max-width: 600px)  {
+            .travel-container {
+                padding: 40px 10px;
+                text-align: center;
+                }
+
+            .travelgrid-container {
+                margin: 0px;
+                width: 100%;    
+                height: auto;
+                padding: 0px;
+            }
+            .travelgrid-container div {
+                padding: 0px;
+                margin: 0px;
+            }
+            .travelhero-title-white {
+                top: 30%;
+            }
         }
     </style>
    
@@ -89,29 +107,80 @@
     </nav>
     
     <!--HERO-->
-    <div class="hero">
-        <div class="container maptest3">         
-            
-                <h1 style="font-size: 42px;"><i class="fa fa-plane" aria-hidden="true"></i> jpang Travels</h1>
-                
-                <br>
-            
-        </div>
+    <div class="parallax-window" data-parallax="scroll" data-image-src="img/travel/travel-bg.jpg" style="margin-top: 50px; height: 400px;">
+           
     </div>
+    
     <!--END HERO-->
 
     <!--TRAVEL CONTENT-->
-    <div class="container travelcontainer">
-        <div class="travel-content">
-            <h5 class="text-faded">MY RECENT ADVENTURES</h5>
-            <div class="grid" data-masonry='{ "itemSelector": ".grid-item", "columnWidth": 400 }'>
-              <div class="grid-item"><img src="img/travel/pho.jpg" class="img-responsive"></div>
-              <div class="grid-item"><img src="img/travel/lacma.jpg" class="img-responsive"></div>
-              <div class="grid-item grid-item--width2"><img src="img/travel/london.jpg" class="img-responsive"></div>
-              
-            </div>
+    <div class="travel-container">
+        <div class="container travel-content">
+            <div class="row">
+                <div class="col-xs-4">
+                    <i class="fa fa-flag sr-icons" aria-hidden"true" style="font-size: 30px; padding-bottom: 10px;"></i>
+                    <p>31 Countries</p>
+                </div>
+
+                <div class="col-xs-4">
+                    <i class="fa fa-building sr-icons" aria-hidden"true" style="font-size: 30px; padding-bottom: 10px;"></i>
+                    <p>55 cities</p>
+                </div>
+
+                <div class="col-xs-4">
+                    <i class="fa fa-tachometer sr-icons" aria-hidden"true" style="font-size: 30px; padding-bottom: 10px;"></i>
+                    <p>106,379 miles</p>
+                </div>
+
+            </div>  
+
+            <br>
+        
+            <p>Travelling is about memories and emotions, which become what I call <u>Moments</u>. They are snippets of time-bound memories you remember vividly - whether it's an amazing experience, adventure or a surreal moment shared with someone.</p>
+            <p>I've recently embarked on a 3 month journey across the Oceania, Scandinavian and Central Europe region.  I wanted to document everything and decided to curate my most memorable moments.</p>
+            <br>
+            <a href="travelmoments/southernlights.html" class="btn btn-primary btn-xl page-scroll" style="font-family: 'Montserrat'">EXPLORE MOMENTS</a>
+            
         </div>
     </div>
+
+        <div class="travel-container" style="padding-top: 0px;">
+            <div class="container travelgrid-container">
+                <p class="text-faded" style="font-family: 'Montserrat'; margin-bottom: 0px;">My Recent Moments</p>
+                <br>
+                <div class="row">
+                    <div class="col-xs-5">
+                        <img src="img/travel/recent/melb-graffiti.jpg" class="img-responsive">
+                    </div>    
+                    <div class="col-xs-7">
+                        <img src="img/travel/recent/nz-2.jpg" class="img-responsive">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-xs-8">
+                        <img src="img/travel/recent/oia.jpg" class="img-responsive" style="max-height: 420px;">
+                    </div>    
+                    <div class="col-xs-4">
+                        <img src="img/travel/recent/cph.jpg" class="img-responsive" style="max-height: 420px;">
+                    </div>
+                </div>
+
+                 <div class="row">
+                    
+                   
+                    <div class="col-xs-6">
+                        <img src="img/travel/recent/budapest.jpg" class="img-responsive">
+                    </div>    
+                     <div class="col-xs-6">
+                        <img src="img/travel/recent/bath-1.jpg" class="img-responsive">
+                    </div>
+                </div>
+            </div>
+        </div>
+            
+        
+    
     
     <!--TRAVEL MAP-->
     <div id="map-test3"></div>
@@ -127,6 +196,9 @@
     <!-- Bootstrap Core JavaScript -->
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
     
+    <!--jQuery Parallax Plugin-->
+    <script src="vendor/parallax/parallax.min.js"></script>
+
     <!--Custom Font Awesome Markers-->
     <script src="js/fontawesome-markers.min.js"></script>
     
@@ -135,20 +207,14 @@
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBFxaSLwgdtVHiaZxJarIr4aCrFpbIFbTI&callback=initMap" aysnc defer></script>
 
     <!-- Theme JavaScript -->
-    <script src="js/creative.min.js"></script>
+    <script src="js/creative.js"></script>
+    
+    <!-- Plugin JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
 
-    <!--Masonry Plugin-->
-    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.js"></script>
-    <script src="js/masonry.pkgd.js"></script>
 
-
-    <script>
-    $('.grid').masonry({
-        // options
-        itemSelector: '.grid-item',
-        columnWidth: '.grid-item'
-    });
-    </script>
+    
 </body>
 
 </html>
