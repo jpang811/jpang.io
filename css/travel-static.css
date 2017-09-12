@@ -19,10 +19,16 @@ a {
 
 p {
     font-size: 16px;
-    font-weight: 300;
+    font-weight: 400;
 }
 
-
+.remarks-i{
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 15px;
+    color: #b3b3b3;
+    font-style: italic;
+    display:  block;
+}
 #next {
     position: fixed;
     top: 50%;
@@ -82,7 +88,9 @@ p {
     font-family: 'Lato';
 }
 
-
+.travel-container p {
+    font-weight: 300;
+}
 
 
 
@@ -234,6 +242,17 @@ p {
 
 .container-condensed {
     max-width: 600px; 
+}
+.footer-condensed {
+    max-width: 1000px;
+}
+.footer-condensed p {
+    text-align: center;
+    color: #000;
+}
+
+.footer-condensed img {
+    margin-bottom: 10px !important;
 }
 
 .graffiti {
