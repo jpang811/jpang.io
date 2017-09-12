@@ -745,6 +745,12 @@ a {
     margin: 0 auto;
 }
 
+.adjust3 {
+    max-width: 60%;
+    margin: 0 auto;
+
+}
+
 .adjust-mini{
     max-width: 35%;
     margin: 0 auto;
