@@ -98,7 +98,7 @@ a {
 }
 .remarks-i{
     font-family: 'Open Sans', Arial, sans-serif;
-    font-size: 15px;
+    font-size: 18px;
     color: #b3b3b3;
     font-style: italic;
     display:  block;
@@ -324,6 +324,17 @@ a {
     color: #fff;
     width: 100%;
     height: 380px;
+}
+.uxpa {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size:  cover;
+    background-position: center;
+    background-image: url(../img/portfolio/uxpa/herobg.jpg);
+    color: #fff;
+    width: 100%;
+    height: 350px;
 }
 .ciid {
      -webkit-background-size: cover;
