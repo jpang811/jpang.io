@@ -37,7 +37,7 @@ var locations = [
       ['#Kolkata Two-week hotel internship at ITC Sonar Hotel', 22.544288, 88.398072],
       ['#Reykjavik Hearty lamb soup, geysirs and outdoor geothermal spa in the snow', 64.133663, -21.865861],
       ['#SanFrancisco Pursuing innovation at the Valley', 37.422042, -122.084058],
-      ['#Singapore Hong Kong\'s distant cousin', 1.287815, 103.866587],
+      ['#Singapore Hawker centers and tropical heat', 1.287815, 103.866587],
       ['#LasVegas The untold tales', 36.117905, -115.172966],
       ['#Arizona Drove through beautiful landscapes and Antelope Canyon', 36.862179, -111.374352],
       ['#Florida Where dreams come true and fun rides go', 28.385242, -81.563842],
@@ -51,24 +51,25 @@ var locations = [
       ['#IguazuFalls Bordering Brazil and Argentina', -25.690500, -54.440911],
       ['#MachuPicchu Up in the mountains of Inca ruins and my first altitude sickness'],
       ['#Melbourne Artsy laneways, coffee culture and hipster vibes', -37.818125, 144.969064],
-      ['#Sydney ', -33.867922, 151.211487],
-      ['#Auckland', -36.848457, 174.762180],
-      ['#Glasgow', 55.861239, -4.253990],
-      ['#Edinburgh', 55.950474, -3.186297],
-      ['#Copenhagen Bikes, minimalism & all sorts of design wonders, ', 55.684065, 12.592988],
+      ['#Sydney The perfect balance between metropolitan and hipster', -33.867922, 151.211487],
+      ['#Auckland First gateway into New Zealand', -36.848457, 174.762180],
+      ['#Glasgow Cultural, dynamic and metropolitan ', 55.861239, -4.253990],
+      ['#Edinburgh Old Town hertiage, scottish whiskey and tales of Independence', 55.950474, -3.186297],
+      ['#Copenhagen Bikes, minimalism & all sorts of design wonders', 55.684065, 12.592988],
       ['#Amsterdam Bites of happiness, red lights and that canal life ', 52.359106, 4.884022],
-      ['#Malmo, ', 55.604601, 13.002918],
-      ['#Prague', 50.086477, 14.411447],
-      ['#Cesky Krumlov', 48.812905, 14.313909],
-      ['#Salzburg', 47.800205, 13.044633],
-      ['#Hallstatt Quaint village surrounded by beautiful alpines and houses one of the oldest salt mines in the world', 47.563631, 13.636405],
-      ['#Vienna', 48.185216, 16.376528],
-      ['#Bratislava', 48.145116, 17.106877],
+      ['#Malmo Cardamon pastries, Fika (Swedish for tea time) and beautiful timber architecture', 55.604601, 13.002918],
+      ['#Prague A myriad of architectural gems and Bohemian beauty, followed by sunset walks on Charles Bridge', 50.086477, 14.411447],
+      ['#Cesky Krumlov Lunch by theWelcomed by the the most friendly faces', 48.812905, 14.313909],
+      ['#Salzburg Home to the Sound of Music and Mozart', 47.800205, 13.044633],
+      ['#Hallstatt Ferry rides, beautiful alpine views and has one of the oldest salt mines in the world', 47.563631, 13.636405],
+      ['#Vienna Coffee houses and fell for the classical tourist trap', 48.185216, 16.376528],
+      ['#Bratislava Nostalgic Old Town exploration and bronze statue hunting', 48.145116, 17.106877],
       ['#Budapest Massive heat wave led by thermal baths, meat fares and ruin bars', 47.483752, 19.051643],
-      ['#Athens', 37.971541, 23.725771],
-      ['#Santorini', 36.461557, 25.375281],
-      ['#Mykonos', 37.444530, 25.325594]
-      
+      ['#Athens Imperfect yet so beautiful, Historical and so rawly preserved', 37.971541, 23.725771],
+      ['#Santorini Romantic sunsets and cave houses', 36.461557, 25.375281],
+      ['#Mykonos Volcanic beaches in red and black, beautiful alleys for boutique store shopping', 37.444530, 25.325594],
+      ['#Berlin Underground arts and raw creativity', 52.517377, 13.406855]
+
   ];
 
 
@@ -80,7 +81,6 @@ function initMap() {
   center: {lat:26.630547, lng:128.145678},
   mapTypeId: google.maps.MapTypeId.ROADMAP,
   scrollwheel: false,
-  disableDefaultUI: true,
 
   styles: [
     {
