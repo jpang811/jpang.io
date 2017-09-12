@@ -10,11 +10,16 @@ body {
 a {
     text-decoration: none;
     display: inline-block;
+    color: #fff;
+}
+
+.read-more a:hover {
+    color: #00a0a6;
 }
 
 p {
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 300;
 }
 
 
@@ -77,27 +82,10 @@ p {
     font-family: 'Lato';
 }
 
-.travel-container.blurb {
-    position: absolute;
-    text-align: left;
-    font-size: 18px;
-    max-width: 600px;
-}
 
 
-.remarks-i{
-    font-family: 'Open Sans', Arial, sans-serif;
-    font-size: 15px;
-    color: #b3b3b3;
-    font-style: italic;
-    display:  block;
-}
-.remarks-i a {
-    color:#b3b3b3 !important;
-}
-.remarks-i a:hover {
-    color:#eb3812!important;
-}
+
+
 .emphasis-i {
     font-family: 'Open Sans', Arial, sans-serif;
     font-size: 18px;
