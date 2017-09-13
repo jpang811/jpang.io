@@ -1,16 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
     <title>jpang's Travels</title>
-
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -18,10 +13,8 @@
 
     <!-- Custom Fonts -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
 
     <!--favicon-->
     <link rel="apple-touch-icon" sizes="57x57" href="img/favicons/apple-icon-57x57.png">
@@ -42,13 +35,11 @@
     <meta name="msapplication-TileImage" content="img/favicons/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
     <!--END favicon-->
-    
-    <!-- Plugin CSS -->
-    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
 
-    <!-- Theme CSS -->
+     <!-- Theme CSS -->
     <link href="css/creative.min.css" rel="stylesheet">
-    <link href="css/static.css" rel="stylesheet">
+    <link href="css/travel.css" rel="stylesheet">
+    <link href="css/interaction.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -57,23 +48,41 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    
-    <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-56ZG4FN');</script>
-    <!-- End Google Tag Manager -->
-    
+    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+
+     <style>
+     @media screen and (max-width: 992px)  {
+        .footprint-box img {
+                margin-bottom: 10px !important;
+                padding: 0px 20px;
+            }
+        }
+        @media screen and (max-width: 768px)  {
+            .travel-container {
+                padding: 40px 10px;
+                text-align: center;
+                }
+
+            .travelgrid-container {
+                margin: 0px;
+                width: 100%;    
+                height: auto;
+                padding: 0px;
+            }
+            .travelgrid-container div {
+                padding: 0px;
+                margin: 0px;
+            }
+            .travelhero-title-white {
+                top: 30%;
+            }
+            
+        }
+    </style>
+   
 </head>
 
-<body id="page-top">
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-56ZG4FN"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
-
+<body>
     <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -106,132 +115,162 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </div>
         <!-- /.container-fluid -->
     </nav>
+    
+    <!--HERO-->
+    <div class="parallax-window" data-parallax="scroll" data-image-src="img/travel/travel-bg.jpg" style="margin-top: 50px; height: 400px;">
+           
+    </div>
+    
+    <!--END HERO-->
 
-    
-    <!--TRAVEL MAP-->
-    <div id="map"></div>
-    <!--END TRAVEL MAP-->
-    
-    
-    <!--CONTENT-->
-        <div class="travel-container">
-            <h4 style="text-align: center; color: #ffffff;">More travel stories to come!</h4>
-            <div class="w3-content w3-display-container">
-                <a class="w3-btn-floating w3-hover-dark-grey w3-display-left" onclick="plusDivs(-1)">&#10094;</a>
-                <a class="w3-btn-floating w3-hover-dark-grey w3-display-right" onclick="plusDivs(1)">&#10095;</a>
+    <!--TRAVEL CONTENT-->
+    <div class="travel-container">
+        <div class="container travel-content">
+            <div class="row">
+                <div class="col-xs-4">
+                    <i class="fa fa-flag sr-icons" aria-hidden"true" style="font-size: 30px; padding-bottom: 10px;"></i>
+                    <p><b>31<br>Countries</b></p>
+                </div>
 
-                <div class="w3-display-container mySlides">
-                  <img src="img/travel/iceland.jpg" class="img-responsive travel-img" style="width:100%">
-                  <div class="w3-display-bottomleft w3-large w3-container w3-padding-16">
-                      <span class="travel-img-caption">Geysir gazing #Reykjavik</span>
-                  </div>
+                <div class="col-xs-4">
+                    <i class="fa fa-building sr-icons" aria-hidden"true" style="font-size: 30px; padding-bottom: 10px;"></i>
+                    <p><b>55<br>Cities</b></p>
                 </div>
-                <div class="w3-display-container mySlides">
-                  <img src="img/travel/angkor.jpg" class="img-responsive travel-img" style="width:100%">
-                  <div class="w3-display-bottomleft w3-large w3-container w3-padding-16">
-                    <span class="travel-img-caption">Sunrise at Angkor Wat #SiemReap</span>
-                  </div>
+
+                <div class="col-xs-4">
+                    <i class="fa fa-tachometer sr-icons" aria-hidden"true" style="font-size: 30px; padding-bottom: 10px;"></i>
+                    <p><b>106,379<br> Miles</b></p>
                 </div>
+
+            </div>  
+
+            <br>
+        
+            <p>Travelling is about memories and emotions, which become what I call <b>Moments</b>. They are snippets of time-bound memories you remember vividly - whether it's an amazing experience, adventure or a surreal moment shared with someone.</p>
+            <p>I've recently embarked on a 3 month journey across the Oceania, Scandinavian and Central Europe region.  Click below to see my curated moments.</p>
+            <br>
+            <a href="travelmoments/southernlights.html" class="btn btn-primary btn-xl page-scroll" style="font-family: 'Montserrat'">EXPLORE MOMENTS</a>
+            
+        </div>
+    </div>
+
 
             
 
-                 <div class="w3-display-container mySlides">
-                  <img src="img/travel/lacma.jpg" class="img-responsive travel-img" style="width:100%">
-                  <div class="w3-display-bottomleft w3-large w3-container w3-padding-16">
-                    <span class="travel-img-caption">Lacma Night Lights #LosAngeles</span>
-                  </div>
+
+        <div class="travel-container" style="padding-top: 0px;">
+            <div class="container travelgrid-container">
+                <p class="text-faded" style="font-family: 'Montserrat', 'Helvetica Neue', Arial, sans-serif; margin-bottom: 0px; font-weight: 300; ">My Recent Moments</p>
+                <br>
+                <div class="row">
+                    <div class="col-xs-5">
+                        <a href="travelmoments/melbourne.html">
+                            <div class="footprint-box sr-box">
+                                <div class="effect-apollo">
+                                    <img src="img/travel/recent/melb-graffiti.jpg" class="img-responsive" alt="Melbourne is Artsy Laneways and Hipster Vibes">                  
+                                    
+                                </div>
+                            </div>
+                        </a>
+                    </div>    
+                    <div class="col-xs-7">
+
+                        <a href="travelmoments/southernlights.html">
+                            <div class="footprint-box sr-box">
+                                <div class="effect-apollo">
+                                    <img src="img/travel/recent/nz-2.jpg" class="img-responsive" alt="Stumbling Upon the Southern Lights">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
                 </div>
 
+                <div class="row">
+                    <div class="col-xs-8">
+                        <a href="travelmoments/oiasunset.html">
+                            <div class="footprint-box sr-box">
+                                <div class="effect-apollo">
+                                    <img src="img/travel/recent/oia.jpg" class="img-responsive" alt="Oia is Romantic Sunset and Cave Houses" style="max-height: 400px;">
+                                </div>
+                            </div>
+                        </a>
+                    </div>    
+                     
+                    <div class="col-xs-4">
+                        <a href="travelmoments/oiasunset.hml">
+                            <div class="footprint-box sr-box">
+                                <div class="effect-apollo">
+                                    <img src="img/travel/recent/greece.jpg" class="img-responsive" alt="Santorini" style="max-height: 400px;">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
 
-                <div class="w3-display-container mySlides">
-                  <img src="img/travel/london.jpg" class="img-responsive travel-img" style="width:100%">
-                  <div class="w3-display-bottomleft w3-large w3-container w3-padding-16">
-                    <span class="travel-img-caption">The Wallace Collection #London</span>
-                  </div>
-                  
-
-                  
-                
-
+                 <div class="row">
+                    
+                   
+                    <div class="col-xs-6 sr-box">
+                        <a href="travelmoments/budapestbath.html">
+                            <div class="footprint-box sr-box">
+                                <div class="effect-apollo">
+                                    <img src="img/travel/recent/budapest.jpg" class="img-responsive" alt="Budapest city" style="max-height: 320px;">
+                                </div>
+                            </div>
+                        </a>
+                    </div>    
+                     <div class="col-xs-6 sr-box">
+                        <a href="travelmoments/budapestbath.html">
+                            <div class="footprint-box sr-box">
+                                <div class="effect-apollo">
+                                    <img src="img/travel/recent/bath-1.jpg" class="img-responsive" alt="Budapest Thermal Baths" style="max-height: 320px;">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
             </div>
-                </div>
-<!--
-            <div class="row">
-                <div class="col-md-6 travel-img-img">
-                   <img src="img/travel/iceland.jpg" class="img-responsive travel-img"> 
-                   <div class="travel-img-caption">
-                    <h5>Geysirs in Iceland, Reykvaik</h5>
-                   </div>
-                </div>
-                <div class="col-md-6 travel-img-img">
-                   <img src="img/travel/lacma.jpg" class="img-responsive travel-img" style="overflow: hidden; height: auto;"> 
-                   <div class="travel-img-caption">
-                    <h5>Lacma Night Lights, Los Angeles</h5>
-                   </div>
-                </div>                
-            </div>
-
-            <div class="row">
-                <div class="col-md-5 travel-img-img">
-                   <img src="img/travel/london.jpg" class="img-responsive travel-img"> 
-                   <div class="travel-img-caption">
-                    <h5>The Wallace Collection, London</h5>
-                   </div>
-                </div>
-                <div class="col-md-7 travel-img-img">
-                   <img src="img/travel/angkor.jpg" class="img-responsive travel-img" > 
-                   <div class="travel-img-caption">
-                    <h5>Angkor Wat, Siem Reap</h5>
-                   </div>
-                </div>
-                
-            </div>
-        -->
+            <p class="text-faded" style="font-family: 'Montserrat', 'Helvetica Neue', Arial, sans-serif; margin-bottom: 0px; font-weight: 300; ">Browse the map to read more moments!</p>
         </div>
+            
+        
+    
+    
+    <!--TRAVEL MAP-->
 
-    <!--END CONTENT-->
-   
-
+    <div id="map"></div>
+    <!--END TRAVEL MAP-->
+    
 
     
-    <!--Google Maps API Key-->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBFxaSLwgdtVHiaZxJarIr4aCrFpbIFbTI&callback=initMap"></script>
-    <script src="js/map.js"></script>
+
 
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.min.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    
+    <!--jQuery Parallax Plugin-->
+    <script src="vendor/parallax/parallax.min.js"></script>
 
-    <!-- Plugin JavaScript -->
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
-    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <!--Custom Font Awesome Markers-->
+    <script src="js/fontawesome-markers.min.js"></script>
+    
+    <!--Google Maps API-->
+    <script src="js/map.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCMkKGOMT7fgeyvl0NsesaEdXOOSJ81jwY&callback=initMap" type="text/javascript"></script>
 
     <!-- Theme JavaScript -->
-    <script src="js/creative.min.js"></script>
+    <script src="js/creative.js"></script>
+    
+    <!-- Plugin JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    
+     <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
 
-    <script>
-var slideIndex = 1;
-showDivs(slideIndex);
 
-function plusDivs(n) {
-  showDivs(slideIndex += n);
-}
-
-function showDivs(n) {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  if (n > x.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = x.length}
-  for (i = 0; i < x.length; i++) {
-     x[i].style.display = "none";  
-  }
-  x[slideIndex-1].style.display = "block";  
-}
-</script>
-
+    
 </body>
 
 </html>
