@@ -85,8 +85,9 @@ p {
 .remarks-i{
     font-family: 'Open Sans', Arial, sans-serif;
     font-size: 18px;
-    color: #b3b3b3;
-    font-style: italic;
+    
+    color: #494949;
+    text-align: left;
     display:  block;
 }
 .bg-primary {
