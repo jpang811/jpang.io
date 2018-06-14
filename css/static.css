@@ -86,6 +86,11 @@ a {
 .container-condensed {
     max-width: 1000px;
 }
+.fullscreen {
+    padding:0px; 
+    margin: 0px;
+    width: 100%;
+}
 
 .travel-container {
     background-color: #0F0F0E;
