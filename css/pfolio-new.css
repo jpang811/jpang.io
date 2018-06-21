@@ -81,7 +81,11 @@ p {
     padding: 10px;
     text-align: justify;
 }
-
+audio {
+    height: 0px;
+    width: 100px;
+    padding-bottom: 30px;
+}
 .remarks-i{
     font-family: 'Open Sans', Arial, sans-serif;
     font-size: 18px;
@@ -101,8 +105,12 @@ p {
 }
 .bg-dark {
     background-color: #002021;
-    color: #fff;
+    color: #fff; 
 }
+.bg-dark-statement {
+    line-height: 150%;
+}
+
 .bg-turq {
     background-color: #00a0a6;
     color: #fff;
@@ -142,9 +150,12 @@ p {
 .section-icon {
     padding: 0px;
     text-align: center;
-    height: 340px;
-    max-height: 340px;
+    height: 100%;
+    display: block;
+    
+    
 }
+
 .caption-box {
     padding: 40px;
     background-color: rgba(0,0,0,0.8);
@@ -173,7 +184,7 @@ p {
 }
 
 section {
-    padding: 60px 0;
+    padding: 30px 0;
 
     width: 100%;
     
@@ -292,14 +303,22 @@ aside {
     }
 
     .bg-blue.container {
-        min-height: 100% important;
+        min-height: 100% !important;
         
     }
+    .section-icon {
+        height: 100%;
+    }
+
+    
     
 }
 
 @media (min-width:768px) {
+    .bg-dark-statement {
+    font-size: 50px;
 
+    }
     .navbar-default {
         background-color: transparent;
         border-color: rgba(255, 255, 255, .3)
