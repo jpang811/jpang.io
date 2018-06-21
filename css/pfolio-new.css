@@ -333,7 +333,7 @@ aside {
     }
     .navbar-default .nav>li>a,
     .navbar-default .nav>li>a:focus {
-        color: rgba(256, 255, 255, .7)
+        color: #b3b3b3;
     }
     .navbar-default .nav>li>a:focus:hover,
     .navbar-default .nav>li>a:hover {
