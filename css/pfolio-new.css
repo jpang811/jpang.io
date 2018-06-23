@@ -118,6 +118,7 @@ audio {
 .bg-white {
     background-color: #fff;
     height: auto;
+    color: #000;
 }
 .bg-img {
     height: 100%;
@@ -150,7 +151,7 @@ audio {
 .section-icon {
     padding: 0px;
     text-align: center;
-    height: 100%;
+    height: 380px;
     display: block;
     
     
