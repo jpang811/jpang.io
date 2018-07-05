@@ -158,21 +158,8 @@ audio {
     
 }
 
-.caption-box {
-    padding: 40px;
-    background-color: rgba(0,0,0,0.8);
-    height: 100%;
-    color: #fff;
-    font-weight: 300;
-}
 
-.caption-box h2, h3, h4, h5 {
-    font-weight: 300;
-    line-height: 140%;
-}
-.caption-box b {
-    color: #00a0a6;
-}
+
 
 .col-sm-4.behaviour {
     padding-top: 50px 0px;
