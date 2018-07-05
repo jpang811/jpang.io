@@ -410,9 +410,11 @@ a {
     -o-background-size:  cover;
     background-position: left center;
     background-image: url(../img/portfolio/emergingmkt/hero.jpg);
-    
     width: 100%;
     height: 420px;
+}
+.refresh {
+    width: 450px;
 }
 
 .gsjam {
