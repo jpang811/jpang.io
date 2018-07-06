@@ -141,7 +141,7 @@ audio {
 
 .bg-blue{
     background-color: #f2fcff;
-    min-height: 863px;
+    height: auto;
 }
 
 .bg-process {
@@ -153,10 +153,23 @@ audio {
     padding: 0px;
     text-align: center;
     height: 380px;
-    display: block;
-    
-    
+    display: block;   
+
 }
+.section-icon-bg {
+    height: 400px;
+    background-size: cover;   
+    position: relative;
+}
+.section-icon-bg h4 {
+    position: absolute;
+    color: #fff;
+    font-size: 30px;
+    left: 0;
+    right: 0;
+    top: 35%;
+}
+
 
 .caption-box {
     padding: 40px;

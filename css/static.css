@@ -808,6 +808,11 @@ a {
     padding-top: 20px;
     margin: 0 auto;
 }
+.pfolio-img-fs{
+    
+    margin: 0 auto;
+    width: 60%;
+}
 
 .portfolioimg {
     position: relative;
