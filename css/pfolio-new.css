@@ -131,7 +131,6 @@ audio {
     background-size: cover;
     width: 100%;
     max-height: 500px;
-
 }
 
 .bg-turq {
@@ -152,12 +151,12 @@ audio {
 .section-icon {
     padding: 0px;
     text-align: center;
-    height: 380px;
+    
     display: block;   
 
 }
 .section-icon-bg {
-    height: 400px;
+    
     background-size: cover;   
     position: relative;
 }
@@ -216,7 +215,21 @@ aside {
     padding: 30px 0
 }
 
+.caption-box {
+    padding: 40px;
+    background-color: rgba(0,0,0,0.8);
+    height: 100%;
+    color: #fff;
+    font-weight: 300;
+}
 
+.caption-box h2, h3, h4, h5 {
+    font-weight: 300;
+    line-height: 140%;
+}
+.caption-box b {
+    color: #00a0a6;
+}
 .navbar-default {
     background-color: #fff;
     border-color: rgba(34, 34, 34, .05);
@@ -321,8 +334,8 @@ aside {
         min-height: 100% !important;
         
     }
-    .section-icon {
-        height: 100%;
+    .section-icon-bg {
+        height: 200px;
     }
 
     
@@ -330,6 +343,9 @@ aside {
 }
 
 @media (min-width:768px) {
+    .section-icon-bg {
+        height: 400px;
+    }
     .bg-dark-statement {
     font-size: 50px;
 

@@ -151,7 +151,9 @@ a {
 .keywords {
     background-color: #FFFBCC;
 }
-
+.keywords-darkbg{
+    background-color: rgba(0,0,0, 0.5);
+}
 .jumbotron p {
     font-size: 18px;
     font-weight: normal;
@@ -405,13 +407,12 @@ a {
     height: 450px;
 }
 .emergingmkt{
-      -webkit-background-size: cover;
+    -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size:  cover;
     background-position: left center;
     background-image: url(../img/portfolio/emergingmkt/hero.jpg);
-    
     width: 100%;
     height: 420px;
 }
@@ -809,9 +810,8 @@ a {
     margin: 0 auto;
 }
 .pfolio-img-fs{
-    
     margin: 0 auto;
-    width: 60%;
+    
 }
 
 .portfolioimg {
@@ -849,6 +849,9 @@ a {
     .pfolio-img {
         max-width: 100% !important;
     }
+    .pfolio-img-fs {
+        max-width: 90% !important;
+    }
     .adjust {
         max-width: 100%;
     }
@@ -856,6 +859,15 @@ a {
     .adjst2 {
         max-width: 100%;
     }
+    
+}
+
+@media only screen and (min-width: 768px) {
+    
+    .pfolio-img-fs {
+        max-width: 60% !important;
+    }
+   
     
 }
 
