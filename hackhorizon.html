@@ -14,14 +14,24 @@
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
 
     <!-- Custom Fonts -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
-    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css?family=Open Sans" rel="stylesheet">
+
+    <!-- Plugin CSS 
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+    -->
+
+    <!-- Theme CSS -->
+    <link href="css/static.css" rel="stylesheet">
+    <link href="css/pfolio-new.css" rel="stylesheet">
+    <link href="css/interaction-pfolio.css" rel="stylesheet">
+
+
     <!--favicon-->
     <link rel="apple-touch-icon" sizes="57x57" href="img/favicons/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="img/favicons/apple-icon-60x60.png">
@@ -41,54 +51,33 @@
     <meta name="msapplication-TileImage" content="img/favicons/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
     <!--END favicon-->
+
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     
-    <!-- Plugin CSS -->
-    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
-
-    <!-- Theme CSS -->
-    <link href="css/creative.min.css" rel="stylesheet">
-    <link href="css/static.css" rel="stylesheet">
-    <link href="css/interaction.css" rel="stylesheet">
-
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-    
-    <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-56ZG4FN');</script>
-    <!-- End Google Tag Manager -->
-    <style>
-      @media only screen and (max-width: 767px) {
-        .kollabo-logo {
-            top: 30%;
-            max-width: 350px;
-        
-        }
-    }
-    </style>
+
+
 </head>
 
 <body id="page-top">
-<!-- Google Tag Manager (noscript) -->
+    <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-56ZG4FN"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
-    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-container">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="index.html">jpang</a>
+                <a class="navbar-brand text-faded page-scroll" href="index.html">jpang</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -114,111 +103,139 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <!-- /.container-fluid -->
     </nav>
 
-
     
-    <!--HERO-->
-
-    <div class="hero">
-        <div class="hackhorizon">         
+    <div class="hero" style="padding-top: 0px; height: 400px;">
+        <div class="hackhorizon-new">         
             <div class="hero-title-white">
-                <h1><i class="fa fa-plane" aria-hidden="true"></i> Hack Horizon</h1>
-                
+                <h1 style="line-height: 120%;">Facilitating Trip Planning <br>&amp; Destination Discovery</h1>
+                <h4 style="font-family: 'Lato'; line-height: 140%">The Chronicles of a Travel Hackathon from Hong Kong to London</
             </div>
         </div>
         
     </div>
-    <!--END HERO-->
-
-    <!--CONTENT-->
-    <div class="container container-condensed">
-        <p><span class="hackathon">Hackathon</span> Series</p>
-        <p class="remarks-i">May 5-8, 2017</p>
-        <h3 class="section-heading">Travel Tech Hackathon</h3>
+   
+    <section class="bg-primary">
         
-        <p>As part of the 32 finalists, we were tasked to redefine and innovate travel experiences.  Sponsored by major travel players like British Airways, Heathrow Airport, Hong Kong International Airport and Travelport, the hackathon took us through an 80 hour immersive travel experience while we conducted user research from Hong Kong and worked our way to London.</p>
-        <!--<p>Our team created a chatbot platform for collaborative group destination discovery and trip booking.  <u><a href="img/portfolio/hackhorizon/kollabo-pitch.pdf" download>Download our pitch deck</a></u> and prototype coming soon!</p>-->
-        
-        <h3 class="section-heading">The Real Faces of Traveling</h3>
-        
-        <p>Social Media tends to showcase the best faces of travel and picture perfect frames.  But we often forget the hard work – <span class="keywords">travel planning.</span></p>
-
-        <p>Planning trips is undoubtedly exhausting.  Destination, dates, budget, activities, you know the drill. What’s challenging is coordinating with friends and family.</p>
-
-        <h3 class="section-heading">User Research at HK Airport</h3>
-        
-        <p>We started our journey with the soundest way to a great product - User Research, of course.  We interviewed travelers traveling with friends on their planning process and preferences.</p>
-
-        <p>We started with the basics like "How often do you travel? Who do you travel with?".  And when we asked more in-depth questions like "How do you decide on a destination and the dates?", the frustration was instant.</p>
-
-        <blockquote class="quote">"I like to travel with friends but coordination is so hard. So I just end up traveling in very small groups or going solo." <i> &mdash; from User Research</i></blockquote>
-
-        <p>In addition, every traveler has different personas. Person A might be lazy, Person B is all gung ho but no action, Person C just follows and has no opinions, Person D is uncommitted.  Because no one steps up, Person E decides he/she needs to be the Designated Booker, reluctantly.</p>
-
-        <div class="pfolio-img" style="max-width: 100%;">
-                <img src="img/portfolio/hackhorizon/personas.jpg" class="img-responsive sr-box">
+        <div class="container text-center" style="max-width: 600px; padding-right: 10px; padding-left: 10px; padding-bottom: 10px;">
+           <h2 class="section-heading">Travel Tech Hackathon</h2>
+           <br>
+            <p>As part of the 32 finalists, we were tasked to redefine and innovate travel experiences. Sponsored by major travel players like British Airways, Heathrow Airport, Hong Kong International Airport and Travelport, the hackathon took us through an 80 hour immersive travel experience while we conducted user research from Hong Kong and worked our way to London.</p>
+            <br>
+           <h2 class="section-heading">The Real Faces of Travel</h2>
+           <br>
+            <p>Social Media tends to showcase the best faces of travel and picture perfect frames. But we often forget the hard work – <span class="keywords">travel planning.</span></p>
+            <p>Planning trips is undoubtedly exhausting. Destination, dates, budget, activities, you know the drill. The challenge is coordinating trips with friends and family.</p>
+                    
+                    
+            
         </div>
+    </section>
+    <section class="bg-beige">
+        <div class="container text-center" style="max-width: 600px; padding-top: 10px; padding-right: 10px; padding-left: 10px;">
+           
+                
+            <h2 class="section-heading">User Research at Hong Kong Airport</h2>
+            <br>
+            <p>Interviewing travelers at the airport can be slightly intimidating when everyone is rushing to catch a flight. We interviewed travelers waiting to board and with companions about their planning process and preferences.</p>
+            <p>We started with the basics like "How often do you travel? Who do you travel with?". And when we asked more in-depth questions like "How do you decide on a destination and the dates?", the frustration was instant.</p>
+            
+        </div>
+    </section>
 
-        <p>Clearly, we needed to make it <span class="keywords">Designated Booker no more</span> and <span class="keywords">group travel made easy.</span> </p>
-        
-        <h3 class="section-heading">En Route to London</h3>
-        <p>Nothing is more fitting than flying to another world-class hub while hacking a travel idea.  We thoroughly enjoyed the Premium Economy cabins en route to London, with the benefits of wider seats and selection of drinks.  In such comfort, it was hard for naps not to turn into deep sleep. Afterall, a good night's sleep will make us productive, right?</p>
-        
+    <section class="bg-dark">
+        <div class="container text-center" style="max-width: 600px; padding-top: 20px; padding-right: 20px; padding-left: 20px; padding-bottom: 20px;">
+            <h2 style="line-height: 140%;">"I like to travel with friends but coordinating with them is so hard. So I just end up traveling in very small groups or going solo." <br><i style="font-size: 20px; font-weight: lighter;"> &mdash; from User Research</i></h2>
+        </div>
+    </section>
 
-        <h3 class="section-heading">Touching Down Upon Endless Possibilities</h3>
-        <p>Traveling with companions is a complex task. It’s like one of those logic questions, Person A has 3 possibilities, Person B has 4, and Person C has 5, now derive the total number of overlapping possibilities.</p>
-        
-        <p>We looked at the existing, redundant process that we all know too well.</p>
+     
+    
+    <section class="bg-white">
+        <div class="container text-center" style="max-width: 600px; padding-top: 10px; padding-right: 10px; padding-left: 10px;">
+             <p>We looked at the existing and redundant process that we all know too well.</p>
         <div class="pfolio-img" style="max-width: 100%;">
             <img src="img/portfolio/hackhorizon/whatsapp-flow.jpg" class="img-responsive adjust3 sr-box">
             <!--<br>
             <span class="remarks-i">Hit 'Like' if you can relate.</span>-->
         </div>
+            <p>Everyone's keen but no one wants to plan.  The Lazy is, well, lazy. The Gung Ho is very keen but doesn't want to plan. The Follower is easy going and likes to just follow suit.  When no one steps up, someone decides they can't take it anymore and becomes the Designated Booker reluctantly.</p>
+            
+            
+        
+            
+        </div>
+    </section>
+ <div class="pfolio-img" style="max-width: 100%;">
+                <img src="img/portfolio/hackhorizon/personas.jpg" class="img-responsive sr-box">
+            </div>
+     <section class="bg-white">
+        <div class="container text-center" style="max-width: 600px;">
+             
+             <br>
+        <h2 class="section-heading">En Route to London</h2>
+        <p>We left Hong Kong knowing that we needed to make it <span class="keywords">Designated Booker no more</span> and <span class="keywords">easy to plan group travels.</span></p>
+        <p>After thoroughly enjoying the sponsored Premium Economy cabins and a good night's sleep, we touched down in London upon endless possibilities. </p>
+        
+        
+        <p>The problem is clear. There's no proper tool to plan trips, but we didn't know what to build.</p>
+        <p>Should we build a collaborative trip planning platform, or a booking tool enhanced with collaboration functions? And why would users switch to our product and not just stick with Whatsapp or use shared Google Calendars?</p>
+
+        <p>We experimented with and prioritized different features like scheduling assistants, calendar tools and destination recommendation engines. So many features, yet so little time.</p>
+        </div>
+              
+    </section>
 
 
-        <p>So, what should we build?</p>
-        <p>A collaborative trip planning platform, or a booking tool enhanced with collaboration functions? Whatever it is, why should users switch to our product and not just stick with Whatsapp or use shared Google Calendar?  What would our product have that can influence users to shift to ours?</p>
 
-        <p>We experimented and prioritized different features to gauge its usefulness and feasibility. We spent a lot of time validating these concepts with peers, mentors and the organizers. Yet, just so many features, so little time.</p>
-
-
-        <h3 class="section-heading">The Hackathon within the Hackathon</h3>
-        <p>With 7 hours left before pitch day, it's crunch time. We picked up the bits and pieces we had been experimenting with and built our MVP. </p>
+    <section class="bg-white">
+        <div class="container text-center" style="max-width: 600px; display: block;">
+            <h2 class="section-heading">The Hackathon within the Hackathon</h2>
+            <br>
+            <p>With 7 hours left before the pitch, it was crunch time. We picked up the bits and pieces we had been experimenting with and built our MVP. </p>
     
-        <p>We had a pre-programmed chatbot, some front-end web pages and a back-end infrastructure of potential data inputs.  Since we all used different frameworks, we had to integrate them to bring about the final product.
+        <p>We had a pre-programmed chatbot, some front-end web pages and potential data inputs.  Since we all used different frameworks, we had to integrate them to bring about the final product.</p>
 
         <div class="pfolio-img" style="max-width: 100%;">
-            <img src="img/portfolio/hackhorizon/wireframe.jpg" class="img-responsive adjust2 sr-box">
+            <img src="img/portfolio/hackhorizon/wireframe.jpg" class="img-responsive sr-box">
         </div>
         
+        </div>
+    </section>
 
-        
-    </div>
 
-     <div class="parallax-window" data-parallax="scroll" data-image-src="img/portfolio/hackhorizon/hero.jpg" style="margin-top: 40px;">
+      <div class="parallax-window" data-parallax="scroll" data-image-src="img/portfolio/hackhorizon/hero.jpg">
+
         <div class="kollabo-logo">
             <img src="img/portfolio/hackhorizon/intro.png" class="img-responsive">
         </div>
     </div>
 
-    <div class="container container-condensed" style="padding-top: 0px">
-        <h3 class="section-heading">Introducing Kollabo</h3>
+     <section class="bg-beige">
+        <div class="container text-center" style="max-width: 600px;">
+            
+            <h2 class="section-heading">Introducing Kollabo</h2>
 
-        <p>Kollabo is a chatbot platform for <span class="keywords">collaborative group destination discovery and trip booking</span>.  The idea is to simplify the planning process by having Kollabo facilitate the conversation, offload the Designated Booker's responsibility and help the Uncommitted commit to travel plans.  It's about making group travel easy.</p>
-
-
-        <p>In order to provide value-add, we introduced an automated flight booking function by integrating the API solutions provided by the sponsors.</p>
-
-        <div>
+        <p>Kollabo is a chatbot platform for <span class="keywords">collaborative group destination discovery and trip booking</span>.</p>
+        <p>The idea is to simplify the planning process by having Kollabo facilitate the conversation, offload the Designated Booker's responsibility and help the Uncommitted commit to travel plans.  As for the business model, we integrated an automated flight booking function that uses the API solutions provided by our travel sponsors.</p>
+            
+    </section>
+    <div>
             <video style="margin: 0 auto;" width="100%" height="100%" controls loop >
                 <source src="img/portfolio/hackhorizon/ux.mp4" type="video/mp4">
             </video>
             <br>
-            <span class="remarks-i">Demo of Kollabo and the primary user journey</span>
+            <br>
+            <br>
+            <p class="text-center"><i>Demo of Kollabo and the primary user journey</i></p>
         </div>
 
-        <h3 class="section-heading">Learnings</h3>
+        <br><br><br><br>
+
+    <section class="bg-turq" id="contact">
+        <div class="container text-center" style="max-width: 750px;">
+            <h3 class="section-heading">Learnings</h3>
         <p>I’ve always wanted to make an impact in the travel industry and we were definitely onto a real need.</p>
-        <p>I realized that hackathons aren't always about creating drastically new or different solutions. <span class="keywords">Sometimes, you don’t need to reinvent the wheel; you just have to improve the experience. </span></p>
+        <p>I've also realized that hackathons aren't always about creating drastically new or different solutions. <span class="keywords-darkbg">Sometimes, you don’t need to reinvent the wheel; you just have to improve the experience. </span></p>
 
         <p>There is still a lot of work to be done in the travel industry and I'm excited to play a part.</p>
 
@@ -228,84 +245,63 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </video>
 
         </div>
-        <p><span class="remarks-i">Video courtesy of <a href="http://www.hackhorizon.com/Hack Horizon"><u>Hack Horizon</u></a></p>
-        
-</p>
+        <p><span class="remarks-i" style="color: #fff;">Video courtesy of <a href="http://www.hackhorizon.com/Hack Horizon"><u>Hack Horizon</u></a></p> 
+        </div>
+    </section>
+    <div class="container">
+    <br>
+            <hr class="primary">
+            <br>
 
-    <div class="container container-condensed">
-        <br>
-        
-        <hr class="primary">
-        <br>
-
-        <p>Check out the Hackathon Series:</p>
+            <p>Check out the Hackathon Series:</p>
             <div class="row">
-               <div class="col-sm-4">
+                <div class="col-sm-4">
                     <a href="hacktrain.html" class="ddus-link">
                         <div class="footprint-box">
                             <div class="effect-apollo">
-                                <img src="img/thumbnail/hacktrain.jpg" class="img-responsive" alt="Hack Train">                  
-                                <p style="text-align: left;"><i class="fa fa-trophy" aria-hidden="true"></i> Railway Hackathon 1st Runner Up</p>
+                                <img src="img/thumbnail/hacktrain.jpg" class="img-responsive" alt="Railway Hackathon 1st Runner Up">
+                                <br>
+                                <p style="text-align: left; color: #000"><i class="fa fa-trophy" aria-hidden="true"></i> Railway Hackathon 1st Runner Up</p>
                             </div>
                         </div>
                     </a>
                 </div>  
-                <div class="row">
                <div class="col-sm-4">
                     <a href="gsjam.html" class="ddus-link">
                         <div class="footprint-box">
                             <div class="effect-apollo">
-                                <img src="img/thumbnail/gsjam.jpg" class="img-responsive" alt="Service Jam">                  
-                                <p style="text-align: left;"><i class="fa fa-trophy" aria-hidden="true"></i> A Service Jam Win</p>
+                                <img src="img/thumbnail/gsjam.jpg" class="img-responsive" alt="A Wellness Program Design Hackathon Win">                  
+                                <br>
+                                <p style="text-align: left; color: #000"><i class="fas fa-heart" aria-hidden="true"></i> A Wellness Program Design Hackathon Win</p>
                             </div>
                         </div>
                     </a>
                 </div>  
+                
             </div>
-            </div>
+<br><br>
+        </div>
+            
 
             
-        
-    </div>
-    <!--END CONTENT-->
-   
+    
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.min.js"></script>
-    
-
     <!--jQuery Parallax Plugin-->
     <script src="vendor/parallax/parallax.min.js"></script>
+    
     <!-- Bootstrap Core JavaScript -->
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 
     <!-- Plugin JavaScript -->
     <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
-    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+    
 
     <!-- Theme JavaScript -->
     <script src="js/creative.js"></script>
 
-    <!--Carousel Plugin-->
-    <script>
-        var slideIndex = 1;
-        showDivs(slideIndex);
 
-        function plusDivs(n) {
-          showDivs(slideIndex += n);
-        }
-
-        function showDivs(n) {
-          var i;
-          var x = document.getElementsByClassName("mySlides");
-          if (n > x.length) {slideIndex = 1}    
-          if (n < 1) {slideIndex = x.length}
-          for (i = 0; i < x.length; i++) {
-             x[i].style.display = "none";  
-          }
-          x[slideIndex-1].style.display = "block";  
-        }
-    </script>
 
 </body>
 
