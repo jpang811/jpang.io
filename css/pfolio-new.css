@@ -155,8 +155,8 @@ audio {
 .section-icon {
     padding: 0px;
     text-align: center;
-    
     display: block;   
+
 
 }
 .section-icon-bg {
@@ -343,7 +343,7 @@ aside {
     .section-icon-bg {
         height: 200px;
     }
-
+   
     
     
 }
@@ -351,6 +351,10 @@ aside {
 @media (min-width:768px) {
     .section-icon-bg {
         height: 400px;
+    }
+    /*personalization page*/
+     .section-icon {
+        height: 410px;
     }
     .bg-dark-statement {
     font-size: 50px;
