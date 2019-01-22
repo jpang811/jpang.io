@@ -123,7 +123,22 @@ a {
     */
 }
 
+.story-caption {
+    text-align: center;
+    font-size: 16px;
+    color: #767676;
+    font-style: italic;
+}
+.story-caption a {
+    text-decoration: underline;
+    color: #767676;
+}
+.pstory-icon {
+     display: inline-block;
+     max-width: 25px;
+     height: auto;
 
+}
 .container {
     margin-top: 20px;
     /* text-align:  left; */
@@ -839,6 +854,10 @@ a {
     max-width: 60%;
     margin: 0 auto;
 
+}
+.adjust1 {
+    max-width: 80%;
+    margin: 0 auto;
 }
 
 .adjust-mini{
