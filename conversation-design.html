@@ -132,8 +132,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="container text-center" style="max-width: 600px; padding-top: 10px; padding-right: 10px; padding-left: 10px;">  
             <h2 class="section-heading">Iterating the Conversation Design</h2>
             <br>
-            <p>I joined the project mid-way and was tasked to design 3 new functionalities, particularly for the onboarding and user tasks. </p>
-            <p>The chatbot's main conversation flow (or primary user journey) asks users to choose from a set of parameters, which effectively act as filters for the results.</p>
+            <p>I joined the project mid-way and was tasked to improve 3 functionalities, particularly for the onboarding and user tasks. </p>
+            <p>The chatbot's main conversation flow (or primary user journey) asks users to choose from a set of parameters such as location, price and time.  These choices effectively serve as filters for the results.</p>
             <p> If the user is not satisfied with the result, they can repeat the process and answer any one of the parameters again as they like. </p>
         </div>
         
@@ -224,8 +224,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <br>
             
             <h3 class="section-heading"> When Language Default Fails</h3>
-            <p>Hong Kong is a relatively bi-lingual market, but Cantonese (a dialect of Chinese) is still the primary language over English.  As a result, global brands like Google has defaulted our online experiences to Cantonese. </p>
-            <p>For example, my Google account preferences are all set in English.  But whenever I open a Google Maps link or connect with my Google account for logins, the default language is Cantonese.</p>
+            <p>Hong Kong is a relatively bi-lingual market, but Cantonese (a dialect of Chinese) is still the primary language over English.  As a result, global brands like Google defaults our online experiences to Cantonese. </p>
+            <p>For me, my Google account preferences are all set in English.  But whenever I open a Google Maps link or connect with my Google account for logins, the default language is Cantonese.</p>
             <p>Luckily, I am a bi-lingual. But for English-speakers, how would they know what the change language option is if it’s in a foreign language?</p>
             
             <div class="pfolio-img">
@@ -255,7 +255,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
             <h3 class="section-heading"><img src="img/portfolio/convodesign/enhancement.png" class="pstory-icon img-responsive"> Share Location</h3>
             <br>
-            <p>One of the ways users can discover offers is to share their current location and find out what's near them.</p>
+            <p>One of the parameters to searching offers is by sharing location and discovering what's nearby.</p>
+            <div class="pfolio-img">
+                <img src="img/portfolio/convodesign/search-by-location.png" class="img-responsive sr-box adjust3">
+                <br>
+                <p class="story-caption">Testing the sequence of changing languages either before or after user consent</p>
+            </div>
+            <p>As this experience is used in the context of walking around the city and it's easy to get distracted by crossing street lights, avoiding pedestrians or replying to friends' messages.  Once you move around, the location shared is cached but longer becomes relevant if you continue searching for more by filtering parameters.  As a result, when you click 'Get Directions', your current location is no longer accurate and becomes misleading.</p>
+
+
+            <p>Instead of prompting directions to the place, I changed to just the location of the offer.  If users want to prompt the directions, they can.  That way, it would reduce the likelihood of displaying directions based on last cached location.</p>
 
             <h3 class="section-heading"><img src="img/portfolio/convodesign/language.png" class="pstory-icon img-responsive" style="display: inline-block; width: 25px; height: auto;">  About Localization</h3>
             <p>The experience needs to be consistent:
