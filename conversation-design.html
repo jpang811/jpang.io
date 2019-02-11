@@ -68,7 +68,7 @@
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-56ZG4FN"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
-<!--
+
     <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-container">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -107,7 +107,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="container text-center" style="padding: 30px;">
             <br>
             <h1 style="line-height: auto">Making Conversations Human</h1>
-            <h4 style="font-family: 'Lato'; line-height: 140%">Conversation Component Design</h4>
+            <h4 style="font-family: 'Lato'; line-height: 140%">Conversation (UI) Component Design </h4>
           
         </div>
     </section>
@@ -120,49 +120,50 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <section class="bg-beige">
         
         <div class="container text-center" style="max-width: 600px; padding-right: 10px; padding-left: 10px; padding-bottom: 10px;">
-           <h2 class="section-heading">How Does One Sound 'Human'? <img src="img/portfolio/convodesign/thinking.png" class="img-responsive heading-icon"></h2>
+           <h3 class="section-heading">How Does One Sound 'Human'? <img src="img/portfolio/convodesign/thinking.png" class="img-responsive heading-icon"></h2>
            <br>
-           <p>Designing for conversations all come down to the micro interactions.</p>
-           <p>Every word, phrase or sentence can evoke emotions, and increase engagements or cause drop-outs as a result. Words are the only interface and it all comes down to the details – words.</p>
-           <p>I was working on a chatbot project that was hypothesizing conversational experiences as a means of content discovery instead of browsing a website, as part of an experimental project at a bank’s innovation lab.</p>
+           <p>Designing for conversations all come down to the details - words.</p>
+           <p>Every word, phrase or sentence evoke emotions, and increase engagements or cause drop-outs as a result.</p>
+           <p>As part an experimental project at a bank's innovation lab, I was working on a chatbot that helps users discover the best offers in town based on their likes and preferences. </p>
         </div>
     </section>
 
     <section class="bg-white">
         <div class="container text-center" style="max-width: 600px; padding-top: 10px; padding-right: 10px; padding-left: 10px;">  
-            <h2 class="section-heading"> Conversation Component</h2>
+            <h2 class="section-heading">Iterating the Conversation Design</h2>
             <br>
-            <p>I joined the project mid-way and was tasked to design for enhancements, the details – you know, the words.</p>
+            <p>I joined the project mid-way and was tasked to improve 3 functionalities, particularly for the onboarding and user tasks. </p>
+            <p>The chatbot's main conversation flow (or primary user journey) asks users to choose from a set of parameters such as location, price and time.  These choices effectively serve as filters for the results.</p>
+            <p> If the user is not satisfied with the result, they can repeat the process and answer any one of the parameters again as they like. </p>
+        </div>
+        
+        <div class="pfolio-img">
+            <img src="img/portfolio/convodesign/bot-journey.png" class="img-responsive sr-box adjust1">
+
+        </div>
+        <div class="container text-center" style="max-width: 600px; padding-top: 10px; padding-right: 10px; padding-left: 10px;">  
+            <p>For the change language functionality, there are two possible paths where users can change language.  You will see more in the section later.</p>
+            <br><br>
+            <h3 class="section-heading"><!--<i class="fas fa-wrench"></i>--> Comparing Conversation Components</h3>
+            <br>
             <p>As digital interfaces are composed of UI components, conversations are composed of conversation components.</p>
             <p>Depending on the platform, the conversation components vary. Comparing Facebook Messenger and Slack components in their closest forms:</p>
 
             <div class="pfolio-img">
                 <img src="img/portfolio/convodesign/btn-comparison.jpg" class="img-responsive sr-box">
-                <p class="story-caption">Facebook <a href="https://developers.facebook.com/docs/messenger-platform/send-messages/quick-replies" target="blank">'Quick Replies'</a> vs Slack <a href="https://api.slack.com/docs/message-buttons" target="blank">'Interactive Message Buttons'</a></p>
+                <p class="story-caption">Facebook Messenger <a href="https://developers.facebook.com/docs/messenger-platform/send-messages/quick-replies" target="blank">'Quick Replies'</a> vs Slack <a href="https://api.slack.com/docs/message-buttons" target="blank">'Interactive Message Buttons'</a></p>
                 <br>
                 <img src="img/portfolio/convodesign/card-comparison.jpg" class="img-responsive sr-box">
-                <p class="story-caption">Facebook <a href="https://developers.facebook.com/docs/messenger-platform/send-messages/template/generic/" target="blank">'Templates'</a> vs Slack <a href="https://api.slack.com/actions" target="blank">'Actions'</a></p>
+                <p class="story-caption">Facebook Messenger <a href="https://developers.facebook.com/docs/messenger-platform/send-messages/template/generic/" target="blank">'Templates'</a> vs Slack <a href="https://api.slack.com/actions" target="blank">'Actions'</a></p>
                 <br>
-                <p class="story-caption" style="text-align: left;">For more information on conversation components, have a look at their documentation and I also highly recommend this book to Designing Chatbots.</p>    
+                <p class="story-caption" style="text-align: left;">For more information on conversation components, have a look at their documentation and I also highly recommend this book to <a href="https://www.amazon.com/Designing-Bots-Creating-Conversational-Experiences/dp/1491974826" target="blank">Designing Bots</a>.</p>    
             </div>
-            <p>For my project, the platform was Messenger.</p>
+            <p>It's important to first study the available components and know your constraints such as character limit, interface layout and button styles.</p>
+            <p>For my project, the platform was Facebook Messenger.</p>
         </div>
     </section>
 
-    <section class="bg-white">
-        <div class="container text-center" style="max-width: 600px; padding-top: 10px; padding-right: 10px; padding-left: 10px;">
-            <h3 class="section-heading"><!--<i class="fas fa-wrench"></i>--> Conversation Interactions to Enhance</h3>
-            <br>
-            <p>Tasked with 3 challenges, I first studied the user journey, or the conversation flow, and then zoomed in on each challenge's interaction.</p>
-            <!--
-            
-        -->
-            
-        </div>
-    </section>
-    <div class="pfolio-img">
-            <img src="img/portfolio/convodesign/bot-journey.png" class="img-responsive sr-box adjust1">
-    </div>
+    
     <!--
     <div class="container text-center" style="max-width: 600px; padding-top: 10px; padding-right: 10px; padding-left: 10px;">
         
@@ -186,16 +187,21 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </div>
         </div>
     -->
+
+
+        <div class="container text-center" style="max-width: 600px; padding-top: 10px; padding-right: 10px; padding-left: 10px;">  
+            
+        </div>
     <section class="bg-blue">
         <div class="container text-center" style="max-width: 600px; padding-top: 10px; padding-right: 10px; padding-left: 10px;">
            <h3 class="section-heading"><img src="img/portfolio/convodesign/enhancement.png" class="pstory-icon img-responsive"> User Consent Agreement</h3>
-            <p>Given the importance of data privacy and security, user consent is no doubt required but generally considered the least favorite part of the experience.</p>
+            <p>Given the importance of data privacy and security, user consent is typically required.  It is generally designed as part of onboarding and known as the least favorite part of the experience.</p>
             
-            <p>Currently on Messenger, there are two parts to the experience - the welcome screen, with a 1000 character limit and then the chatbot’s introduction.</p>
+            <p>On Facebook Messenger, there are two components to the onboarding - the welcome screen, with a 1000 character limit and then the chatbot’s introduction.</p>
             <div class="pfolio-img">
                 <img src="img/portfolio/convodesign/welcome-screen-example.png" class="img-responsive sr-box">
                 <br>
-                <p class="story-caption">Facebook Messenger's <a href="https://developers.facebook.com/docs/messenger-platform/introduction/conversation-components" target="blank">welcome screen</a> example</p>
+                <p class="story-caption">Facebook Messenger's <a href="https://developers.facebook.com/docs/messenger-platform/introduction/conversation-components" target="blank">welcome and introduction screen</a> example</p>
             </div>
             <p>Given these two component options, I could insert the user consent agreement in either the welcome screen or at the introduction.</p>
             <p>I mocked up two versions and validated it with a small sample of users:</p>
@@ -206,15 +212,20 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <img src="img/portfolio/convodesign/consent-validateB.png" class="img-responsive">
             <p class="story-caption">Version 2: getting user consent in the introduction screen</p>
 
-            <p>The final verdict was version 2.  Having the user consent agreement on the welcome screen makes the experience feel less clunky and more up front.</p>
+            <p>The final verdict was version 1.  Having the user consent agreement on the welcome screen makes the experience feel less clunky and more up front.</p>
             
             <br><br>
             <h3 class="section-heading"><img src="img/portfolio/convodesign/enhancement.png" class="pstory-icon img-responsive"> Change Language</h3>
-            <p>In most digital experiences, the 'change language' function typical is nested inside the menu or settings.  Adhering to this wired behaviour, this is the first place we will have it. </p>
-            <img src="img/portfolio/convodesign/change-language-default.png" class="img-responsive">
+
+            <p>In most digital experiences, the 'change language' function is typically nested inside the menu or settings.  Adhering to this wired behaviour, this is the first place we will have it. </p>
+            <div class="pfolio-img">
+                <img src="img/portfolio/convodesign/change-language-default.png" class="img-responsive">
+            </div>
             <br>
-            <p>Hong Kong is a relatively bi-lingual but Cantonese (a dialect of Chinese) is still the primary language over English.  As a result, global brands like Google has defaulted our online experiences to Cantonese. </p>
-            <p>For example, my Google account preferences are all set in English.  But whenever I open a Google Maps link or connect with my Google account for logins, the default language is Cantonese.</p>
+            
+            <h3 class="section-heading"> When Language Default Fails</h3>
+            <p>Hong Kong is a relatively bi-lingual market, but Cantonese (a dialect of Chinese) is still the primary language over English.  As a result, global brands like Google defaults our online experiences to Cantonese. </p>
+            <p>For me, my Google account preferences are all set in English.  But whenever I open a Google Maps link or connect with my Google account for logins, the default language is Cantonese.</p>
             <p>Luckily, I am a bi-lingual. But for English-speakers, how would they know what the change language option is if it’s in a foreign language?</p>
             
             <div class="pfolio-img">
@@ -224,32 +235,39 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <p class="story-caption">An example of connecting with Google Login where the default language is Cantonese for Hong Kong</p>
             
             <p>The first touch I introduced was making the change language option bi-lingual.</p>
+            <div class="pfolio-img">
             <img src="img/portfolio/convodesign/change-language-bilingual.png" class="img-responsive">
-            <br>
-            <p>The most common path to the need of changing languages is usually at the beginning of the conversation.  The current component is already nested inside the menu, so I thought how can we bring this experience forward and make it just a little more delightful by making use of Messenger’s ‘Quick Reply’ component.</p>
-            <p>I prototyped the conversation by speaking out loud and decided to test the sequence of which this language change function is best introduced without being too long-winded and not confusing.</p>
+            <p class="story-caption">Change language setting is now available in two languages</p>
+            </div>
+            <p>Another common path to changing languages is at the beginning of a conversation.</p>
+            <p>Making use of Facebook Messenger's 'Quick Reply' component, I tested the sequence of changing language either before or after the user consent. </p>
         </div>
     
-            <div class="pfolio-img">
-                <img src="img/portfolio/convodesign/language-validate.png" class="img-responsive sr-box adjust3">
-                <br>
-                <p class="story-caption">An example of connecting with Google Login where the default language is Cantonese for Hong Kong</p>
-            </div>
+        <div class="pfolio-img">
+            <img src="img/portfolio/convodesign/language-validate.png" class="img-responsive sr-box adjust3">
+            <br>
+            <p class="story-caption">Testing the sequence of changing languages either before or after user consent</p>
+        </div>
+
         <div class="container text-center" style="max-width: 600px; padding-top: 10px; padding-right: 10px; padding-left: 10px;">
-            <p>Validate between:
--   Quick reply component after introduction
--   After full intro and T&Cs
+            <p>This was an easy one.  Users preferred the more straightforward prototype B, where they can change languages via 'Quick Reply' then agree to the user consent.</p>
+            <br><br>
 
-Additional feature:
--   In menu, make menu items bi-lingual as well
-o   Usually people can guess how to navigate to menu</p>
+            <h3 class="section-heading"><img src="img/portfolio/convodesign/enhancement.png" class="pstory-icon img-responsive"> Share Location</h3>
+            <br>
+            <p>One of the parameters to searching offers is by sharing location and discovering what's nearby.</p>
+            <div class="pfolio-img">
+                <img src="img/portfolio/convodesign/search-by-location.png" class="img-responsive sr-box adjust3">
+                <br>
+                <p class="story-caption">Testing the sequence of changing languages either before or after user consent</p>
+            </div>
+            <p>As this experience is used in the context of walking around the city and it's easy to get distracted by crossing street lights, avoiding pedestrians or replying to friends' messages.  Once you move around, the location shared is cached but longer becomes relevant if you continue searching for more by filtering parameters.  As a result, when you click 'Get Directions', your current location is no longer accurate and becomes misleading.</p>
 
-<p>Final verdict</p>
-<br><br>
-<h3 class="section-heading"><img src="img/portfolio/convodesign/enhancement.png" class="pstory-icon img-responsive"> Share Location</h3>
 
-    <h3 class="section-heading"><img src="img/portfolio/convodesign/language.png" class="pstory-icon img-responsive" style="display: inline-block; width: 25px; height: auto;">  About Localization</h3>
-    <p>The experience needs to be consistent:
+            <p>Instead of prompting directions to the place, I changed to just the location of the offer.  If users want to prompt the directions, they can.  That way, it would reduce the likelihood of displaying directions based on last cached location.</p>
+
+            <h3 class="section-heading"><img src="img/portfolio/convodesign/language.png" class="pstory-icon img-responsive" style="display: inline-block; width: 25px; height: auto;">  About Localization</h3>
+            <p>The experience needs to be consistent:
    Links should be the same language when opened on the web view
    Directions - Google Maps API must default to user's preferred language (English or CN), the default is now CN no matter the user language
 
