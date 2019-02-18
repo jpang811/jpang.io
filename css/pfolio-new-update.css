@@ -61,12 +61,13 @@ hr.beige {
 
 a {
     transition: all .35s;
-    color: #00a0a6
+    
 }
 
 a:focus,
 a:hover {
-    color: #eb3812;
+    color: #00a0a6;
+    text-decoration: underlin;
 }
 
 .link {

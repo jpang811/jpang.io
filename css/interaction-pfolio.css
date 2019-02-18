@@ -28,7 +28,7 @@
 /*universal*/
 
 .footprint-box p {
-    padding-left: 20px;
+    padding: 25px 10px;
     font-size:  16px;
 }
 
@@ -53,7 +53,6 @@
 }
 
 .footprint-caption {
-    
     text-align: center; 
     color: #000;
     font-family: 'Lato';
