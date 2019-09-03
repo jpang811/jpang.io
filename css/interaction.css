@@ -35,7 +35,7 @@
     position: relative;
     float: left;
     overflow: hidden;
-    margin: 10px 1%;
+    /*margin: 10px 0px;*/
     text-align: center;
     cursor: pointer;
 }
@@ -45,8 +45,8 @@
     display: block;
     height: auto;
     width: 100%;
+    overflow: hidden;
     opacity: 0.8;
-    margin-bottom: 25px;
 }
 
 .footprint-caption {

@@ -92,14 +92,12 @@ a {
     margin: 0px;
     width: 100%;
 }
-
-.travel-container {
-    background-color: #0F0F0E;
-    position: relative;
-    text-align: center;
-    padding: 60px 100px;
-    font-family: 'Lato';
+.fullscreen .col-sm-4 {
+    padding: 0px;
+    margin: 0px;
 }
+
+
 
 .travel-container.blurb {
     position: absolute;
@@ -544,7 +542,6 @@ a {
 #map {
     width: 100%;
     height: 350px;
-    margin-top: 50px;
     background-color: grey;
 }
 

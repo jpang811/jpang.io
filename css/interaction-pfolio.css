@@ -15,10 +15,8 @@
 /*for portfolio.html*/
 .portfolio-container .col-sm-4 {
     background-color: #fff;
-    
     text-align:  left;
-    padding: 0px;
-    margin: 0px;
+    
 }
 .portfolio-container .col-sm-4 a {
     color: #000;
