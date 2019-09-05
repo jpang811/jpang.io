@@ -339,11 +339,11 @@ a {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size:  cover;
-    background-position: center;
+    background-position: 50% 55%;
     background-image: url(../img/portfolio/gamification/hero.jpeg);
     color: #fff;
     width: auto;
-    height:  350px;
+    height:  420px;
 }
 
 
@@ -411,17 +411,16 @@ a {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size:  cover;
-    background-position: center;
+    background-position: 50% 42%;
     background-image: url(../img/portfolio/servicejam/gsjam.jpg);
     color: #fff;
     width: 100%;
-    height: 400px;
+    height: 420px;
 
 }
-.gsjam .hero-title-white{
-    padding-top: 200px;
+.gsjam .hero-title-white {
+    padding-top: 285px;
 }
-
 .container-travelblog {
     padding-bottom: 60px;
     
