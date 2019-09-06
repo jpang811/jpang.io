@@ -1,17 +1,8 @@
-
-
- 
-
 body {
     background-color: #fafafa;
-    color: #242424;
 }
 
-a {
-    text-decoration: none;
-    display: inline-block;
-    color: #fff;
-}
+
 
 .read-more a:hover {
     color: #00a0a6;
@@ -78,22 +69,8 @@ p {
     font-size: 50px;
     padding: 0px;
     margin: 0px;
+    color: #fff;
 }
-
-
-.travel-container {
-    background-color: #0F0F0E;
-    position: relative;
-    text-align: center;
-    padding: 60px 100px;
-    font-family: 'Lato';
-}
-
-.travel-container p {
-    font-weight: 300;
-}
-
-
 
 .emphasis-i {
     font-family: 'Open Sans', Arial, sans-serif;
@@ -164,27 +141,38 @@ p {
 }
 /*Travel Master Page*/
 .travel-container {
-    background-color: #171717;
-    margin: 0 auto;
     text-align: center;
-    padding: 60px 100px;
-    font-family: 'Lato';
-    color: #fff;
+    max-width: 800px;
+    padding: 40px;
+    margin: 0 auto;
+    /*background-color: #0F0F0E;
+    position: relative;
+    
+    font-family: 'Lato';*/
+}
+.travel-container p {
+    font-weight: 300;
+    font-family: 'Montserrat', 'Helvetica Neue', Arial, sans-serif; 
 }
 .travelgrid-container {
     margin: 0px;
-    width: 90%;    
     height: auto;
     padding: 0px;
     text-align: center;
+    display: flex;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 .travelgrid-container div {
     padding: 5px;
     margin: 0px;
+
 }
 
 .travelgrid-container img {
     padding: 0px;
+
 }
 .maptest3 {
     -webkit-background-size: cover;
@@ -240,9 +228,8 @@ p {
     width: 100%;
     padding: 20px;
 }
-
 .container-condensed {
-    max-width: 800px; 
+    max-width: 800px;
 }
 .footer-condensed {
     max-width: 1000px;
@@ -266,8 +253,15 @@ p {
 .graffiti-div {
     padding: 0px;
     margin: 0px;
+   
+
 }
 
+.graffiti-div img {
+
+    width: 100%;
+
+}
 .btn-primary {
     color: #fff;
     background-color: #00a0a6;
@@ -381,12 +375,16 @@ p {
 }
 
 .travelhero-title {
-    top: 20%;
+    top: 40%;
     width: 100%;
     position: absolute;
     color: #171717;
     margin: 0 auto;
    text-align: center;
+}
+
+.travelhero-title.white {
+    color: #ededed;
 }
 
 .read-more {
@@ -404,7 +402,7 @@ p {
     font-weight: 300;
 }
 .hero-title-white {
-    top: 35%;
+    top: 5%;
     width: 100%;
     position: absolute;
     color: #fafafa;
@@ -420,6 +418,7 @@ p {
 
 .img-responsive {
     width: 100%;
+
 }
 
 .milestones {
