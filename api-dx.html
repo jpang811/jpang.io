@@ -116,11 +116,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="container text-center" style="max-width: 600px; padding-right: 10px; padding-left: 10px; padding-bottom: 10px;">
            <h3 class="section-heading">The Hidden World of E-Commerce Payments</h2>
            <br>
-           <p>You know when you splurge on things you really want but didn't actually need? You check out and select MasterCard or Visa, and oh look the payment has gone through (no regrets there, #amiright).</p>
-           <p>What goes on behind the scenes are payment APIs that enable these e-commerce sites (merchants) to provide customers with different payment method.</p>
+           <p>You know when you splurge on things you really want but don't actually need? You check out and select MasterCard or Visa, and oh look the payment has gone through. Oops, too late.</p>
+           <p>What goes on behind the scenes are payment APIs that enable these e-commerce sites (merchants) to provide customers with different payment methods.</p>
            <p>They can come from payment providers such as MasterCard or Visa, or aggregators who allow you to tap into multiple payment methods through one single API such as Stripe.</p>
         
-           <p>For this project, I was tasked to design a developer's (user) experience using payment APIs.</p>
+           <p>For this project, I was tasked to design a developer's (user) experience with payment APIs.</p>
             
         </div>
     </section>
@@ -130,15 +130,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <h3 class="section-heading">Developer Sound Bites</h2>
             <br>
             <p>My development experience is limited to my own website, so I would never call myself a developer. To better understand how developers think, perceive and consume information, I conducted both desk and developer (user) research.</p>
-            <p>I started with the one API I’ve ever used, Google Maps, and read through their documentation.  I wanted to understand how they made it so easy for a non-developer like myself to understand and use. What is the standard and how are APIs structured?  What is the order of information consumed?</p>
-            <p>Modeling after the "Hierarchy of Needs" by the famous psychologist Abraham Maslow, I found a framework that analyzes the different levels of <a href="http://apiux.com/2013/05/29/api-hierarchy-needs/"  class="blurb-link" target="blank">developer needs for an API</a>.  It breaks down developer needs from the usability and functional aspects to the creative uses of the API.</p>
+            <p>I started with the one API I’ve ever used, Google Maps, and read through their documentation. How did they make it so easy for a non-developer like myself to understand and use? What is the standard and how are APIs structured?  What is the order of information consumed?</p>
+            <p>Modeling after the "Hierarchy of Needs" by the famous psychologist Abraham Maslow, I found a framework that analyzes the different levels of <a href="http://apiux.com/2013/05/29/api-hierarchy-needs/"  class="blurb-link" target="blank">developer needs for an API</a>.  It breaks down developer needs from the usability and functional aspects to the creative uses of an API.</p>
 
             <p>This hierarchy of values helped structure my discussion guide for the developer (user) research.  I interviewed several seasoned developer friends and colleagues, specifically with experience integrating payment APIs on e-commerce sites.</p>
-            <p>Couple insights surfaced, helping form my design principles:</p>
+            <p>Couple insights surfaced, which helped form my design principles:</p>
             
             <br>
             <h4 style="text-align: left; padding-bottom: 0px;"><img src="img/portfolio/apidx/easytointegrate.png" class="pstory-icon img-responsive"> Easy to integrate</h4>
-            <p>An easy to follow, easy to integrate and self-explanatory API. They want to know what to expect - what the API outputs are, what formats they come in and the expected outcome.</p>
+            <p>An easy to follow, easy to integrate and self-explanatory API. Developers want to know what to expect - required inputs, the format and expected outcome.</p>
 
             <br>
             <h4 style="text-align: left; padding-bottom: 0px;"><img src="img/portfolio/apidx/examples.png" class="pstory-icon img-responsive"> Examples, examples, example</h4>
@@ -161,39 +161,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <section class="bg-white">
         <div class="container text-center" style="max-width: 600px; padding-top: 10px; padding-right: 10px; padding-left: 10px;">  
             <p>To the founders, Stripe wasn't just an API.</p>
-            <p> Stripe designed all the qualities developers were looking for - the ease of use, the principle of putting 'Developers first' and a sense of community. </p>
+            <p> Stripe designed all the qualities developers were looking for - the ease of use, the principle of putting <a href="https://stripe.com/" class="blurb-link" target="blank">'Developers First'</a> and a sense of community. </p>
             <p>Well beyond a good support center, Stripe also engages with the developer community in sponsoring hackathons and facilitating related meetups.</p>
             <p>Learning about Stripe's  <a href="https://www.stitcher.com/podcast/national-public-radio/how-i-built-this/e/54372836" class="blurb-link" target="blank">story</a> helped me rethink DX and pinpoint the focus area. </p>
             <br>
             <div class="jumbotron quote" style="padding-top: 20px; padding-bottom: 10px; ">
-                <h4><i class="fa fa-question-circle" aria-hidden="true"></i> How might we design an intuitive and easy to follow API to support and guide developers when integrating with payments API?</h4>
+                <h4><i class="fa fa-question-circle" aria-hidden="true"></i> How might we design an intuitive and easy to follow API to support developers with the integration of payments?</h4>
             </div>
         
             <br>
         </div>
     </section>
-    <!--
-    <section class="bg-white">
-        <div class="container text-center" style="max-width: 600px; padding-top: 10px; padding-right: 10px; padding-left: 10px;">  
-            
-            <h3 class="section-heading"><i class="fas fa-wrench"></i> Service Designing API Interactions</h3>
-            <br>
-            <p>Behind the glory of APIs, they are all about communication.</p>
-            <p>Borrowing from the service design toolkit, we simplified and adapted the service blueprint to understand how the front- and back-end systems communicate.</p>
-
-            <p>We first defined the API’s objective, its outputs and the “call” it makes.  Once we know the outputs, we deconstructed how these all work together.</p>
-            
-            <div class="pfolio-img">
-                <img src="img/portfolio/apidx/api-comms.jpg" class="img-responsive sr-box">
-                <p class="story-caption">A simplified view of how payment API communicates with e-commerce websites</p>
-            </div>
-            <p>Simply put, the front-end is the WYSIWYG on the merchant (e-commerce) site.  The back-end is the entire operations and communication between servers.  In order for payments to process, the merchant site and server will need to communicate with the payment API.</p>
-
-            <p>Once the payment API verifies the payment, it is communicated back to the front-end.  As a shopper, that’s where we see the payment confirmation with the <img src="img/portfolio/apidx/green-tick.svg" alt="green tick" class="pstory-icon img-responsive"> on the front-end.</p>
-        </div>    
-    </div>
-    </section>
--->
 
     <section class="bg-blue">
         <div class="container text-center" style="max-width: 600px; padding-top: 10px; padding-right: 10px; padding-left: 10px;">
@@ -203,7 +181,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <img src="img/portfolio/apidx/api-ia.png" class="img-responsive sr-box">
                 <p class="story-caption">API Information Architecture</p>
             </div>
-            <p>Leading payment documentations such as Stripe and PayPal all followed a similar structure -  setup, initialization, examples, error scenarios, support and resources.</p>
+            <p>Leading payment documentations such as Stripe and PayPal all follow a similar structure -  setup, initialization, examples, error scenarios, support and resources.</p>
             <p>In the case of a payment API, this is what I arrived at:</p>
 
             <div class="pfolio-img">
@@ -211,8 +189,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <br>
                 <p class="story-caption">Payment API information architecture</p>
             </div>
-            <p>Starting from the overview, the API would first cover what to expect, how to set up and some core concepts specific to the API.</p>
-            <p>The documentation goes on to highlight example use cases and suggested design guidelines. Finally, there will be a support section covering error scenarios and support options such as FAQ and submitting feedback.</p>
+            <p>Starting from the top, the API would first cover what to expect, how to set up and some core concepts specific to the API.</p>
+            <p>The documentation goes on to highlight example use cases and suggested design guidelines. Finally, there will be a support section covering error scenarios and support options such as FAQ and feedback submission.</p>
         </div>
     </section>
 
@@ -221,7 +199,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     
             <h3 class="section-heading">Developer Experience/Interface (DX/DI)</h3>
             <p>Developers experience APIs through a portal, which contains the documentation structured from the Information Architecture.</p>
-            <p>For developers, if they are integrating a payment option like MasterCard, they would also interested in any design guidelines on the payment UI and front-end.</p>
+            <p>When developers integrate with a payment option, they would be interested in any design guidelines on the payment UI and front-end.</p>
             <br>
             <h4 style="text-align: left; padding-bottom: 0px;"><img src="img/portfolio/apidx/btn-size.png" class="pstory-icon img-responsive"> Button sizes and variations</h4>
             <div class="pfolio-img">
@@ -247,8 +225,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
             <h4 style="text-align: left; padding-bottom: 0px;"><img src="img/portfolio/apidx/pmt-ux.png" class="pstory-icon img-responsive"> Payment UX</h4>
             
-            <p>Payments are multi-device experiences. Including best practices will help guide developers when designing for desktop, mobile web and mobile app experiences.</p>
-            <p>In some mobile app payment experiences, the customer will need to be redirected to another app.  As users are being redirected, it will be helpful to let users know that and their expected next steps.</p>
+            <p>Payments are multi-device experiences. Including best practices will help guide developers when designing for desktop, mobile web and mobile app contexts.</p>
+            <p>In some mobile app payment experiences, the customer will need to be redirected to another app.  As users are being redirected, it will be helpful to let them know that and their expected next steps.</p>
             <div class="pfolio-img">
                 <img src="img/portfolio/apidx/modal-popup.jpg" class="img-responsive sr-box">
                 <br>
@@ -260,9 +238,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <section class="bg-turq" id="contact">
         <div class="container text-center" style="max-width: 600px;">
             <h3 class="section-heading">Closing Thoughts</h3>
-            <p>My biggest takeaway was contributing to a larger design system and adapting it to a component library for API consumption. Through close collaboration with both the design and dev teams, we were able to establish that single source of truth for both internal and external users.</p>
+            <p>My biggest takeaway was contributing to a larger design system and adapting it to a component library for API consumption. Through close collaboration with both the design and dev teams, we were able to establish that single source of truth for all products.</p>
             <p>As I was whiteboarding these solutions, one question that came to mind was around the future of API DX.</p>
-            <p>As a developer, their current experience involves flipping through different screens, devices and operating systems to build and test APIs. Can the future of API consumption be made more convenient through voice commands? How might we promote inclusive design in the world of development?</p>
+            <p>As a developer, their current experience involves flipping through different screens, devices and operating systems to build and test APIs. Can the future of API consumption be made more convenient through voice commands? How can we promote inclusive design in the world of development?</p>
             <br>
     </div>
     
@@ -288,7 +266,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </div>  
 
             <div class="col-sm-4">
-                <a href="uxpa-article.html" class="ddus-link">
+                <a href="emergingmkt.html" class="ddus-link">
                     <div class="footprint-box">
                         <div class="effect-apollo">
                             <img src="img/thumbnail/designemergingmkt.jpg" class="img-responsive" alt="Designing for Emerging Markets and Connectivity">                  
