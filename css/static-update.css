@@ -462,13 +462,24 @@ a {
     width: 100%;
     height: 550px;
 }
-.convodesign{
+.convodesign {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size:  cover;
     background-position: right center;
     background-image: url(../img/portfolio/convodesign/hero.jpg);
+    width: 100%;
+    height: 550px;
+}
+
+.sdhk {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size:  cover;
+    background-position: right center;
+    background-image: url(../img/portfolio/sdhk/hero.jpg);
     width: 100%;
     height: 550px;
 }
