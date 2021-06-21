@@ -892,8 +892,8 @@ a {
     height: 550px;
 }
 .about {
-    height: 250px;
-    padding-top: 30px;
+    
+    padding-top: 40px;
     padding-bottom: 20px;
 }
 .container.nutshell {
@@ -913,8 +913,8 @@ a {
 }
 
 .about h1 {
-    padding-top: 40px;
-    
+    padding: 40px;
+
 }
 
 .travelblog-hero {
