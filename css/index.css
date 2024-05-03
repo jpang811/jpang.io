@@ -62,6 +62,12 @@ a:hover {
     color: #00a0a6;
 }
 
+.mystory-link:hover{
+    background-color:#333;
+    color:#fff;
+}
+
+
 p {
     font-family: 'Lato';
     font-size: 16px;
