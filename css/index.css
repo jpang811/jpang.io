@@ -160,6 +160,9 @@ aside {
     background-color: transparent
 }
 
+img {
+    image-rendering: auto;    
+}
 .img-responsive {
     margin: 0 auto;
     border: none;
