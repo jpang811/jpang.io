@@ -56,12 +56,16 @@ hr.light {
 
 a {
     transition: all .35s;
-    color: #00a0a6
+    color: #00a0a6;
 }
 
 a:focus,
 a:hover {
-    color: #eb3812;
+    /*color: #eb3812;*/
+    color:#00a0a6;
+    text-decoration:none;
+    cursor: pointer;
+    pointer-events: auto;
 }
 
 p {
