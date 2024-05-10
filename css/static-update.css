@@ -189,7 +189,6 @@ img {
 .section-heading {
     padding-top: 10px;
     padding-bottom: 10px;
-    font-weight: bold;
 }
 
 .section-title {
@@ -438,9 +437,12 @@ img {
     background-size: cover;
     -o-background-size:  cover;
     background-position: center center;
-    background-image: url(../img/portfolio/onboarding/hero.jpg);
-    width: 100%;
-    height: 500px;
+    background-image: url(../img/portfolio/onboarding/hero.png);
+    width: 400px;
+    height: 100%;
+    margin: auto;
+    padding: 10px;
+    position: relative;
 }
 
 .apidx {
@@ -814,19 +816,7 @@ img {
 .hero {
     margin-top: 30px;
     padding-top: 50px;
-    display:block;
-    position: relative;
-    width: auto;
-    text-align: center;
-    margin: auto;
-    background-attachment: scroll;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-    background-position: center center;
-    height: auto;
+    height: 500px;
 }
 
 .hero.travelguides {
