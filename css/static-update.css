@@ -3,10 +3,15 @@ a {
     text-decoration: none;
 }
 
+
 @font-face {
     font-family: jpang;
     src: url(fonts/jpang-font.ttf) format("truetype");
 } 
+
+img {
+    image-rendering: auto;
+}
 .jumbotron.jpang {
     color: #00a0a6;
     background-color: #ffffff;
@@ -14,7 +19,7 @@ a {
     padding: 60px 40px !important;
 }
 
-.jumbotron.sdhk-quote {
+. .sdhk-quote {
     background-color: #1b1448;
 }
 
@@ -45,12 +50,12 @@ a {
     }
 
 .quote {
-    color: #666;
+    background-color:#fff;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
     max-width: 600px;
     font-family: Times, serif;
     font-size: 25px;
     margin: 0 auto;
-    border: none;
     padding-bottom: 30px;
     line-height: 1.5;
     text-align: justify;
@@ -633,6 +638,8 @@ a {
     
 }
 
+
+
 #map-se {
     background-color: #ffffff;
     width: 150px;
@@ -872,8 +879,6 @@ a {
     margin: 20px;
 }
 .pfolio-img{
-    padding-bottom: 30px;
-    padding-top: 20px;
     margin: 0 auto;
 }
 .pfolio-img-fs{
@@ -914,6 +919,139 @@ a {
 .adjust-mini{
     max-width: 35%;
     margin: 0 auto;
+}
+
+.card {
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1)
+}
+
+.folio.col-sm-4{
+    padding: 30px 20px;
+    text-align: left;
+}
+
+.thumbnail-onboarding {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size:  cover;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url(../img/thumbnail/onboarding.png);
+    width: 100%;
+    height: 420px;
+}
+
+.thumbnail-api {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size:  cover;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url(../img/thumbnail/api-dx.png);
+    width: 100%;
+    height: 420px;
+}
+
+.thumbnail-convodesign {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size:  cover;
+    background-size: cover;
+    background-position: center center;
+    background-color: #8394EC;
+    border-color: #ededed;
+    background-repeat: no-repeat;
+    background-image: url(../img/thumbnail/convodesign.png);
+    width: 100%;
+    height: 420px;
+}
+
+.thumbnail-compliancelx {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size:  cover;
+    background-size: cover;
+    background-position: center center;
+    border-color: #ededed;
+    background-repeat: no-repeat;
+    background-image: url(../img/thumbnail/compliance-lx.png);
+    width: 100%;
+    height: 420px;
+}
+
+.thumbnail-sdhk {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size:  cover;
+    background-size: cover;
+    background-position: right center;
+    border-color: #ededed;
+    background-repeat: no-repeat;
+    background-image: url(../img/thumbnail/sdhk-workshop.png);
+    width: 100%;
+    height: 420px;
+}
+
+.thumbnail-ciid {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size:  cover;
+    background-size: cover;
+    background-position: right center;
+    border-color: #ededed;
+    background-repeat: no-repeat;
+    background-image: url(../img/thumbnail/ciid.png);
+    width: 100%;
+    height: 420px;
+}
+.card {
+    top: 0px;
+    position: relative;
+    
+    &:hover {
+        transition: all 0.2s ease-out;
+        top: -4px;
+        box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
+    }
+
+    &:before {
+        content: "";
+        position: absolute;
+        top: -16px;
+        transition: all 0.15s ease-out;
+    } 
+
+    &:after {
+    top:0px;
+    transition: all 0.5s ease-in-out;
+    }
+}
+.card-text {
+    padding: 5px;
+}
+
+.card-text h3 {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding-bottom: 5px;
+    padding-top: 0px;
+    line-height: 1.3;
+    font-weight: bold;
+}
+
+.card-text p {
+    font-size: 16px;
+    color: #767676;
 }
 
 @media only screen and (max-width: 768px) {
