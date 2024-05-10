@@ -62,7 +62,7 @@ a {
 a:focus,
 a:hover {
     /*color: #eb3812;*/
-    color:#00a0a6;
+    color:#00a0a6 !important;
     text-decoration:none;
     cursor: pointer;
     pointer-events: auto;
