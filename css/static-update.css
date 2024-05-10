@@ -187,15 +187,15 @@ img {
     font-size: 50px;
 }
 .section-heading {
-    padding-top: 10px;
-    padding-bottom: 10px;
+    line-height: 1.4;
+}
+.section-description {
+    text-transform: uppercase;
+    color:#333;
+    font-size: 16px;
+    font-family: 'Montserrat', 'Helvetica Neue', Arial, sans-serif
 }
 
-.section-title {
-    padding-top: 10px;
-    color: #00a0a6;
-    font-size: 20px !important;
-    font-weight: bold;
 
 }
 .howto {
@@ -676,87 +676,6 @@ img {
     width: 35%;
     padding: 10px;
     border-radius: 4px;
-}
-
-/* Travel Dropdown Button */
-.dropbtn {
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-    font-size: 20px;
-    font-family: 'Montserrat', serif;
-    
-}
-
-/* Dropdown button on hover & focus */
-.dropbtn:hover, .dropbtn:focus {
-    color: none;
-    background-color: none;
-    border-color: none;
-}
-
-/* The container <div> - needed to position the dropdown content */
-.dropup {
-    position: relative;
-    display: inline-block;
-}
-
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content {
-    display: none;
-    position: absolute;
-    color: #fff;
-    background-color: rgba(0,0,0,0.4);
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-    width: 100%;
-}
-
-/* Links inside the dropdown */
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    color: #fff;
-    width: 100%;
-    border: none;
-}
-
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {
-    background-color: #f1f1f1;
-    border: none;
-    color: #fff;
-}
-
-/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
-.show {
-    display:block;
-}
-/*END TRAVEL STYLING*/
-
-#contact-pg {
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-    background-position: center;
-    /*background-image: url(../img/contact-resize.jpg);*/
-    background-color: #001919;
-    color: #fff;
-    position: fixed;
-    height: 100%;
-    width: 100%;
-    margin-top: 50px;
-}
-
-.contact a {
-    color: #fff;
-}
-
-.contact {
-    padding: 80px 30px;
 }
 
 
