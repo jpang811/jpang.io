@@ -4,6 +4,10 @@ a {
 }
 
 
+a {
+    pointer-events: none;
+}
+
 @font-face {
     font-family: jpang;
     src: url(fonts/jpang-font.ttf) format("truetype");
