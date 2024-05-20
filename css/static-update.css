@@ -3,10 +3,6 @@ a {
     text-decoration: none;
 }
 
-/* Disable hover on mobile */
-a {
-    pointer-events: none;
-}
 
 @media (hover: none) {
   a:hover { color: inherit; }
