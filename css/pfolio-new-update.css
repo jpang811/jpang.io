@@ -1,11 +1,12 @@
+/* DO NOT TOUCH - TEMPLATE CSS */
 /*!
  * Start Bootstrap - Creative v1.1.0 (http://startbootstrap.com/template-overviews/creative)
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
-@import url ('https://fonts.googleapis.com/css?family=Lato|Montserrat');
 
- .navbar-default,
+/* UNIVERSAL COMPONENTS */
+.navbar-default,
 a {
     -webkit-transition: all .35s;
     -moz-transition: all .35s
@@ -88,14 +89,27 @@ audio {
     width: 100px;
     padding-bottom: 30px;
 }
-.remarks-i{
-    font-family: 'Open Sans', Arial, sans-serif;
-    font-size: 18px;
+
+section {
+    padding: 40px 0;
+
+    width: 100%;
     
-    color: #494949;
-    text-align: left;
-    display:  block;
+    height: auto;
+
 }
+
+.container {
+    height: 100 vh;
+}
+
+aside {
+    padding: 30px 0
+}
+
+
+/* SECTION BACKGROUNDS */
+
 .bg-primary {
     background-color: #fafafa;
     color: #000;
@@ -129,19 +143,9 @@ audio {
     height: 100%;
     padding: 0px;
 }
-.bg-img.personalization {
-    background-image: url(../img/portfolio/personalization/cake-intro.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    min-height: 500px;
-}
+
 .bg-turq-nav a:hover {
     color: #eb3812 !important;
-}
-.bg-turq {
-    background-color: #00a0a6;
-    color: #fff;
 }
 
 .bg-blue{
@@ -149,101 +153,40 @@ audio {
     height: auto;
 }
 
-.bg-process {
-    color: #FFF8F2;
-    height: 100%;
-    height: 100vh;
-}
-.pstory-icon {
-    width: 45px;
-    height: auto;
-}
-.heading-icon {
-    width: 30px;
-    height: auto;
-    display: inline-block;
-}
-.section-icon {
-    padding: 0px;
-    text-align: center;
-    display: block;   
-
-
-}
-.section-icon-bg {
-
-    height: 350px;
-
-    background-size: cover;   
-    position: relative;
-}
-.section-icon-bg h4 {
-    position: absolute;
-    color: #fff;
-    font-size: 30px;
-    left: 0;
-    right: 0;
-    top: 35%;
-}
-
 
 .col-sm-4.behaviour {
     padding-top: 50px 0px;
 }
-.sr-icons.behaviour {
-    font-size: 55px;
-    padding-bottom: 50px;
+
 }
 .text-faded {
     color: rgba(255, 255, 255, .7)
 }
 
-section {
-    padding: 40px 0;
-
-    width: 100%;
+/* IMAGE STYING */
+.img-responsive {
+    margin: 0 auto;
+    border: none;
     
-    height: auto;
-
 }
+.adjust {
+    max-width: 35%;
+    margin: 0 auto;
+    }
 
-.container {
-    height: 100% auto;
-    position: relative;
-}
-
-aside {
-    padding: 30px 0
+.adjust2 {
+    max-width: 50%;
+    margin: 0 auto;
 }
 
-.caption-box {
-    padding: 40px;
-    background-color: rgba(0,0,0,0.8);
-    height: 100%;
-    color: #fff;
-    font-weight: 300;
-}
-
-/*
-.caption-box h2, h3, h4, h5 {
-    font-weight: 300;
-    line-height: 140%;
-}
-.caption-box b {
-    color: #00a0a6;
-}
-*/
+/* NAVBAR ANIMATION AND STYLING */
 .navbar-default {
     background-color: #fff;
     border-color: rgba(34, 34, 34, .05);
     transition: all .35s
 }
 
-.btn-default,
-.portfolio-box .portfolio-box-caption {
-    -webkit-transition: all .35s;
-    -moz-transition: all .35s
-}
+
 
 .navbar-default .navbar-header .navbar-brand {
     color: #00a0a6;
@@ -287,41 +230,6 @@ aside {
     background-color: transparent
 }
 
-.img-responsive {
-    margin: 0 auto;
-    border: none;
-    
-}
-.adjust {
-    max-width: 35%;
-    margin: 0 auto;
-    }
-
-.adjust2 {
-    max-width: 50%;
-    margin: 0 auto;
-}
-
-
-#portfolio {
-    margin-bottom: 50px;
-    padding: 20px;
-}
-
-.resp-hardcode {
-    width: 300px;
-}
-
-#piechart {
-    margin: 0 auto;
-    display: inline-block;
-    padding: 0;
-}
-
-.highlight {
-    
-}
-
 @media screen and (max-width: 768px)  {
    .adjust {
         max-width: 80% !important;
@@ -340,23 +248,10 @@ aside {
     .section-icon-bg {
         height: 200px;
     }
-   
-    
     
 }
 
 @media (min-width:768px) {
-    .section-icon-bg {
-        height: 400px;
-    }
-    /*personalization page*/
-     .section-icon {
-        height: 410px;
-    }
-    .bg-dark-statement {
-    font-size: 50px;
-
-    }
     .navbar-default {
         background-color: transparent;
         border-color: rgba(255, 255, 255, .3)
@@ -478,27 +373,7 @@ header .header-content .header-content-inner p {
     }
 }
 
-
-.service-box {
-    max-width: 400px;
-    margin: 50px auto 0;
-}
-
-
-
-@media (min-width:992px) {
-    .service-box {
-        margin: 20px auto 0
-    }
-}
-
-.service-box p {
-    margin-bottom: 0
-}
-
-
-
-
+/* BUTTON ANIMATION */
 
 .btn-default.active,
 .btn-default:active,
